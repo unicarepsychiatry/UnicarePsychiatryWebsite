@@ -6,7 +6,6 @@ function Home() {
   return (
     <div>
         <div>
-            <Navbar/>
             <BannerSection/>
         </div>
         <div className="container">

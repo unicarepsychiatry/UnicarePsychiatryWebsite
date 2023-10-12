@@ -4,25 +4,33 @@
  --hover-color:#CE478F;
 
 }
+.f-18-n{
+  font-weight: 500;
+  font-size: 18px;
+ }
+ 
+ .f-18-b{
+  font-weight: 700;
+  font-size: 18px;
+ }
+
+ .primary-color{ color: var(--primary-color);}
+ .secondary-color{ color: var(--secondary-color);}
+ 
+ .bordered{
+   border: 1px solid black;
+ }
+/* CSS for navbar */
 .logo{
   height: 100px;
   margin: 0;
   padding: 0;
 }
-.f-18-n{
- font-weight: 500;
- font-size: 18px;
-}
-
-.f-18-b{
- font-weight: 700;
- font-size: 18px;
-}
 
 /* .active{
   border-bottom: 2px solid var(--hover-color);
 } */
-.navbar-nav li a{
+.navbar-nav li{
   margin:0 30px;
   font-weight: 500;
   border-bottom: 2px solid transparent;
@@ -35,16 +43,65 @@
   font-size: 18px;
   font-weight: 500;
 }
-.bordered{
-  border: 1px solid black;
-}
-.navbar-nav li a:hover{
+
+.navbar-nav li:hover{
   border-bottom: 2px solid var(--hover-color);
   color: var(--hover-color);
 }
 
-/* this is for button classes */
 
+.navbar-nav .dropdown-menu {
+  padding: 10px 0;
+  /* margin-right: 200px; */
+  margin-right: auto!important;
+  font-size: 15px;
+  width: 186% !important;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar-nav .dropdown-menu {
+    padding: 0 0;
+    /* margin-left: 20px; */
+    margin: auto;
+
+    font-size: 15px;
+    width: 80% !important;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .navbar-nav .dropdown-menu {
+    padding: 0 0;
+    /* margin-left: 10px; */
+    margin: auto;
+    font-size: 15px;
+    width: 80% !important;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .navbar-nav .dropdown-menu {
+    padding: 0 0;
+    margin-left: 10px;
+    font-size: 15px;
+    width: 60% !important;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  }
+}
+/* CSS for navbar end */
+
+/* this is for button classes */
 .button-primary {
   background-color: var(--primary-color);
   z-index: 1;
@@ -120,7 +177,7 @@
   align-items: center;
   position: relative;
   height: 600px;
-  background-image: url(/public/Images/bannerBg2.jpg);
+  background-image: url(/public/Images/computer-closeup-stethoscope-telehealth.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
