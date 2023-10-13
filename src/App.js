@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar";
 import { AboutUs } from "./Pages/AboutUs";
 import { ContactUs } from "./Pages/ContactUs";
 import { Services } from "./Pages/Services";
+import { OurServices } from "./Components/OurServices";
 
 function App() {
   return (
@@ -38,6 +39,11 @@ function App() {
           exact
           path="/"
           element={<Services />}
+        />
+        <Route
+          exact
+          path="/"
+          element={<OurServices/>}
         />
         <Route path="*" element={<Home />} />
       </Routes>

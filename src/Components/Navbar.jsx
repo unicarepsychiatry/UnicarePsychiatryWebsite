@@ -29,7 +29,7 @@ function Navbar() {
                 }
                 to="/"
               >
-                <i class="bi bi-house-door-fill px-1"></i> Home
+                <i className="bi bi-house-door-fill px-1"></i> Home
               </NavLink>
             </li>
 
@@ -40,7 +40,7 @@ function Navbar() {
                 }
                 to="/contact-us"
               >
-                <i class="bi bi-telephone-fill px-1"></i> contact us
+                <i className="bi bi-telephone-fill px-1"></i> contact us
               </NavLink>
             </li>
 
@@ -51,7 +51,7 @@ function Navbar() {
                 }
                 to="/about-us"
               >
-               <i class="bi bi-chat-dots-fill px-1"></i> about us
+               <i className="bi bi-chat-dots-fill px-1"></i> about us
               </NavLink>
             </li>
 
@@ -65,7 +65,7 @@ function Navbar() {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                <i class="bi bi-gear-wide-connected px-1"></i> Servicse
+                <i className="bi bi-gear-wide-connected px-1"></i> Servicse
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a className="dropdown-item" href="#">

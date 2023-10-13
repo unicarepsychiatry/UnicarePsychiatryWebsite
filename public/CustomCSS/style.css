@@ -12,7 +12,9 @@
   font-weight: 700;
   font-size: 18px;
 }
-
+.f-35-b{
+  font-size: 70px;
+}
 .primary-color {
   color: var(--primary-color);
 }
@@ -42,7 +44,6 @@
   font-size: 36px;
   font-weight: 600;
   line-height: 1.15;
-  position: relative;
   margin-bottom: 30px;
   padding-bottom: 25px;
   color: var(--primary-color);
@@ -113,44 +114,7 @@
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
-@media only screen and (max-width: 800px) {
-  .navbar-nav .dropdown-menu {
-    padding: 0 0;
-    /* margin-left: 20px; */
-    margin: auto;
 
-    font-size: 15px;
-    width: 80% !important;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
-  }
-}
-
-@media only screen and (max-width: 575px) {
-  .navbar-nav .dropdown-menu {
-    padding: 0 0;
-    /* margin-left: 10px; */
-    margin: auto;
-    font-size: 15px;
-    width: 80% !important;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .navbar-nav .dropdown-menu {
-    padding: 0 0;
-    margin-left: 10px;
-    font-size: 15px;
-    width: 60% !important;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
-  }
-}
 /* CSS for navbar end */
 
 /* this is for button classes */
@@ -231,6 +195,7 @@
   background-image: url(../Images/computer-closeup-stethoscope-telehealth.webp);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .slider_section .row {
@@ -872,3 +837,128 @@ info_section .info_links .info_links_menu a:hover,
   border-color: #f89646;
 }
 /* banner section end */
+
+
+/* Our Mission Section CSS Start*/
+.our-features {
+  /* background-image: url(../Images/mission-1.jpg)!important; */ */
+ background-size: cover!important;
+  background-attachment: fixed!important;
+  min-height: 277px;  
+  visibility: visible;
+  animation-duration: 1s;
+  animation-delay: 0.1s;
+  animation-name: fadeInUp;
+  height: 700px!important;
+}
+
+.img-style{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 7px 10px;
+}
+
+
+.section-header {
+}
+.features-holder {
+}
+
+.our-vission-component {
+  background-image: url(../Images/ourvision.jpg)!important;
+ background-size: cover!important;
+  background-attachment: fixed!important;
+  min-height: 277px;  
+  visibility: visible;
+  animation-duration: 1s;
+  animation-delay: 0.1s;
+  animation-name: fadeInUp;
+  height: 700px!important;
+}
+/* Our Mission Section CSS End*/
+@media only screen and (max-width: 800px) {
+  .navbar-nav .dropdown-menu {
+    padding: 0 0;
+    /* margin-left: 20px; */
+    margin: auto;
+
+    font-size: 15px;
+    width: 80% !important;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  }
+  .f-35-b{
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .navbar-nav .dropdown-menu {
+    padding: 0 0;
+    /* margin-left: 10px; */
+    margin: auto;
+    font-size: 15px;
+    width: 80% !important;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  }
+  .f-35-b{
+    font-size: 40px;
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .navbar-nav .dropdown-menu {
+    padding: 0 0;
+    margin-left: 10px;
+    font-size: 15px;
+    width: 60% !important;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  }
+}
+
+
+/* Specialities section */
+.Speical-card {
+  width: 100%!important;
+  height: 300px!important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+
+  transition: all .5s;
+}
+
+.Sepcial-card-body {
+  width: 100%!important;
+  height: 300px!important;
+  border-radius: 10px;
+  transition: all .5s;
+  background-color: #91278fd3!important;
+  z-index: 1;  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.special-card-title {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff; 
+  text-align: center;
+
+}
+.Speical-card:hover .Sepcial-card-body{
+  width: 100%!important;
+  height: 300px!important;
+  background-color: transparent!important;
+  z-index: 1;
+}
+
+
+/*end Specialities section*/
+
