@@ -1248,3 +1248,20 @@ info_section .info_links .info_links_menu a:hover,
   height: auto!important;
 }
 /* medication Page CSS End*/
+
+/* PHOBIAS Page CSS Start */
+.Alcohol-container-banner{
+  margin-top: 0!important;
+  background:url(../Images/Phobia5.jpg);
+  background-size: cover;
+  background-attachment: fixed!important;
+  height: 400px!important;
+  min-height: 277px;
+}
+.Alcohol-image-container{
+  background-image: linear-gradient(5deg, rgba(50, 48, 48, 0.3), rgba(79, 64, 72, 0.153)), url(../Images/Phobia3.jpg);
+  background-size: cover!important; 
+  background-attachment: fixed!important;
+  height: auto!important;
+}
+/* medication Page CSS End*/
