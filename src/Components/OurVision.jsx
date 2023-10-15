@@ -19,18 +19,19 @@ export const OurVision = () => {
               </p>
               <button
                 className="my-3 px-md-5 p-2 btn button-primary text-white"
-                type="submit">Explore more</button>
+                type="submit"
+              >
+                Explore more
+              </button>
             </div>
           </div>
+          <div className="section-header col-md-6 col-12 d-flex align-items-center order-lg-2 order-1 justify-content-center">
+            <h2 className="f-35-b text-white" data-aos="fade-down-right">
+              Our Vision
+            </h2>
+          </div>
         </div>
-        <div className="section-header col-md-6 col-12 d-flex align-items-center order-lg-2 order-1 justify-content-center">
-          <h2 className="f-35-b text-white" data-aos="fade-down-right">
-            Our Vision
-          </h2>
-        </div>
-
+      </section>
     </div>
-      </section >
-    </div >
   );
 };

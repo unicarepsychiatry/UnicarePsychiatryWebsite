@@ -4,6 +4,9 @@ import Navbar from './Navbar'
 import { OurMission } from './OurMission'
 import { OurVision } from './OurVision'
 import { OurServices } from './OurServices'
+import { WhyChooseUs } from './WhyChooseUs'
+import { ServingGlobal } from './ServingGlobal'
+import { Footer } from './Footer'
 
 function Home() {
   return (
@@ -12,9 +15,10 @@ function Home() {
             <BannerSection/>
             <OurMission/>
             <OurVision/>
-            <OurServices/>
-        </div>
-        <div className="container">
+            <OurServices/> 
+            <WhyChooseUs/>
+            <ServingGlobal/>
+            <Footer/>
         </div>
     </div>
   )

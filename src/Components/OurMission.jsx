@@ -2,7 +2,7 @@ import React from "react";
 
 export const OurMission = () => {
   return (
-    <section className="our-features d-flex">
+    <section className="our-features d-flex overflow-hidden">
       <div className="container-fluid p-lg-3 p-3 d-flex flex-lg-row flex-column  my-auto">
         <div className="section-header col-md-6 col-12 d-flex align-items-center justify-content-center">
         <img className="img-fluid img-style" src="../Images/mission-1.jpg" alt="" />

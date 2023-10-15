@@ -2,9 +2,9 @@ import React from "react";
 
 export const OurServicesCard = ({ title, pic }) => {
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <div
-        className="col-md-4 col-12 my-3 Speical-card"
+        className="col-md-3 col-12 my-3 Speical-card"
         style={{ backgroundImage: `url(${pic})` }}
       >
         <div className="Sepcial-card-body">

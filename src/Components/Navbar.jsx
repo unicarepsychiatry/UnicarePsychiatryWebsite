@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container">
+      <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img className="img-fluid logo" src="../Images/logo1.png" />
         </a>
@@ -51,7 +51,7 @@ function Navbar() {
                 }
                 to="/about-us"
               >
-               <i className="bi bi-chat-dots-fill px-1"></i> about us
+                <i className="bi bi-chat-dots-fill px-1"></i> about us
               </NavLink>
             </li>
 
@@ -68,21 +68,140 @@ function Navbar() {
                 <i className="bi bi-gear-wide-connected px-1"></i> Servicse
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="#">
-                  service1
-                </a>
-                <a className="dropdown-item" href="#">
-                  service2
-                </a>
-                {/* <div className="dropdown-divider"></div> */}
-                <a className="dropdown-item" href="#">
-                  service3
-                </a>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "menu-active nav-link f-18-n dropdown-item"
+                      : "nav-link f-18-n dropdown-item"
+                  }
+                  to="/Depression-service"
+                >
+                  Depression
+                </NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "menu-active nav-link f-18-n dropdown-item"
+                      : "nav-link f-18-n dropdown-item"
+                  }
+                  to="/Anxiety-service"
+                >
+                  Anxiety
+                </NavLink>
+
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "menu-active nav-link f-18-n dropdown-item"
+                      : "nav-link f-18-n dropdown-item"
+                  }
+                  to="/Bipolar-Disorder-service"
+                >
+                  Bipolar Disorder
+                </NavLink>
+
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "menu-active nav-link f-18-n dropdown-item"
+                      : "nav-link f-18-n dropdown-item"
+                  }
+                  to="/Phobias-service"
+                >
+                  Phobias
+                </NavLink>
+
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "menu-active nav-link f-18-n dropdown-item"
+                      : "nav-link f-18-n dropdown-item"
+                  }
+                  to="/ADHD-service"
+                >
+                  ADHD
+                </NavLink>
+
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "menu-active nav-link f-18-n dropdown-item"
+                      : "nav-link f-18-n dropdown-item"
+                  }
+                  to="/PTSD-service"
+                >
+                  PTSD
+                </NavLink>
+
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "menu-active nav-link f-18-n dropdown-item"
+                      : "nav-link f-18-n dropdown-item"
+                  }
+                  to="/OCD-service"
+                >
+                  OCD
+                </NavLink>
+
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "menu-active nav-link f-18-n dropdown-item"
+                      : "nav-link f-18-n dropdown-item"
+                  }
+                  to="/Early-Childhood-traumas-service"
+                >
+                  Early Childhood traumas
+                </NavLink>
+
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "menu-active nav-link f-18-n dropdown-item"
+                      : "nav-link f-18-n dropdown-item"
+                  }
+                  to="/Alcohol-Use-Disorder-service"
+                >
+                  Alcohol Use Disorder
+                </NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "menu-active nav-link f-18-n dropdown-item"
+                      : "nav-link f-18-n dropdown-item"
+                  }
+                  to="/Medication-Management"
+                >
+                  Medication Management
+                </NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "menu-active nav-link f-18-n dropdown-item"
+                      : "nav-link f-18-n dropdown-item"
+                  }
+                  to="/Opioid-Use-Disorder"
+                >
+                  Opioid Use Disorder
+                </NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "menu-active nav-link f-18-n dropdown-item"
+                      : "nav-link f-18-n dropdown-item"
+                  }
+                  to="/Substance-Induce-Psychiatric-problems"
+                >
+                  Substance Induce Psychiatric problems
+                </NavLink>
               </div>
             </li>
-            <li className="nav-item">
-              <button className="btn button-primary">Book Appointment</button>
-            </li>
+            <div className="my-md-0 my-sm-4 nav-item">
+              <NavLink className="btn button-primary" to="/book-an-appointment">
+                Book Appointment
+              </NavLink>
+            </div>
           </ul>
         </div>
       </div>

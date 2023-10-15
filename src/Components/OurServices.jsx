@@ -17,39 +17,120 @@ export const OurServices = () => {
             </h3>
           </div>
           <div className="container">
-            <div className="d-flex flex-lg-row flex-column">
+            <div className="row">
               <NavLink
-                data-aos="zoom-in"
-                data-aos-duration="1000"
                 style={{ textDecoration: "none", color: "black" }}
-                className={"col-md-3 col-12 m-2"}
-                to="free-medical-coding"
+                className={"col-md-4 col-12 g-2"}
+                to="/Depression-service"
               >
-                <OurServicesCard title={"Depression"} pic={"/Images/frontimage.jpeg" }/>
-                
+                <OurServicesCard
+                  title={"Depression"}
+                  pic={"/Images/frontimage.jpeg"}
+                />
               </NavLink>
               <NavLink
                 style={{ textDecoration: "none", color: "black" }}
-                className={"col-md-3 col-12 m-2"}
-                to="medical-billing"
-                data-aos="zoom-in"
-                data-aos-duration="1000"
+                className={"col-md-4 col-12 g-2"}
+                to="/Anxiety-service"
               >
-                <OurServicesCard title={"Anxiety Disorder"} pic={"/Images/anxiety.jpg" }/>
+                <OurServicesCard
+                  title={"Anxiety Disorder"}
+                  pic={"/Images/anxiety.jpg"}
+                />
               </NavLink>
               <NavLink
                 style={{ textDecoration: "none", color: "black" }}
-                className={"col-md-3 col-12 m-2"}
-                to="medical-coding"
+                className={"col-md-4 col-12 g-2"}
+                to="/Bipolar-Disorder-service"
               >
-                <OurServicesCard title={"Bipolar Disorder"} pic={"/Images/depressioninsidepic.jpg" }/>
+                <OurServicesCard
+                  title={"Bipolar Disorder"}
+                  pic={"/Images/sad.webp"}
+                />
               </NavLink>
               <NavLink
                 style={{ textDecoration: "none", color: "black" }}
-                className={"col-md-3 col-12 m-2"}
-                to="medical-scribe-service"
+                className={"col-md-4 col-12 g-2"}
+                to="/ADHD-service"
               >
-                <OurServicesCard title={"ADHD"} pic={"/Images/sad.webp" }/>
+                <OurServicesCard
+                  title={"ADHD"}
+                  pic={"/Images/depressioninsidepic.jpg"}
+                />
+              </NavLink>
+              <NavLink
+                style={{ textDecoration: "none", color: "black" }}
+                className={"col-md-4 col-12 g-2"}
+                to="/Phobias-service"
+              >
+                <OurServicesCard
+                  title={"Phobias"}
+                  pic={"/Images/phobias.jpg"}
+                />
+              </NavLink>
+              <NavLink
+                style={{ textDecoration: "none", color: "black" }}
+                className={"col-md-4 col-12 g-2"}
+                to="/PTSD-service"
+              >
+                <OurServicesCard title={"PTSD"} pic={"/Images/PTSD.jpg"} />
+              </NavLink>
+              <NavLink
+                style={{ textDecoration: "none", color: "black" }}
+                className={"col-md-4 col-12 g-2"}
+                to="/OCD-service"
+              >
+                <OurServicesCard title={"OCD"} pic={"/Images/PTSF-1.jpg"} />
+              </NavLink>
+              <NavLink
+                style={{ textDecoration: "none", color: "black" }}
+                className={"col-md-4 col-12 g-2"}
+                to="/Early-Childhood-traumas-service"
+              >
+                <OurServicesCard
+                  title={"Early Childhood traumas"}
+                  pic={"/Images/caleb-woods-VZILDYoqn_U-unsplash.jpg"}
+                />
+              </NavLink>
+              <NavLink
+                style={{ textDecoration: "none", color: "black" }}
+                className={"col-md-4 col-12 g-2"}
+                to="/Alcohol-Use-Disorder-service"
+              >
+                <OurServicesCard
+                  title={"Alcohol Use Disorder"}
+                  pic={"/Images/matthieu-joannon-6ciLddToTgM-unsplash.jpg"}
+                />
+              </NavLink>
+              <NavLink
+                style={{ textDecoration: "none", color: "black" }}
+                className={"col-md-4 col-12 g-2"}
+                to="/Medication-Management"
+              >
+                <OurServicesCard
+                  title={"Medication Management"}
+                  pic={"/Images/myriam-zilles-KltoLK6Mk-g-unsplash.jpg"}
+                />
+              </NavLink>
+              <NavLink
+                style={{ textDecoration: "none", color: "black" }}
+                className={"col-md-4 col-12 g-2"}
+                to="/Opioid-Use-Disorder"
+              >
+                <OurServicesCard
+                  title={"Opioid Use Disorder"}
+                  pic={"/Images/matthieu-joannon-6ciLddToTgM-unsplash.jpg"}
+                />
+              </NavLink>
+              <NavLink
+                style={{ textDecoration: "none", color: "black" }}
+                className={"col-md-4 col-12 g-2"}
+                to="/Substance-Induce-Psychiatric-problems"
+              >
+                <OurServicesCard
+                  title={"Substance Induce Psychiatric problems"}
+                  pic={"/Images/matthieu-joannon-6ciLddToTgM-unsplash.jpg"}
+                />
               </NavLink>
             </div>
           </div>

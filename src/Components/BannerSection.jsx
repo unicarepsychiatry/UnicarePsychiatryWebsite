@@ -13,8 +13,8 @@ function BannerSection() {
                 <div className="col-md-5">
                   <div className="detail-box">
                     <h1 className="primary-color">
-                      IMPROVE <br />
-                      YOUR COLLECTIONS WITH
+                      COMPASSIONATE  <br />
+                      AND EFFECTIVE MENTAL HEALTH
                     </h1>
                     <p
                       className="f-18-n secondary-color"
@@ -22,7 +22,7 @@ function BannerSection() {
                       data-aos-easing="linear"
                       data-aos-duration="1500"
                     >
-                      The Best Medical Billing Services in the USA!
+                      The Best Medical Services in the USA!
                     </p>
                     <div className="">
                      <NavLink
@@ -43,7 +43,7 @@ function BannerSection() {
             </div>
           </div>
           
-          <div className="carousel-item active">
+          <div className="carousel-item">
             <div className="container ">
               <div className="row">
                 <div className="col-md-5">
@@ -79,7 +79,7 @@ function BannerSection() {
             </div>
           </div>
 
-          <div className="carousel-item active">
+          <div className="carousel-item">
             <div className="container ">
               <div className="row">
                 <div className="col-md-5">

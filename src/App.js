@@ -5,8 +5,19 @@ import { Helmet } from "react-helmet";
 import Navbar from "./Components/Navbar";
 import { AboutUs } from "./Pages/AboutUs";
 import { ContactUs } from "./Pages/ContactUs";
-import { Services } from "./Pages/Services";
-import { OurServices } from "./Components/OurServices";
+import  AnxietyService  from "./Pages/AnxietyService";
+import  BipolarDisorderService from "./Pages/BipolarDisorderService";
+import  Phobiasservice from "./Pages/Phobiasservice";
+import  ADHDService from "./Pages/ADHDService";
+import  PTSDService from "./Pages/PTSDService";
+import  OCDService from "./Pages/OCDService";
+import  EarlyChildhoodTraumasService from "./Pages/EarlyChildhoodTraumasService";
+import  AlcoholUseDisorder from "./Pages/AlcoholUseDisorder";
+import AppointmentBooking from "./Pages/AppointmentBooking";
+import SubstanceInducePsychiatric from "./Pages/SubstanceInducePsychiatric";
+import OpioidUseDisorder from "./Pages/OpioidUseDisorder";
+import MedicationManagement from "./Pages/MedicationManagement";
+import Depression from "./Pages/Depression";
 
 function App() {
   return (
@@ -35,7 +46,7 @@ function App() {
           path="/contact-us"
           element={<ContactUs />}
         />
-        <Route
+        {/* <Route
           exact
           path="/"
           element={<Services />}
@@ -44,6 +55,71 @@ function App() {
           exact
           path="/"
           element={<OurServices/>}
+        /> */}
+        <Route
+          exact
+          path="/book-an-appointment"
+          element={<AppointmentBooking/>}
+        />
+        <Route
+          exact
+          path="/Depression-service"
+          element={<Depression/>}
+        />
+        <Route
+          exact
+          path="/Anxiety-service"
+          element={<AnxietyService/> }
+        />
+        <Route
+          exact
+          path="/Bipolar-Disorder-service"
+          element={<BipolarDisorderService/>}
+        />
+        <Route
+          exact
+          path="/Phobias-service"
+          element={<Phobiasservice/> }
+        />
+        <Route
+          exact
+          path="/ADHD-service"
+          element={<ADHDService/>}
+        />
+        <Route
+          exact
+          path="/PTSD-service"
+          element={<PTSDService/>}
+        />
+        <Route
+          exact
+          path="/OCD-service"
+          element={<OCDService/>}
+        />
+        <Route
+          exact
+          path="/Early-Childhood-traumas-service"
+          element={<EarlyChildhoodTraumasService/>}
+        />
+        <Route
+          exact
+          path="/Alcohol-Use-Disorder-service"
+          element={<AlcoholUseDisorder/>}
+        />
+        <Route
+          exact
+          path="/Medication-Management"
+          element={<MedicationManagement/>}
+        />
+        <Route
+          exact
+          path="/Opioid-Use-Disorder"
+          element={<OpioidUseDisorder/>}
+        />
+        <Route
+          exact
+          path="/Substance-Induce-Psychiatric-problems"
+          element={<SubstanceInducePsychiatric/>}
         />
         <Route path="*" element={<Home />} />
       </Routes>
