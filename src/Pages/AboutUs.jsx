@@ -34,7 +34,8 @@ export const AboutUs = () => {
               />
             </div>
             <div className="col-md-8 col-12">
-              <div className="div-sub-heading">About us</div>
+              <h3 className="text-primary">Dr. Yasmin Majumder</h3>
+              <p className="f-22-b text-secondary">DNP, FNP-BC, PMHNP</p>
               <div className="f-18-n custom-text-alignment">
                 <p>
                   As a board-certified psychiatric mental health nurse
@@ -49,49 +50,75 @@ export const AboutUs = () => {
               </div>
             </div>
           </div>
-          <div className="row col-12 my-lg-5 my-2 position-relative">
-            <h4 className="row div-sub-heading">Professional Background</h4>
-          <div className="col-md-6 col-12 order-lg-1 order-2">
-          <p className="f-18-n custom-text-alignment">
-              After completing my graduate studies as a Family Nurse
-              Practitioner, I pursued advanced education at the University of
-              Kentucky, earning my post-certificate as a Psych-Mental Health
-              Nurse Practitioner. My extensive experience in mental health care
-              spans diverse settings, including hospitals, nursing homes,
-              community outpatient centers, and academic environments. I have
-              served both as a provider and faculty member, working with varied
-              populations such as children, homeless individuals, and those
-              battling addiction, with a specific focus on opiate and alcohol
-              dependency. Throughout my career, I've supported patients coping
-              with severe early childhood trauma, leading to a range of
-              psychiatric disorders including PTSD, Depression, Phobia,
-              Substance use induced disorder, OCD, Anxiety, Bipolar, ADHD, and
-              more. Each interaction has been a valuable and distinctive
-              experience, deepening my empathy and reinforcing my commitment to
-              advocating for individuals struggling with mental illness,
-              regardless of their cultural, sexual, racial, or socioeconomic
-              background. In my recent Doctorate of Nursing research project, I
-              explored the integration of faith-based psychiatry in the
-              treatment of mental health and opiate addiction. Incorporating
-              Jean Watson’s theory of “Human Caring,” this endeavor reaffirmed
-              the importance of compassion and patience in fostering hope for
-              recovery. By combining faith-based care with effective therapeutic
+          <div className="row col-12 p-0 m-0">
+            <h4 className="mt-3 row div-sub-heading">
+              Professional Background
+            </h4>
+            <div
+              data-aos="fade-left"
+              className="col-md-6 col-12 order-lg-1 order-2 my-md-5 my-0"
+            >
+              <p className="f-18-n custom-text-alignment">
+                After completing my graduate studies as a Family Nurse
+                Practitioner, while serving as a registered nurse practitioner
+                in Psychiatric Eastern State Hospital for 10 years as nurse and
+                4 years as a family nurse practitioner in collaboration with
+                psychiatric MD and medical director. I pursued advanced
+                education at the University of Kentucky, earning my
+                post-certificate as a Psych-Mental Health Nurse Practitioner. My
+                extensive experience in mental health care spans diverse
+                settings, including hospitals, nursing homes, community
+                outpatient centers, and academic environments. I have served
+                both as a provider and faculty member, working with varied
+                populations such as children, homeless individuals, and those
+                battling addiction, with a specific focus on opiate and alcohol
+                dependency.
+              </p>
+              <p className="f-18-n custom-text-alignment">
+                Throughout my career, I've supported patients coping with severe
+                early childhood trauma, leading to a range of psychiatric
+                disorders including PTSD, Depression, Phobia, Substance use
+                induced disorder, OCD, Anxiety, Bipolar, ADHD, and more. Each
+                interaction has been a valuable and distinctive experience,
+                deepening my empathy and reinforcing my commitment to advocating
+                for individuals struggling with mental illness, regardless of
+                their cultural, sexual, racial, or socioeconomic background.
+              </p>
+            </div>
+
+            <div
+              data-aos="fade-right"
+              className="col-md-6 col-12 order-1 order-md-1"
+            >
+              <img
+                className="img-fluid shadow-plus-border h-75 w-100"
+                src="Images/diego-ph-SZYreZsJ-fE-unsplash.jpg"
+                alt="picture"
+              />
+            </div>
+          </div>
+          <div className="container">
+            <p className="f-18-n">
+              In my recent Doctorate of Nursing research project, I explored the
+              integration of faith-based psychiatry in the treatment of mental
+              health and opiate addiction. Incorporating Jean Watson’s theory of
+              “Human Caring,” this endeavor reaffirmed the importance of
+              compassion and patience in fostering hope for recovery. By
+              combining faith-based care with effective therapeutic
               communication skills, alongside psychotherapy and medication
               management, my goal is to enhance not just physical health, but
-              also mental and spiritual well-being. Currently, I am actively
-              engaged in clinical practice throughout Kentucky and provide
-              telehealth services to adolescents in Wisconsin. I collaborate
-              with universities and rehabilitation centers, adhering to Florence
-              Nightingale’s philosophy. I believe in empowering patients to
-              self-heal, addressing both physical and mental health challenges
-              through a holistic and compassionate approach."
+              also mental and spiritual well-being.
+            </p>
+            <p className="f-18-n">
+              Currently, I am actively engaged in clinical practice throughout
+              Kentucky and provide telehealth services to adolescents in
+              Wisconsin. I collaborate with universities and rehabilitation
+              centers, adhering to Florence Nightingale’s philosophy. I believe
+              in empowering patients to self-heal, addressing both physical and
+              mental health challenges through a holistic and compassionate
+              approach."
             </p>
           </div>
-          <div className="col-md-6 col-12 order-lg-2 order-1">
-            <div className="profissional-bg"></div>
-          </div>
-          </div>
-
         </div>
       </div>
     </div>
