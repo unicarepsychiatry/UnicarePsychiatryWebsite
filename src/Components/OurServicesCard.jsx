@@ -4,7 +4,7 @@ export const OurServicesCard = ({ title, pic }) => {
   return (
     <div className="overflow-hidden">
       <div
-        className="col-md-3 col-12 my-3 Speical-card"
+        className="col-md-3 col-12 Speical-card"
         style={{ backgroundImage: `url(${pic})` }}
       >
         <div className="Sepcial-card-body">

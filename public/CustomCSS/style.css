@@ -897,7 +897,7 @@ info_section .info_links .info_links_menu a:hover,
   min-height: 277px;
 }
 .servingGlobal-component {
-  background:linear-gradient(125deg, rgba(0, 0, 0, 0.3), rgba(12, 0, 7, 0.153)), url(../Images/markus-spiske-IiEFmIXZWSw-unsplash.jpg);
+  background:linear-gradient(125deg, rgba(0, 0, 0, 0.3), rgba(12, 0, 7, 0.153)), url(../Images/hal-gatewood-OgvqXGL7XO4-unsplash.jpg);
   background-size: cover!important; 
   background-attachment: fixed!important;
   height: 700px!important;
@@ -1295,4 +1295,34 @@ info_section .info_links .info_links_menu a:hover,
   background-size: cover!important; 
   background-attachment: fixed!important;
   height: auto!important;
+}
+.Early-container-banner{
+  margin-top: 0!important;
+  background:url(../Images/childhood-trauma-teaser.jpg);
+  background-size: cover;
+  background-attachment: fixed!important;
+  height: 500px!important;
+  min-height: 277px;
+}
+.Early-image-container{
+  background-image: url(../Images/Age-related-immaturity-web.png);
+  background-size: cover!important; 
+  background-attachment: fixed!important;
+  height: auto!important;
+}
+.insurance-bg{
+  background-image: url(../Images/piggybank-uUMzuD71BJw-unsplash.jpg);
+  background-size: cover!important; 
+  background-attachment: fixed!important;
+  height: auto!important;
+}
+.payment-bg{
+  background-image: url(../Images/PaymentBg.jpg);
+  background-size: cover!important; 
+  background-attachment: fixed!important;
+  height: auto!important;
+}
+.insurance-logos{
+  height: 150px!important;
+  width: 300px!important;
 }

@@ -20,7 +20,7 @@ export const OurServices = () => {
             <div className="row">
               <NavLink
                 style={{ textDecoration: "none", color: "black" }}
-                className={"col-md-4 col-12 g-2"}
+                className={"col-md-3 col-12 g-2"}
                 to="/Depression-service"
               >
                 <OurServicesCard
@@ -30,7 +30,7 @@ export const OurServices = () => {
               </NavLink>
               <NavLink
                 style={{ textDecoration: "none", color: "black" }}
-                className={"col-md-4 col-12 g-2"}
+                className={"col-md-3 col-12 g-2"}
                 to="/Anxiety-service"
               >
                 <OurServicesCard
@@ -40,7 +40,7 @@ export const OurServices = () => {
               </NavLink>
               <NavLink
                 style={{ textDecoration: "none", color: "black" }}
-                className={"col-md-4 col-12 g-2"}
+                className={"col-md-3 col-12 g-2"}
                 to="/Bipolar-Disorder-service"
               >
                 <OurServicesCard
@@ -50,7 +50,7 @@ export const OurServices = () => {
               </NavLink>
               <NavLink
                 style={{ textDecoration: "none", color: "black" }}
-                className={"col-md-4 col-12 g-2"}
+                className={"col-md-3 col-12 g-2"}
                 to="/ADHD-service"
               >
                 <OurServicesCard
@@ -60,7 +60,7 @@ export const OurServices = () => {
               </NavLink>
               <NavLink
                 style={{ textDecoration: "none", color: "black" }}
-                className={"col-md-4 col-12 g-2"}
+                className={"col-md-3 col-12 g-2"}
                 to="/Phobias-service"
               >
                 <OurServicesCard
@@ -70,21 +70,21 @@ export const OurServices = () => {
               </NavLink>
               <NavLink
                 style={{ textDecoration: "none", color: "black" }}
-                className={"col-md-4 col-12 g-2"}
+                className={"col-md-3 col-12 g-2"}
                 to="/PTSD-service"
               >
                 <OurServicesCard title={"PTSD"} pic={"/Images/PTSD.jpg"} />
               </NavLink>
               <NavLink
                 style={{ textDecoration: "none", color: "black" }}
-                className={"col-md-4 col-12 g-2"}
+                className={"col-md-3 col-12 g-2"}
                 to="/OCD-service"
               >
                 <OurServicesCard title={"OCD"} pic={"/Images/PTSF-1.jpg"} />
               </NavLink>
               <NavLink
                 style={{ textDecoration: "none", color: "black" }}
-                className={"col-md-4 col-12 g-2"}
+                className={"col-md-3 col-12 g-2"}
                 to="/Early-Childhood-traumas-service"
               >
                 <OurServicesCard
@@ -94,7 +94,7 @@ export const OurServices = () => {
               </NavLink>
               <NavLink
                 style={{ textDecoration: "none", color: "black" }}
-                className={"col-md-4 col-12 g-2"}
+                className={"col-md-3 col-12 g-2"}
                 to="/Alcohol-Use-Disorder-service"
               >
                 <OurServicesCard
@@ -104,7 +104,7 @@ export const OurServices = () => {
               </NavLink>
               <NavLink
                 style={{ textDecoration: "none", color: "black" }}
-                className={"col-md-4 col-12 g-2"}
+                className={"col-md-3 col-12 g-2"}
                 to="/Medication-Management"
               >
                 <OurServicesCard
@@ -114,7 +114,7 @@ export const OurServices = () => {
               </NavLink>
               <NavLink
                 style={{ textDecoration: "none", color: "black" }}
-                className={"col-md-4 col-12 g-2"}
+                className={"col-md-3 col-12 g-2"}
                 to="/Opioid-Use-Disorder"
               >
                 <OurServicesCard
@@ -124,7 +124,7 @@ export const OurServices = () => {
               </NavLink>
               <NavLink
                 style={{ textDecoration: "none", color: "black" }}
-                className={"col-md-4 col-12 g-2"}
+                className={"col-md-3 col-12 g-2"}
                 to="/Substance-Induce-Psychiatric-problems"
               >
                 <OurServicesCard

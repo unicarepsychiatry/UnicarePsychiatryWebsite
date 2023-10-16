@@ -12,17 +12,16 @@ function BannerSection() {
               <div className="row">
                 <div className="col-md-5">
                   <div className="detail-box">
-                    <h1 className="primary-color">
-                      COMPASSIONATE  <br />
-                      AND EFFECTIVE MENTAL HEALTH
+                    <h1 className="secondary-color">
+                      LEARN EARN & REACH  <br />
                     </h1>
                     <p
-                      className="f-18-n secondary-color"
+                      className="f-18-n primary-color"
                       data-aos="fade-down"
                       data-aos-easing="linear"
                       data-aos-duration="1500"
                     >
-                      The Best Medical Services in the USA!
+                      Book Appointment Today!
                     </p>
                     <div className="">
                      <NavLink
@@ -49,8 +48,7 @@ function BannerSection() {
                 <div className="col-md-5">
                   <div className="detail-box">
                     <h1 className="primary-color">
-                      IMPROVE <br />
-                      YOUR COLLECTIONS WITH
+                    LEARN EARN & REACH  <br />
                     </h1>
                     <p
                       className="f-18-n secondary-color"
@@ -58,7 +56,7 @@ function BannerSection() {
                       data-aos-easing="linear"
                       data-aos-duration="1500"
                     >
-                      The Best Medical Billing Services in the USA!
+                      Book Appointment Today!
                     </p>
                     <div className="">
                      <NavLink
@@ -85,8 +83,7 @@ function BannerSection() {
                 <div className="col-md-5">
                   <div className="detail-box">
                     <h1 className="primary-color">
-                      IMPROVE <br />
-                      YOUR COLLECTIONS WITH
+                    LEARN EARN & REACH  <br />
                     </h1>
                     <p
                       className="f-18-n secondary-color"
@@ -94,7 +91,7 @@ function BannerSection() {
                       data-aos-easing="linear"
                       data-aos-duration="1500"
                     >
-                      The Best Medical Billing Services in the USA!
+                      Book Appointment Today!
                     </p>
                     <div className="">
                      <NavLink

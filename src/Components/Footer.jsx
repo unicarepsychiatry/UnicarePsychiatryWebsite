@@ -19,7 +19,7 @@ export const Footer = () => {
             <a data-aos="fade-up" href="" className="me-4 text-reset">
               <i className="bi bi-instagram"></i>
             </a>
-            <a data-aos="fade-up" href="" className="me-4 text-reset">
+            <a data-aos="fade-up" href="https://www.linkedin.com/in/followyourheartnp?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="me-4 text-reset">
               <i className="bi bi-linkedin"></i>
             </a>
           </div>
