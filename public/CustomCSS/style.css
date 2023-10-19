@@ -3,14 +3,21 @@
   --secondary-color: #86c440;
   --hover-color: #ce478f;
 }
+/* body{
+  box-sizing: border-box;
+} */
 .f-18-n {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
+}
+.f-18-t {
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .f-18-b {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
 }
 .line{
   border-bottom: 2px solid var(--secondary-color);
@@ -25,9 +32,7 @@
   font-size: 22px;
 }
 
-.f-35-b{
-  font-size: 70px;
-}
+
 .text-primary {
   color: var(--primary-color)!important;
 }
@@ -73,6 +78,7 @@
   padding-bottom: 25px;
   color: var(--primary-color);
 }
+}
 
 .div-sub-heading {
   font-size: 36px;
@@ -110,7 +116,7 @@
    border-bottom: 2px solid var(--hover-color);
  } */
 .navbar-nav li {
-  margin: 0 30px;
+  margin: 0 7px;
   font-weight: 500;
   border-bottom: 2px solid transparent;
   transition: all 0.5s;
@@ -130,9 +136,10 @@
 
 .navbar-nav .dropdown-menu {
   padding: 10px 10px;
-  /* margin-right: 200px; */
+  margin-right: 200px;
   margin: auto !important;
   font-size: 15px;
+  width: auto;
   border-radius: 20px;
   background-color: white;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
@@ -212,8 +219,9 @@
   display: flex;
   align-items: center;
   position: relative;
-  height: 700px;
-  background-image: url(../Images/computer-closeup-stethoscope-telehealth.webp);
+  height: 463px;
+   background-image: url(../Images/banner.png);
+  /* background-image:linear-gradient(125deg, rgba(109, 187, 14, 0.3), rgba(143, 132, 7, 0.664)), url(../Images/diana-polekhina-anBmAtntoEs-unsplash.jpg); */
   background-repeat: no-repeat;
   background-size: cover!important;
   background-attachment: fixed!important;
@@ -868,11 +876,12 @@ info_section .info_links .info_links_menu a:hover,
  background-size: cover!important;
   background-attachment: fixed!important;
   min-height: 277px;
+  overflow: hidden;
   visibility: visible;
   animation-duration: 1s;
   animation-delay: 0.1s;
   animation-name: fadeInUp;
-  height: 700px!important;
+  height: 500px!important;
 }
 
 .img-style{
@@ -884,7 +893,9 @@ info_section .info_links .info_links_menu a:hover,
 }
 .features-holder {
 }
-
+.overvission{
+  background-color: #c7c7c7;
+}
 .our-vission-component {
   background-image: url(../Images/ourvision.jpg)!important;
  background-size: cover!important;
@@ -893,7 +904,7 @@ info_section .info_links .info_links_menu a:hover,
   animation-duration: 1s;
   animation-delay: 0.1s;
   animation-name: fadeInUp;
-  height: 700px!important;
+  height: 500px!important;
   min-height: 277px;
 }
 .servingGlobal-component {
@@ -908,57 +919,35 @@ info_section .info_links .info_links_menu a:hover,
   font-weight: 600;
 }
 /* Our Mission Section CSS End*/
-@media only screen and (max-width: 800px) {
-  .navbar-nav .dropdown-menu {
-    padding: 0 0;
-    margin: auto;
-    font-size: 15px;
-    width: 80% !important;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
-  }
 
-  .f-35-b{
-    font-size: 50px;
-    margin-bottom: 50px;
-  }
-  .container-costomized{
-    padding:0 472px!important
-  }
-}
 .col-md-4 i{
   margin:0 10px;
 }
 .custom-padding{
   padding: 2% 20%!important;
 }
-@media only screen and (max-width: 575px) {
-  .f-30-b{
-    font-size: 20px!important;
-    font-weight: 600;
-  }
-  .navbar-nav .dropdown-menu {
-    padding: 0 10px;
-    margin: auto!important;
-    font-size: 15px;
-    width: 100% !important;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
-  }
+
+.div-heading {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px!important;
+  padding-bottom: 0!important;
+  color: var(--primary-color);
+}
+
   
 .custom-padding{
   padding: 1% 2%!important;
 }
-/* 
+/*  
 .custom-paddingY{
   margin-top: 10%!important;
 } */
-  .f-35-b{
-    font-size: 40px;
-    margin-bottom: 60px;
-  }
+.f-35-b{
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+
   .div-padding {
     width: 100%;
     padding: 5px 0px;
@@ -971,19 +960,8 @@ info_section .info_links .info_links_menu a:hover,
     padding-bottom: 25px;
     color: var(--primary-color);
   }
-}
 
-@media only screen and (max-width: 320px) {
-  .navbar-nav .dropdown-menu {
-    padding: 0 0;
-    margin-left: 10px;
-    font-size: 15px;
-    width: 60% !important;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
-  }
-}
+
 
 
 /* Specialities section */
@@ -1009,12 +987,11 @@ info_section .info_links .info_links_menu a:hover,
 }
 .special-card-title {
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   transition: ease-in .4s;
   color: #fff;
   text-align: center;
-
 }
 .Speical-card:hover .Sepcial-card-body{
   width: 100%!important;
@@ -1034,7 +1011,6 @@ info_section .info_links .info_links_menu a:hover,
   background-size: cover;
   height: 100%;
   padding: 50px;
-  border-radius: 20px;
   min-height: 477px;
   display: flex;
   justify-content: center;
@@ -1143,6 +1119,7 @@ info_section .info_links .info_links_menu a:hover,
   background-image: url(../Images/How-Do-I-Know-if-I-Have-Bipolar-Disorder.jpg);
   background-size: cover!important; 
   background-attachment: fixed!important;
+  overflow: hidden;
   height: auto!important;
 }
 /* anxiety Page CSS End*/
@@ -1170,6 +1147,7 @@ info_section .info_links .info_links_menu a:hover,
   background-size: cover!important; 
   background-attachment: fixed!important;
   height: auto!important;
+  overflow: hidden;
 }
 
 .adhd-img-container{
@@ -1228,6 +1206,7 @@ info_section .info_links .info_links_menu a:hover,
   background-size: cover!important; 
   background-attachment: fixed!important;
   height: auto!important;
+  overflow: hidden;
 }
 /* PTSD Page CSS End*/
 
@@ -1246,6 +1225,7 @@ info_section .info_links .info_links_menu a:hover,
   background-size: cover!important; 
   background-attachment: fixed!important;
   height: auto!important;
+  overflow: hidden;
 }
 /* medication Page CSS End*/
 
@@ -1310,6 +1290,22 @@ info_section .info_links .info_links_menu a:hover,
   background-attachment: fixed!important;
   height: auto!important;
 }
+.contact-container-banner{
+  margin-top: 0!important;
+  background:url(../Images/Appointment.jpg);
+  background-size: cover;
+  background-attachment: fixed!important;
+  height: 300px!important;
+  min-height: 277px;
+}
+.bookingAppointment-container-banner{
+  margin-top: 0!important;
+  background:url(../Images/appointmentbooking.jpg);
+  background-size: cover;
+  background-attachment: fixed!important;
+  height: 400px!important;
+  min-height: 277px;
+}
 .insurance-bg{
   background-image: url(../Images/piggybank-uUMzuD71BJw-unsplash.jpg);
   background-size: cover!important; 
@@ -1320,9 +1316,118 @@ info_section .info_links .info_links_menu a:hover,
   background-image: url(../Images/PaymentBg.jpg);
   background-size: cover!important; 
   background-attachment: fixed!important;
-  height: auto!important;
+  height: 400px!important;
 }
 .insurance-logos{
-  height: 150px!important;
-  width: 300px!important;
+  height: 150px;
+  width: 300px;
+}
+.social-icon{
+  color: var(--primary-color);
+}
+.social-icon i{
+  margin:0 10px;
+  color: var(--primary-color);
+}
+.social-icon span{
+  margin-left: 40px!important;
+  color: #000000;
+}
+.university-icon{
+  height: 30px;
+}
+}
+.degree-icon{
+  height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+  .navbar-nav .dropdown-menu {
+    padding: 0 15px;
+    margin: auto;
+    font-size: 15px;
+    width: 80% !important;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  }
+  .our-features {
+   background-size: cover!important;
+    background-attachment: fixed!important;
+    min-height: 277px;
+    visibility: visible;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    animation-name: fadeInUp;
+    height: 600px!important;
+  }
+  .f-35-b{
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+  .container-costomized{
+    padding:0 472px!important
+  }
+}
+@media only screen and (max-width: 575px) {
+  .Speical-card {
+    width: 100%!important;
+    height: 160px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    transition: all .5s;
+  }
+  .f-30-b{
+    font-size: 20px!important;
+    font-weight: 600;
+  }
+  .f-18-b {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .insurance-logos{
+    height: 75px!important;
+    width: 150px!important;
+  }
+  .special-card-title {
+    text-transform: uppercase;
+    font-size: 15px!important;
+    font-weight: 500;
+    transition: ease-in .4s;
+    color: #fff;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .navbar-nav .dropdown-menu {
+    padding: 0 10px;
+    margin:auto;
+    font-size: 10px;
+    width: 60% !important;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  }
 }

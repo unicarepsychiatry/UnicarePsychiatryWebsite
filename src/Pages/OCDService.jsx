@@ -1,10 +1,19 @@
 import React from "react";
 import { Footer } from "../Components/Footer";
 import { NavLink } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const OCDService = () => {
   return (
     <div>
+      <Helmet>
+        <title>Obsessive Compulsive Disorder - Unicare Psychiatry</title>
+        <meta name="description" content="Unicare, Unicare Psychiatry" />
+        <meta
+          name="keywords"
+          content="OCD, What is Obsessive Compulsive Disorder?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
+        />
+      </Helmet>
       <div className="biopolar-container">
         <div className="biopolar-container-header row p-0 m-0 ">
           <h3 className="col text-center p-3 p-0 m-0 g-0 text-white bg-primary">
@@ -130,7 +139,7 @@ const OCDService = () => {
           </div>
         </div>
         <hr className="container line my-5" />
-        <div className="p-0 m-0">
+        <div className="p-0 m-0 overflow-hidden">
           <div className="d-flex">
             <div className="OCD-image-container h-100 w-100">
               <div className="col-12 py-5">

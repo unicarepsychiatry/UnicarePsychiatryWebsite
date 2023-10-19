@@ -9,13 +9,13 @@ const Insurance = () => {
         </div>
         <div className="container p-0 m-0">
         <div className="row g-3 p-0 my-4 m-auto text-center d-flex justify-content-center">
-            <div className="col-lg-4 col-sm-12 col-md-6"><img className="img-fluid insurance-logos" src="Images/Medicare.png"/></div>
-            <div className="col-lg-4 col-sm-12 col-md-6"><img className="img-fluid insurance-logos" src="Images/aetna.png"/></div>
-            <div className="col-lg-4 col-sm-12 col-md-6"><img className="img-fluid insurance-logos" src="Images/BlueCross.png"/></div>
-            <div className="col-lg-4 col-sm-12 col-md-6"><img className="img-fluid insurance-logos" src="Images/cigna.png"/></div>
-            <div className="col-lg-4 col-sm-12 col-md-6"><img className="img-fluid insurance-logos" src="Images/Humana.png"/></div>
-            <div className="col-lg-4 col-sm-12 col-md-6"><img className="img-fluid insurance-logos" src="Images/Medicaid.png"/></div>
-            <div className="col-lg-4 col-sm-12 col-md-6"><img className="img-fluid insurance-logos" src="Images/UnitedHealthCare.png"/></div>
+            <div className="col-md-4 col-6"><img className="img-fluid insurance-logos" src="Images/Medicare.png"/></div>
+            <div className="col-md-4 col-6"><img className="img-fluid insurance-logos" src="Images/aetna.png"/></div>
+            <div className="col-md-4 col-6"><img className="img-fluid insurance-logos" src="Images/BlueCross.png"/></div>
+            <div className="col-md-4 col-6"><img className="img-fluid insurance-logos" src="Images/cigna.png"/></div>
+            <div className="col-md-4 col-6"><img className="img-fluid insurance-logos" src="Images/Humana.png"/></div>
+            <div className="col-md-4 col-6"><img className="img-fluid insurance-logos" src="Images/Medicaid.png"/></div>
+            <div className="col-md-4 col-6"><img className="img-fluid insurance-logos" src="Images/UnitedHealthCare.png"/></div>
         </div>
         </div>
       </div>

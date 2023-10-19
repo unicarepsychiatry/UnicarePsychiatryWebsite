@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { Footer } from "../Components/Footer";
+import { Helmet } from "react-helmet";
 
 const AnxietyService = () => {
   useEffect(() => {
@@ -24,6 +25,14 @@ const AnxietyService = () => {
 
   return (
     <>
+    <Helmet>
+        <title>Anxiety Disorder - Unicare Psychiatry</title>
+        <meta
+          name="description"
+          content="Unicare, Unicare Psychiatry"
+        />
+        <meta name="keywords" content="What is Anxiety Disorder?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"/>
+      </Helmet>
       <div>
         <div className="anxiety-container">
           <div className="depression-container-header row p-0 m-0 ">
@@ -100,7 +109,6 @@ const AnxietyService = () => {
                 className="col-md-7 col-12 order-md-2 order-1 image-container"
               ></div>
             </div>
-            <hr className="container my-3 line" />
             <hr className="container my-3 line" />
 
             <div className="container">

@@ -24,10 +24,10 @@ function App() {
     <Router>
       <Navbar />
       <Helmet>
-        <title>PharmaCare billing Solution</title>
+        <title>Unicare Psychiatry</title>
         <meta
           name="description"
-          content="PharmaCare billing Solution is medical billing company in US."
+          content="Unicare Psychiatry is medical company in US."
         />
       </Helmet>
       <Routes>

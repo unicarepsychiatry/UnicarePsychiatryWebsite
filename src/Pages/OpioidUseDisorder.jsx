@@ -1,21 +1,30 @@
 import React from "react";
 import { Footer } from "../Components/Footer";
 import { NavLink } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const OpioidUseDisorder = () => {
   return (
     <div>
-      <div className="biopolar-container">
+      <Helmet>
+        <title>Opioid Use Disorder - Unicare Psychiatry</title>
+        <meta name="description" content="Unicare, Unicare Psychiatry" />
+        <meta
+          name="keywords"
+          content="Opioid Use Disorder, What is Opioid Use Disorder?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
+        />
+      </Helmet>
+      <div className="biopolar-container overflow-hidden">
         <div className="biopolar-container-header row p-0 m-0 ">
           <h3 className="col text-center p-3 p-0 m-0 g-0 text-white bg-primary">
             Opioid Use Disorder
           </h3>
         </div>
         <div className="p-0 m-0 g-0 Opioid-container-banner"></div>
-        <div className="biopolar-container-header row p-0 m-0 g-0 f-18-n text-white bg-secondary text-center ">
+        <div className="biopolar-container-header row p-0 m-0 g-0 f-18-n text-white bg-secondary text-center">
           <p
             data-aos="fade-right"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
             className="p-3 custom-padding custom-text-alignment"
           >
             Opioid use disorder is a chronic and treatable mental health
@@ -45,7 +54,7 @@ const OpioidUseDisorder = () => {
             >
               <img
                 className="img-fluid  shadow-plus-border"
-                src="Images/Alcohol2.jpg"
+                src="Images/GettyImages-859090900.jpg"
                 alt="picture"
               />
             </div>
@@ -59,14 +68,14 @@ const OpioidUseDisorder = () => {
             className="col-md-6  my-5 col-12  order-2 order-md-2"
           >
             <p className="f-22-b text-primary">
-              Treatment of Alcohol Use Disorder
+              Treatment of Opioid Use Disorder
             </p>
 
             <p className="fa-18-b">
-              If you have a concern that you have AUD, you can contact unicare
-              psychiatry. The expert providers will provide you the best
-              treatment. We create a best treatment plan for Alcohol Use
-              Disorder patients. Don’t hesitate to seek help for Alcohol Use
+              If you have a concern that you have Opioid Use Disorder, you can
+              contact unicare psychiatry. The expert providers will provide you
+              the best treatment. We create a best treatment plan for Opioid Use
+              Disorder patients. Don’t hesitate to seek help for Opioid Use
               Disorder. Contact Unicare Psychiatry today for appointment.
             </p>
           </div>
@@ -76,7 +85,7 @@ const OpioidUseDisorder = () => {
           >
             <img
               className="img-fluid shadow-plus-border"
-              src="Images/Alcohol3.jpg"
+              src="Images/4d1af960-847b-11ec-9630-8fc8460ad324.jpg"
               alt="picture"
             />
           </div>

@@ -3,9 +3,9 @@ import React from "react";
 export const OurVision = () => {
   return (
     <div>
-      <section className="our-vission-component d-flex">
-        <div className="container p-lg-0 p-5 d-flex flex-lg-row flex-column my-auto">
-          <div className="order-lg-1 order-2 col-md-6 col-12 d-flex align-items-center justify-content-center text-center">
+      <section className="overflow-hidden our-vission-component d-flex">
+        <div className="container p-lg-0 p-md-3 p-5 d-flex flex-lg-row flex-column my-auto">
+          <div className="order-lg-1 order-2 col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-center text-center">
             <div className="" data-aos="fade-down-left">
               <p className="f-18-b text-white">
                 "Our vision is to create a world in which love serves as the
@@ -25,8 +25,8 @@ export const OurVision = () => {
               </button>
             </div>
           </div>
-          <div className="section-header col-md-6 col-12 d-flex align-items-center order-lg-2 order-1 justify-content-center">
-            <h2 className="f-35-b text-white" data-aos="fade-down-right">
+          <div className="section-header col-lg-6 col-md-6 col-12  d-flex align-items-center order-lg-2 order-md-2 order-1 justify-content-center">
+            <h2 className="div-heading text-white" data-aos="fade-down-right">
               Our Vision
             </h2>
           </div>

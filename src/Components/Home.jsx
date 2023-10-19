@@ -20,8 +20,8 @@ function Home() {
             <OurServices/> 
             <WhyChooseUs/>
             <ServingGlobal/>
-            <Payment/>
             <Insurance/>
+            <Payment/>
             <Footer/>
         </div>
     </div>

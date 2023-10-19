@@ -1,9 +1,19 @@
 import React from "react";
 import { Footer } from "../Components/Footer";
 import { NavLink } from "react-router-dom";
+import { Helmet } from "react-helmet";
+
 const Phobiasservice = () => {
   return (
     <div>
+      <Helmet>
+        <title>PHOBIAS - Unicare Psychiatry</title>
+        <meta name="description" content="Unicare, Unicare Psychiatry" />
+        <meta
+          name="keywords"
+          content="What is PHOBIAS?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
+        />
+      </Helmet>
       <div className="biopolar-container">
         <div className="biopolar-container-header row p-0 m-0 ">
           <h3 className="col text-center p-3 p-0 m-0 g-0 text-white bg-primary">
@@ -42,7 +52,7 @@ const Phobiasservice = () => {
             >
               <img
                 className="img-fluid  shadow-plus-border"
-                src="Images/Phobia6.jpg"
+                src="Images/Phobia4.jpg"
                 alt="picture"
               />
             </div>
@@ -90,7 +100,7 @@ const Phobiasservice = () => {
           >
             <img
               className="img-fluid shadow-plus-border"
-              src="Images/Phobia4.jpg"
+              src="Images/Phobia6.jpg"
               alt="picture"
             />
           </div>
@@ -114,7 +124,7 @@ const Phobiasservice = () => {
             >
               <img
                 className="img-fluid  shadow-plus-border"
-                src="Images/Phobia1.jpg"
+                src="Images/Phobia2.jpg"
                 alt="picture"
               />
             </div>

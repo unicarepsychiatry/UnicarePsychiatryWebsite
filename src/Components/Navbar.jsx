@@ -33,27 +33,7 @@ function Navbar() {
               </NavLink>
             </li>
 
-            <li className="nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  isActive ? "menu-active nav-link" : "nav-link"
-                }
-                to="/contact-us"
-              >
-                <i className="bi bi-telephone-fill px-1"></i> contact us
-              </NavLink>
-            </li>
-
-            <li className="nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  isActive ? "menu-active nav-link" : "nav-link"
-                }
-                to="/about-us"
-              >
-                <i className="bi bi-chat-dots-fill px-1"></i> about us
-              </NavLink>
-            </li>
+            
 
             <li className="nav-item dropdown">
               <a
@@ -196,6 +176,26 @@ function Navbar() {
                   Substance Induce Psychiatric problems
                 </NavLink>
               </div>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "menu-active nav-link" : "nav-link"
+                }
+                to="/contact-us"
+              >
+                <i className="bi bi-telephone-fill px-1"></i> contact us
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "menu-active nav-link" : "nav-link"
+                }
+                to="/about-us"
+              >
+                <i className="bi bi-chat-dots-fill px-1"></i> about us
+              </NavLink>
             </li>
             <div className="my-md-0 my-sm-4 nav-item">
               <NavLink className="btn button-primary" to="/book-an-appointment">

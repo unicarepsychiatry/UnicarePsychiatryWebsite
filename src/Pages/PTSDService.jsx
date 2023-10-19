@@ -1,14 +1,23 @@
 import React from "react";
 import { Footer } from "../Components/Footer";
 import { NavLink } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const PTSDService = () => {
   return (
     <div>
+      <Helmet>
+        <title>Post Traumatic Stress Disorder - Unicare Psychiatry</title>
+        <meta name="description" content="Unicare, Unicare Psychiatry" />
+        <meta
+          name="keywords"
+          content="PTSD, What is Post-Traumatic Stress Disorder?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
+        />
+      </Helmet>
       <div className="biopolar-container">
         <div className="biopolar-container-header row p-0 m-0 ">
           <h3 className="col text-center p-3 p-0 m-0 g-0 text-white bg-primary">
-            Post-Traumatic Stress Disorder
+            Post Traumatic Stress Disorder
           </h3>
         </div>
         <div className="p-0 m-0 g-0 PTSD-container-banner"></div>

@@ -19,7 +19,11 @@ export const Footer = () => {
             <a data-aos="fade-up" href="" className="me-4 text-reset">
               <i className="bi bi-instagram"></i>
             </a>
-            <a data-aos="fade-up" href="https://www.linkedin.com/in/followyourheartnp?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="me-4 text-reset">
+            <a
+              data-aos="fade-up"
+              href="https://www.linkedin.com/in/followyourheartnp?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+              className="me-4 text-reset"
+            >
               <i className="bi bi-linkedin"></i>
             </a>
           </div>
@@ -34,9 +38,9 @@ export const Footer = () => {
                   </a>
                 </h6>
                 <p data-aos="fade-down">
-                  Here you can use rows and columns to organize your footer
-                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
+                  Our mission is to empower newly graduated nurse practitioners,
+                  arming them with the tools to utilize UniCare, where love is
+                  the universal remedy.
                 </p>
               </div>
               <div

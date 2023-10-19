@@ -1,8 +1,19 @@
 import React from "react";
 import { Footer } from "../Components/Footer";
+import { Helmet } from "react-helmet";
+
 const Depression = () => {
   return (
     <div>
+      <Helmet>
+        <title>Depression - Unicare Psychiatry</title>
+        <meta
+          name="description"
+          content="Unicare, Unicare Psychiatry"
+        />
+        <meta name="keywords" content="What is Depression?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"/>
+      </Helmet>
+      
       <div className="depression-container">
         <div className="depression-container-header row p-0 m-0 ">
           <h3 className="col text-center p-3 p-0 m-0 g-0 text-white bg-primary">
@@ -136,7 +147,7 @@ const Depression = () => {
             >
               <img
                 className="img-fluid shadow-plus-border"
-                src="Images/PTSF-1.jpg"
+                src="Images/PTSD-1.jpg"
                 alt="picture"
               />
             </div>

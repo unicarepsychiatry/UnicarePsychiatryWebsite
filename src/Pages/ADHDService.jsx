@@ -1,10 +1,21 @@
 import React from "react";
 import { Footer } from "../Components/Footer";
 import { NavLink } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const ADHDService = () => {
   return (
+    
     <div>
+      <Helmet>
+        <title>ADHD - Unicare Psychiatry</title>
+        <meta
+          name="description"
+          content="Unicare, Unicare Psychiatry"
+        />
+        <meta name="keywords" content="ADHD, What is ADHD?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"/>
+      </Helmet>
+      
       <div className="adhd-container">
         <div className="adhd-container-header row p-0 m-0 ">
           <h3 className="col text-center p-3 p-0 m-0 g-0 text-white bg-primary">

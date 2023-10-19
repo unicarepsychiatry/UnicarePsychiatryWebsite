@@ -1,11 +1,20 @@
 import React from "react";
 import { Footer } from "../Components/Footer";
 import { NavLink } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const SubstanceInducePsychiatric = () => {
   return (
     <div>
-      <div className="biopolar-container">
+            <Helmet>
+        <title>Substance Induce Psychiatric Problem - Unicare Psychiatry</title>
+        <meta name="description" content="Unicare, Unicare Psychiatry" />
+        <meta
+          name="keywords"
+          content="Substance Induce Psychiatric Problem, What is Substance Induce Psychiatric Problem?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
+        />
+      </Helmet>
+      <div className="biopolar-container overflow-hidden">
         <div className="biopolar-container-header row p-0 m-0 ">
           <h3 className="col text-center p-3 p-0 m-0 g-0 text-white bg-primary">
             Substance Induce Psychiatric Problem

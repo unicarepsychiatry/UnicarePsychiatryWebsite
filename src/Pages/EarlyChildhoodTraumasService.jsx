@@ -1,11 +1,19 @@
 import React from "react";
 import { Footer } from "../Components/Footer";
 import { NavLink } from "react-router-dom";
-
+import { Helmet } from "react-helmet";
 const EarlyChildhoodTraumasService = () => {
   return (
     <div>
-      <div className="biopolar-container">
+      <Helmet>
+        <title>Early Childhood Traumas - Unicare Psychiatry</title>
+        <meta name="description" content="Unicare, Unicare Psychiatry" />
+        <meta
+          name="keywords"
+          content="Early Childhood Traumas, What is Early Childhood Traumas?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
+        />
+      </Helmet>
+      <div className="biopolar-container overflow-hidden">
         <div className="biopolar-container-header row p-0 m-0 ">
           <h3 className="col text-center p-3 p-0 m-0 g-0 text-white bg-primary">
             Early Childhood Traumas
@@ -64,13 +72,15 @@ const EarlyChildhoodTraumasService = () => {
             data-aos="fade-left"
             className="col-md-6  p-3 my-5 col-12  order-2 order-md-2"
           >
-            <p className="f-22-b text-primary">Treatment of Early childhood trauma</p>
+            <p className="f-22-b text-primary">
+              Treatment of Early childhood trauma
+            </p>
             <p className="f-18-n">
-            Contact unicare psychiatry for Early childhood trauma. The expert
-            providers will provide you the best treatment. We create a best
-            treatment plan for Early childhood trauma patients. Don’t hesitate
-            to seek help for Early childhood trauma. Contact Unicare Psychiatry
-            today for appointment.
+              Contact unicare psychiatry for Early childhood trauma. The expert
+              providers will provide you the best treatment. We create a best
+              treatment plan for Early childhood trauma patients. Don’t hesitate
+              to seek help for Early childhood trauma. Contact Unicare
+              Psychiatry today for appointment.
             </p>
           </div>
           <div
@@ -84,7 +94,7 @@ const EarlyChildhoodTraumasService = () => {
             />
           </div>
         </div>
-        
+
         <hr className="container line my-5" />
         <div className="p-0 m-0">
           <div className="d-flex">
