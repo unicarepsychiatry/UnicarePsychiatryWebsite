@@ -3,9 +3,10 @@
   --secondary-color: #86c440;
   --hover-color: #ce478f;
 }
-/* body{
+
+body{
   box-sizing: border-box;
-} */
+}
 .f-18-n {
   font-weight: 500;
   font-size: 16px;
@@ -894,7 +895,7 @@ info_section .info_links .info_links_menu a:hover,
 .features-holder {
 }
 .overvission{
-  background-color: #c7c7c7;
+  background-color: #ecebeb;
 }
 .our-vission-component {
   background-image: url(../Images/ourvision.jpg)!important;
@@ -1041,11 +1042,11 @@ info_section .info_links .info_links_menu a:hover,
 }
 .social-icons a {
   font-weight: 600;
-  transition: ease-in .4s;
+  transition: all .4s;
   font-size: 20px;
 }
 .social-icons a :hover {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   transform: scale(1.5);
 }
 /* Depression Page CSS Start */
@@ -1340,8 +1341,52 @@ info_section .info_links .info_links_menu a:hover,
 .degree-icon{
   height: 20px;
 }
-
-
+.Neurofeedback-container-banner{
+  margin-top: 0!important;
+  background:url(../Images/neurofeedback1.jpg);
+  background-size: cover!important; 
+  background-attachment: fixed!important;
+  height: 400px!important;
+  overflow: hidden;
+  min-height: 277px;
+}
+.Neurofeedback-image-container{
+  background-image: url(../Images/Neurofeedback2.jpg);
+  overflow: hidden;
+  background-size: cover!important; 
+  background-attachment: fixed!important;
+  height: auto!important;
+}
+.Neurofeedbacks-image-container{
+  background-image: url(../Images/Neurofeedback1.jpeg);
+  background-size: cover!important; 
+  overflow: hidden;
+  background-attachment: fixed!important;
+  height: auto!important;
+}
+.Hypnotherapy-container-banner{
+  margin-top: 0!important;
+  background:url(../Images/neurofeedback1.jpg);
+  background-size: cover!important; 
+  background-attachment: fixed!important;
+  height: 400px!important;
+  overflow: hidden;
+  min-height: 277px;
+}
+.Hypnotherapy-image-container{
+  background-image: url(../Images/Neurofeedback2.jpg);
+  overflow: hidden;
+  background-size: cover!important; 
+  background-attachment: fixed!important;
+  height: auto!important;
+}
+.Hypnotherapy-image-container{
+  background-image: url(../Images/Neurofeedback1.jpeg);
+  background-size: cover!important; 
+  overflow: hidden;
+  background-attachment: fixed!important;
+  height: auto!important;
+}
 
 
 

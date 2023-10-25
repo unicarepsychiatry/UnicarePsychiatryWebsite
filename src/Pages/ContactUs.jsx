@@ -1,34 +1,9 @@
-import React, { useRef } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
 import { Footer } from "../Components/Footer";
-import emailjs from "@emailjs/browser";
-import { ToastContainer, toast } from "react-toastify";
+import { useForm, ValidationError } from "@formspree/react";
 export const ContactUs = () => {
-  const form = useRef();
-  // const [result,Setresult]=useState(false);
-  const Emailnotify = () => toast.success("your Email Sent successfully!");
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_80kntug",
-        "template_9887mff",
-        form.current,
-        "-aKR7kFAQS5x5p3Fq"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
-    // Setresult(true);
-    Emailnotify();
-  };
+  const [state, handleSubmit] = useForm("meqbvybe");
 
   return (
     <>
@@ -43,18 +18,7 @@ export const ContactUs = () => {
           content="pharmacare billing solutions, Claim denial management service, pharmacare billing solution"
         />
       </Helmet>
-      <ToastContainer
-        position="top-right"
-        autoClose={5000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="light"
-      />
+
       <div className="biopolar-container">
         <div className="biopolar-container-header row p-0 m-0 ">
           <h3 className="col text-center p-3 p-0 m-0 g-0 text-white bg-primary">
@@ -114,55 +78,79 @@ export const ContactUs = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-md-6 col-12" data-aos="flip-left">
-                <div className="row">
-                  <div className="col-md-10 col-10 mx-auto">
-                    <form ref={form} onSubmit={sendEmail}>
-                      <div className="form-group">
-                        <label className="py-2">Name</label>
-                        <input
-                          className="form-control"
-                          placeholder="Please Enter Your good name"
-                          required
-                          type="text"
-                          name="Username"
-                        />
-                        <label className="py-2">Email</label>
-                        <input
-                          className="form-control"
-                          placeholder="Please Enter your Email Address"
-                          required
-                          type="email"
-                          name="user_Email"
-                        />
-                        <label className="py-2">Mobile Number</label>
-                        <input
-                          className="form-control"
-                          type="number"
-                          placeholder="Please Enter Your Mobile No (optional)"
-                          name="user_Mobile"
-                        />
-                        <label className="py-2">Message</label>
-                        <textarea
-                          className="form-control"
-                          required
-                          id="message"
-                          placeholder="Please Enter Your Message"
-                          row="8"
-                          name="message"
-                        />
+              {state.succeeded ? (
+                <div className="card shadow m-auto" style={{ width: "18rem" }}>
+                  <img
+                    className="card-img-top"
+                    style={{
+                      height: "200px",
+                      width: "200px",
+                      margin: "auto",
+                      padding: "35px",
+                    }}
+                    src="/Images/thankyou.png"
+                    alt="Card image cap"
+                  />
+                  <div className="card-body text-center">
+                    <h5 className="card-title text-secondary">Thankyou!</h5>
+                    <p className="card-text f-18-n">
+                      your Email sent successfully and our team will contact you
+                      soon.
+                    </p>
+                    <a
+                      href="/"
+                      className="my-3 px-md-5 p-2 btn button-primary text-white"
+                    >
+                      Go Back
+                    </a>
+                  </div>
+                </div>
+              ) : (
+                <div className="col-md-6 col-12" data-aos="flip-left">
+                  <div className="row">
+                    <div className="col-md-10 col-10 mx-auto">
+                      <form onSubmit={handleSubmit}>
+                        <div className="my-1">
+                          <label htmlFor="firstName">Your Good Name</label>
+                          <input
+                            className="form-control"
+                            required
+                            id="firstName"
+                            type="text"
+                            name="firstName"
+                          />
+                        </div>
+                        <div className="my-1">
+                          <label htmlFor="email">Email Address</label>
+                          <input
+                            className="form-control"
+                            id="email"
+                            required
+                            type="email"
+                            name="email"
+                          />
+                        </div>
+                        <div className="my-1">
+                          <label htmlFor="email">Your Message</label>
+                          <textarea
+                            className="form-control"
+                            required
+                            id="message"
+                            name="message"
+                          />
+                        </div>
                         <button
                           className="my-3 px-md-5 p-2 btn button-primary text-white"
                           type="submit"
+                          disabled={state.submitting}
                         >
-                          Send message
+                          Submit
                         </button>
-                      </div>
-                    </form>
-                    {/* { result ? <div className="alert alert-success">your Email Sent successfully!</div> : ""} */}
+                      </form>
+                    </div>
                   </div>
                 </div>
-              </div>
+              )}
             </div>
           </div>
         </div>

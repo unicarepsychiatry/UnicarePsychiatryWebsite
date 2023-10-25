@@ -19,7 +19,7 @@ const Payment = () => {
               <h2 className="f-30-b text-white shadow-lg rounded p-2">Money Order</h2>
             </div>
             <div className="col-lg-4 col-sm-12 col-md-6">
-              <h2 className="f-30-b text-white shadow-lg rounded p-2">Cash</h2>
+              <h2 className="f-30-b text-white shadow-lg rounded p-2">Self pay</h2>
             </div>
           </div>
         </div>

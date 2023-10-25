@@ -5,9 +5,9 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <NavLink className="navbar-brand" to="/">
           <img className="img-fluid logo" src="../Images/logo1.png" />
-        </a>
+        </NavLink>
         <button
           className="navbar-toggler"
           type="button"
@@ -33,8 +33,6 @@ function Navbar() {
               </NavLink>
             </li>
 
-            
-
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -45,7 +43,7 @@ function Navbar() {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                <i className="bi bi-gear-wide-connected px-1"></i> Servicse
+                <i className="bi bi-gear-wide-connected px-1"></i> Services
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <NavLink
@@ -90,6 +88,16 @@ function Navbar() {
                 >
                   Phobias
                 </NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "menu-active nav-link f-18-n dropdown-item"
+                      : "nav-link f-18-n dropdown-item"
+                  }
+                  to="/Neurofeedback-Therapy"
+                >
+                  Neurofeedback Therapy
+                </NavLink>
 
                 <NavLink
                   className={({ isActive }) =>
@@ -100,6 +108,16 @@ function Navbar() {
                   to="/ADHD-service"
                 >
                   ADHD
+                </NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "menu-active nav-link f-18-n dropdown-item"
+                      : "nav-link f-18-n dropdown-item"
+                  }
+                  to="/Hypnotherapy-service"
+                >
+                  Hypnotherapy
                 </NavLink>
 
                 <NavLink
@@ -174,6 +192,16 @@ function Navbar() {
                   to="/Substance-Induce-Psychiatric-problems"
                 >
                   Substance Induce Psychiatric problems
+                </NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "menu-active nav-link f-18-n dropdown-item"
+                      : "nav-link f-18-n dropdown-item"
+                  }
+                  to="/Psychiatric-services-for-geriatric-Population"
+                >
+                  Psychiatric services for geriatric Population
                 </NavLink>
               </div>
             </li>

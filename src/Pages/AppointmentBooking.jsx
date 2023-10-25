@@ -1,34 +1,9 @@
-import React, { useRef } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
-import emailjs from "@emailjs/browser";
-import { ToastContainer, toast } from "react-toastify";
+import { useForm, ValidationError } from "@formspree/react";
 import { Footer } from "../Components/Footer";
 const AppointmentBooking = () => {
-  const form = useRef();
-  // const [result,Setresult]=useState(false);
-  const Emailnotify = () => toast.success("your Email Sent successfully!");
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_80kntug",
-        "template_9887mff",
-        form.current,
-        "-aKR7kFAQS5x5p3Fq"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
-    // Setresult(true);
-    Emailnotify();
-  };
+  const [state, handleSubmit] = useForm("xleyaqyy");
 
   return (
     <div>
@@ -95,69 +70,101 @@ const AppointmentBooking = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-6 col-12" data-aos="flip-left">
-            <div className="row">
-              <div className="col-10 mx-auto">
-                <form ref={form} onSubmit={sendEmail}>
-                  <div className="form-group">
-                    <label className="f-18-n py-2">Name</label>
-                    <input
-                      className="form-control"
-                      placeholder="Please Enter Your good name"
-                      required
-                      type="text"
-                      name="Username"
-                    />
-                    <label className="f-18-n py-2">Gender</label>
-                    <input
-                      className="form-control"
-                      placeholder="Male/Female"
-                      required
-                      type="Gender"
-                      name="user_Gender"
-                    />
-                    <label className="f-18-n py-2">Email</label>
-                    <input
-                      className="form-control"
-                      placeholder="Please Enter your Email Address"
-                      required
-                      type="email"
-                      name="user_Email"
-                    />
-                    <label className="f-18-n py-2">Mobile Number</label>
-                    <input
-                      className="form-control"
-                      type="number"
-                      placeholder="Please Enter Your Mobile No (optional)"
-                      name="user_Mobile"
-                    />
-                    <label className="f-18-n py-2">
-                      Reason for Appointment
-                    </label>
-                    <input
-                      className="form-control"
-                      placeholder="Please Enter Reason for Appointment"
-                      required
-                      type="text"
-                      name="user_reasonforAppointment"
-                    />
-                    <div className="my-2">
-                      <button
-                        className="my-3 px-md-5 p-2 btn button-primary text-white"
-                        type="submit"
-                      >
-                        Send message
-                      </button>
-                    </div>
-                  </div>
-                </form>
-                {/* { result ? <div className="alert alert-success">your Email Sent successfully!</div> : ""} */}
+
+          {state.succeeded ? (
+            <div className="card shadow m-auto" style={{ width: "18rem" }}>
+              <img
+                className="card-img-top"
+                style={{
+                  height: "200px",
+                  width: "200px",
+                  margin: "auto",
+                  padding: "35px",
+                }}
+                src="/Images/thankyou.png"
+                alt="Card image cap"
+              />
+              <div className="card-body text-center">
+                <h5 className="card-title text-secondary">Thankyou!</h5>
+                <p className="card-text f-18-n">
+                  your Appointment Reason sent to Doctor and our team will contact you
+                  soon.
+                </p>
+                <a
+                  href="/"
+                  className="my-3 px-md-5 p-2 btn button-primary text-white"
+                >
+                  Go Back
+                </a>
               </div>
             </div>
-          </div>
+          ) : (
+            <div className="col-md-6 col-12" data-aos="flip-left">
+              <div className="row">
+                <div className="col-10 mx-auto">
+                  <form onSubmit={handleSubmit}>
+                    <div className="form-group">
+                      <label htmlFor="firstName" className="f-18-n py-2">Name</label>
+                      <input
+                        className="form-control"
+                        placeholder="Please Enter Your good name"
+                        id="firstName"
+                        type="text"
+                        required
+                        name="firstName"
+                      />
+                      <label className="f-18-n py-2">Gender</label>
+                      <input
+                        className="form-control"
+                        placeholder="Male/Female"
+                        required
+                        type="Gender"
+                        name="user_Gender"
+                      />
+                      <label className="f-18-n py-2">Email</label>
+                      <input
+                        className="form-control"
+                        placeholder="Please Enter your Email Address"
+                        required
+                        type="email"
+                        name="email"
+                      />
+                      <label htmlFor="phone" className="f-18-n py-2">Mobile Number</label>
+                      <input
+                        className="form-control"
+                        type="phone"
+                        id="phone"
+                        placeholder="Please Enter Your Mobile No (optional)"
+                        name="phone"
+                      />
+                      <label htmlFor="appointment" className="f-18-n py-2">
+                        Reason for Appointment
+                      </label>
+                      <input
+                        className="form-control"
+                        placeholder="Please Enter Reason for Appointment"
+                        required
+                        type="text"
+                        name="appointment"
+                      />
+                      <div className="my-2">
+                        <button
+                          className="my-3 px-md-5 p-2 btn button-primary text-white"
+                          type="submit"
+                        >
+                          Send message
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                  {/* { result ? <div className="alert alert-success">your Email Sent successfully!</div> : ""} */}
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

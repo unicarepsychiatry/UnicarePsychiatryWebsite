@@ -231,14 +231,7 @@ export const AboutUs = () => {
                     of unicare.
                   </p>
                   <p className="f-18-n">
-                    Unicare Psychiatry offer in-person and Telehealth care. We
-                    are currently accepting new patients. We provide
-                    comprehensive psychiatric evaluations, medication
-                    management, and supportive therapy for patients experiencing
-                    PTSD, Depression, Phobia, Alcohol Use Disorder, Opioid
-                    Disorder, OCD, Anxiety, Bipolar, ADHD, and more. Dr.
-                    Chittaranjan Shukla psychiatrist supports mission and vision
-                    of unicare. We support fate base holistic approach,
+                    We support fate base holistic approach,
                     regardless their cultural background, gender, social and
                     ethnicity to treatment, utilizing medication management as
                     needed and a focus on lifestyle changes. Our goal for our
@@ -258,7 +251,7 @@ export const AboutUs = () => {
               >
                 <img
                   className="img-fluid shadow-plus-border h-75 w-100"
-                  src="Images/334.jpg"
+                  src="Images/banner.png"
                   alt="picture"
                 />
               </div>

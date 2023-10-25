@@ -13,7 +13,7 @@ function BannerSection() {
                 <div className="col-md-12">
                   <div className="detail-box d-flex justify-content-center align-items-center flex-column">
                     <h1 className="secondary-color text-center">
-                      LEARN EARN & REACH<br />
+                      Earn, Learn and Climb Higher with Unicare<br />
                     </h1>
                     <p
                       className="f-18-n primary-color"
@@ -48,7 +48,7 @@ function BannerSection() {
                 <div className="col-md-12">
                   <div className="detail-box d-flex justify-content-center align-items-center flex-column">
                     <h1 className="secondary-color text-center">
-                      LEARN EARN & REACH<br />
+                      Earn, Learn and Climb Higher with Unicare<br />
                     </h1>
                     <p
                       className="f-18-n primary-color"
@@ -83,7 +83,7 @@ function BannerSection() {
                 <div className="col-md-12">
                   <div className="detail-box d-flex justify-content-center align-items-center flex-column">
                     <h1 className="secondary-color text-center">
-                      LEARN EARN & REACH<br />
+                      Earn, Learn and Climb Higher with Unicare<br />
                     </h1>
                     <p
                       className="f-18-n primary-color"

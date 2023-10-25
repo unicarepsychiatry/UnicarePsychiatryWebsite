@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export const Footer = () => {
   let date = new Date().getFullYear();
@@ -10,13 +11,25 @@ export const Footer = () => {
             <span className="f-18-n primary-color">Get Connected us on</span>
           </div>
           <div className="social-icons">
-            <a data-aos="fade-up" href="" className="me-4 text-reset">
+            <a
+              data-aos="fade-up"
+              href="https://www.facebook.com"
+              className="me-4 text-reset"
+            >
               <i className="bi bi-facebook"></i>
             </a>
-            <a data-aos="fade-up" href="" className="me-4 text-reset">
+            <a
+              data-aos="fade-up"
+              href="https://www.x.com"
+              className="me-4 text-reset"
+            >
               <i className="bi bi-twitter-x"></i>
             </a>
-            <a data-aos="fade-up" href="" className="me-4 text-reset">
+            <a
+              data-aos="fade-up"
+              href="https://www.instagram.com"
+              className="me-4 text-reset"
+            >
               <i className="bi bi-instagram"></i>
             </a>
             <a
@@ -31,11 +44,11 @@ export const Footer = () => {
         <section className="">
           <div className="container text-center text-md-start mt-5">
             <div className="row mt-3">
-              <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <div className="col-md-4  col-xl-3 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">
-                  <a className="navbar-brand" href="#">
+                  <NavLink className="navbar-brand" to="/">
                     <img className="img-fluid logo" src="../Images/logo1.png" />
-                  </a>
+                  </NavLink>
                 </h6>
                 <p data-aos="fade-down">
                   Our mission is to empower newly graduated nurse practitioners,
@@ -45,49 +58,18 @@ export const Footer = () => {
               </div>
               <div
                 data-aos="fade-down"
-                className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 d-md-block d-none"
+                className="col-md-4  col-xl-4 mx-auto mb-4 d-md-block d-none"
               >
-                <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
-                <p>
-                  <a
-                    href="#!"
-                    className="text-reset"
-                    style={{ textDecoration: "none" }}
-                  >
-                    About us
-                  </a>
-                </p>
-                <p>
-                  <a
-                    href="#!"
-                    className="text-reset"
-                    style={{ textDecoration: "none" }}
-                  >
-                    Our Mission
-                  </a>
-                </p>
-                <p>
-                  <a
-                    href="#!"
-                    className="text-reset"
-                    style={{ textDecoration: "none" }}
-                  >
-                    Our Vision
-                  </a>
-                </p>
-                <p>
-                  <a
-                    href="#!"
-                    className="text-reset"
-                    style={{ textDecoration: "none" }}
-                  >
-                    Contact us
-                  </a>
-                </p>
+                <h6 className="text-uppercase fw-bold mb-4">Our Office</h6>
+                <img
+                  className="img-fluid rounded rounded-5"
+                  src="/Images/map.png"
+                  alt=""
+                />
               </div>
               <div
                 data-aos="fade-down"
-                className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4"
+                className="col-md-4  col-xl-4 mx-auto mb-md-0 mb-4"
               >
                 <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
 

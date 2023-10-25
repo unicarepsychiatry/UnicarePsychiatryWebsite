@@ -6,7 +6,7 @@ export const OurServices = () => {
   return (
     <div>
       <div
-        className="div-padding purple-bg"
+        className="div-padding purple-bg mb-lg-5 mb-3"
         data-aos="fade-right"
         data-aos-easing="ease-in-sine"
       >
@@ -130,6 +130,36 @@ export const OurServices = () => {
                 <OurServicesCard
                   title={"Substance Induce Psychiatric problems"}
                   pic={"/Images/Drug4.jpg"}
+                />
+              </NavLink>
+              <NavLink
+                style={{ textDecoration: "none", color: "black" }}
+                className={"col-md-4 col-6 g-2"}
+                to="/Neurofeedback-Therapy"
+              >
+                <OurServicesCard
+                  title={"Neurofeedback Therapy"}
+                  pic={"/Images/Neurofeedback1.jpeg"}
+                />
+              </NavLink>
+              <NavLink
+                style={{ textDecoration: "none", color: "black" }}
+                className={"col-md-4 col-6 g-2"}
+                to="/Psychiatric-services-for-geriatric-Population"
+              >
+                <OurServicesCard
+                  title={"Psychiatric services for geriatric Population"}
+                  pic={"/Images/Neurofeedback1.jpeg"}
+                />
+              </NavLink>
+              <NavLink
+                style={{ textDecoration: "none", color: "black" }}
+                className={"col-md-4 col-6 g-2"}
+                to="/Hypnotherapy-service"
+              >
+                <OurServicesCard
+                  title={"Hypnotherapy"}
+                  pic={"/Images/Neurofeedback1.jpeg"}
                 />
               </NavLink>
             </div>

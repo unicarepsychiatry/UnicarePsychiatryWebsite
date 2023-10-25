@@ -18,6 +18,9 @@ import SubstanceInducePsychiatric from "./Pages/SubstanceInducePsychiatric";
 import OpioidUseDisorder from "./Pages/OpioidUseDisorder";
 import MedicationManagement from "./Pages/MedicationManagement";
 import Depression from "./Pages/Depression";
+import Neurofeedbacktheraph from "./Pages/Neurofeedbacktheraph";
+import Hypnotherapy from "./Pages/Hypnotherapy";
+import GeriatricPopulation from "./Pages/geriatricPopulation";
 
 function App() {
   return (
@@ -43,7 +46,7 @@ function App() {
         />
         <Route
           exact
-          path="/contact-us"
+          path="contact-us"
           element={<ContactUs />}
         />
         {/* <Route
@@ -120,6 +123,21 @@ function App() {
           exact
           path="/Substance-Induce-Psychiatric-problems"
           element={<SubstanceInducePsychiatric/>}
+        />
+        <Route
+          exact
+          path="/Neurofeedback-Therapy"
+          element={<Neurofeedbacktheraph/>}
+        />
+        <Route
+          exact
+          path="/Hypnotherapy-service"
+          element={<Hypnotherapy/>}
+        />
+        <Route
+          exact
+          path="/Psychiatric-services-for-geriatric-Population"
+          element={<GeriatricPopulation/>}
         />
         <Route path="*" element={<Home />} />
       </Routes>
