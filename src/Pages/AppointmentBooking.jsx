@@ -34,17 +34,28 @@ const AppointmentBooking = () => {
         <div className="d-flex flex-md-row flex-column">
           <div className="col-md-6 col-12" data-aos="flip-right">
             <p className="f-18-n">
-              Have a question or comment? Please feel free to reach out and our
-              team will get back to you shortly.
+              Book an appointment via the web for free and have a consultation
+              with an admin or provider(s) before booking an actual appointment
+              either in person or via telehealth.
+            </p>
+            <p className="f-18-n">
+              Patients must schedule an appointment at least 24 hours in advance
+              to visit the provider. WALK-IN patients are not seen.
             </p>
             <div>
-              <p className="f-18-n social-icon">
+              {/* <p className="f-18-n social-icon">
                 <i class="bi bi-alarm"></i> Working Hours
                 <br />
-                <span className="f-18-t ml-5">
-                  Mon to Sat, 9:00 am - 6:00 pm
-                </span>
-              </p>
+                <div className="row">
+                  <div className="f-18-t pl-5">Monday 8AM to 7PM est</div>
+                  <div className="f-18-t ml-5">Tuesday 3PM to9PM est</div>
+                  <div className="f-18-t ml-5">Wednesday Off</div>
+                  <div className="f-18-t ml-5">Thursday 2PM to 8PM est</div>
+                  <div className="f-18-t ml-5">Friday 3PM to 9PM est</div>
+                  <div className="f-18-t ml-5">Saturday 12PM to 6PM est</div>
+                  <div className="f-18-t ml-5">Sunday Off</div>
+                </div>
+              </p> */}
             </div>
             <div>
               <p className="f-18-n social-icon">
@@ -87,8 +98,8 @@ const AppointmentBooking = () => {
               <div className="card-body text-center">
                 <h5 className="card-title text-secondary">Thankyou!</h5>
                 <p className="card-text f-18-n">
-                  your Appointment Reason sent to Doctor and our team will contact you
-                  soon.
+                  your Appointment Reason sent to Doctor and our team will
+                  contact you soon.
                 </p>
                 <a
                   href="/"
@@ -104,7 +115,9 @@ const AppointmentBooking = () => {
                 <div className="col-10 mx-auto">
                   <form onSubmit={handleSubmit}>
                     <div className="form-group">
-                      <label htmlFor="firstName" className="f-18-n py-2">Name</label>
+                      <label htmlFor="firstName" className="f-18-n py-2">
+                        Name
+                      </label>
                       <input
                         className="form-control"
                         placeholder="Please Enter Your good name"
@@ -129,7 +142,9 @@ const AppointmentBooking = () => {
                         type="email"
                         name="email"
                       />
-                      <label htmlFor="phone" className="f-18-n py-2">Mobile Number</label>
+                      <label htmlFor="phone" className="f-18-n py-2">
+                        Mobile Number
+                      </label>
                       <input
                         className="form-control"
                         type="phone"
@@ -152,7 +167,7 @@ const AppointmentBooking = () => {
                           className="my-3 px-md-5 p-2 btn button-primary text-white"
                           type="submit"
                         >
-                          Send message
+                         <i class="bi bi-send"></i> {" "}Book Your Appointment Now
                         </button>
                       </div>
                     </div>

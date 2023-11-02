@@ -220,16 +220,81 @@ function Navbar() {
                 className={({ isActive }) =>
                   isActive ? "menu-active nav-link" : "nav-link"
                 }
-                to="/about-us"
+                to="/our-team"
               >
-                <i className="bi bi-chat-dots-fill px-1"></i> about us
+                <i className="bi bi-people-fill"></i> Our Team
               </NavLink>
             </li>
-            <div className="my-md-0 my-sm-4 nav-item">
-              <NavLink className="btn button-primary" to="/book-an-appointment">
-                Book Appointment
+            <li className="nav-item">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "menu-active nav-link" : "nav-link"
+                }
+                to="/about-us"
+              >
+                <i className="bi bi-book-half"></i> about us
               </NavLink>
-            </div>
+            </li>
+
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="bi bi-gear-fill"></i> Philanthropy Opportunity
+              </a>
+              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? "nav-link" : "nav-link"
+                  }
+                  to="/"
+                >
+                  Surgery on Sunday
+                </NavLink>
+
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? "nav-link" : "nav-link"
+                  }
+                  to="/"
+                >
+                  Maxwell Street Presbyterian Church, Lexington
+                </NavLink>
+
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? "nav-link" : "nav-link"
+                  }
+                  to="/"
+                >
+                  Our brother's fruit ministry
+                </NavLink>
+
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? "nav-link" : "nav-link"
+                  }
+                  to="/"
+                >
+                  The Healing Renaissance
+                </NavLink>
+
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? "nav-link" : "nav-link"
+                  }
+                  to="/"
+                >
+                  Rawhide rehab for adolescence in Wisconsin
+                </NavLink>
+              </div>
+            </li>
           </ul>
         </div>
       </div>

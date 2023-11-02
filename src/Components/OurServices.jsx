@@ -13,7 +13,7 @@ export const OurServices = () => {
         <div className="container">
           <div className=" row my-md-5 my-2" data-aos="flip-left">
             <h3 className="d-flex justify-content-center div-heading text-text-uppercase px-2 overflow-hidden">
-              Take Look On Our Outstanding Services.
+            Take a look on our services
             </h3>
           </div>
           <div className="container">
@@ -149,7 +149,7 @@ export const OurServices = () => {
               >
                 <OurServicesCard
                   title={"Psychiatric services for geriatric Population"}
-                  pic={"/Images/Neurofeedback1.jpeg"}
+                  pic={"/Images/geriatric.jpg"}
                 />
               </NavLink>
               <NavLink
@@ -159,7 +159,7 @@ export const OurServices = () => {
               >
                 <OurServicesCard
                   title={"Hypnotherapy"}
-                  pic={"/Images/Neurofeedback1.jpeg"}
+                  pic={"/Images/Hypnotherapy1.JPG"}
                 />
               </NavLink>
             </div>

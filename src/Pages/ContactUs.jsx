@@ -44,13 +44,7 @@ export const ContactUs = () => {
                   our team will get back to you shortly.
                 </p>
                 <div>
-                  <p className="f-18-n social-icon">
-                    <i class="bi bi-alarm"></i> Working Hours
-                    <br />
-                    <span className="f-18-t ml-5">
-                      Mon to Sat, 9:00 am - 6:00 pm
-                    </span>
-                  </p>
+                  
                 </div>
                 <div>
                   <p className="f-18-n social-icon">

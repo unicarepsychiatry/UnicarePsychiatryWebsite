@@ -50,22 +50,11 @@ export const Footer = () => {
                     <img className="img-fluid logo" src="../Images/logo1.png" />
                   </NavLink>
                 </h6>
-                <p data-aos="fade-down">
-                  Our mission is to empower newly graduated nurse practitioners,
+                <p data-aos="fade-down" className="custom-text-alignment f-18-n">
+                  Our mission is to provide patient care and empower newly graduated nurse practitioners,
                   arming them with the tools to utilize UniCare, where love is
                   the universal remedy.
                 </p>
-              </div>
-              <div
-                data-aos="fade-down"
-                className="col-md-4  col-xl-4 mx-auto mb-4 d-md-block d-none"
-              >
-                <h6 className="text-uppercase fw-bold mb-4">Our Office</h6>
-                <img
-                  className="img-fluid rounded rounded-5"
-                  src="/Images/map.png"
-                  alt=""
-                />
               </div>
               <div
                 data-aos="fade-down"
@@ -90,6 +79,18 @@ export const Footer = () => {
                   407 N. Broadway Lexington, KY 40508-1301
                 </p>
               </div>
+              <div
+                data-aos="fade-down"
+                className="col-md-4  col-xl-4 mx-auto mb-4 d-md-block d-none"
+              >
+                <h6 className="text-uppercase fw-bold mb-4">Our Office</h6>
+                <img
+                  className="img-fluid rounded rounded-5"
+                  src="/Images/map.png"
+                  alt=""
+                />
+              </div>
+             
             </div>
           </div>
         </section>

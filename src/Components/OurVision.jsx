@@ -8,14 +8,13 @@ export const OurVision = () => {
           <div className="order-lg-1 order-2 col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-center text-center">
             <div className="" data-aos="fade-down-left">
               <p className="f-18-b text-white">
-                "Our vision is to create a world in which love serves as the
-                universal remedy (unicare) for all ailments, nurturing
-                compassionate care grounded in empathy and understanding, under
-                the banner of UniCare. Our mission revolves around fostering
-                profound connections within diverse communities, advancing
-                comprehensive well-being encompassing physical, spiritual, and
-                mental dimensions. This mission is guided by the principles of
-                UniCare and the incorporation of evidence-based practices."
+                The vision of Uni-care psychiatry is centered in regions with
+                limited access to psychiatric care including addiction
+                treatment. Uni-care psychiatry extends its services to
+                Wisconsin, and soon to add New York, and Iowa through
+                telehealth, addressing the severe need for mental health
+                services in underserved populations with other mental health
+                clinicians who hold same vision.
               </p>
               <button
                 className="my-3 px-md-5 p-2 btn button-primary text-white"
@@ -26,9 +25,12 @@ export const OurVision = () => {
             </div>
           </div>
           <div className="section-header col-lg-6 col-md-6 col-12  d-flex align-items-center order-lg-2 order-md-2 order-1 justify-content-center">
-            <h2 className="div-heading text-white" data-aos="fade-down-right">
+            <p
+              className="div-heading text-white f-30-b"
+              data-aos="fade-down-right"
+            >
               Our Vision
-            </h2>
+            </p>
           </div>
         </div>
       </section>

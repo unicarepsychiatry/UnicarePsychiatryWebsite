@@ -21,6 +21,7 @@ import Depression from "./Pages/Depression";
 import Neurofeedbacktheraph from "./Pages/Neurofeedbacktheraph";
 import Hypnotherapy from "./Pages/Hypnotherapy";
 import GeriatricPopulation from "./Pages/geriatricPopulation";
+import OurTeamMembers from "./Pages/OurTeamMembers";
 
 function App() {
   return (
@@ -48,6 +49,11 @@ function App() {
           exact
           path="contact-us"
           element={<ContactUs />}
+        />
+        <Route
+          exact
+          path="/our-team"
+          element={<OurTeamMembers/>}
         />
         {/* <Route
           exact

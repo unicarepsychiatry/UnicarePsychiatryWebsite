@@ -54,7 +54,7 @@ const Hypnotherapy = () => {
             >
               <img
                 className="img-fluid shadow-plus-border"
-                src="Images/PTSD-1.jpg"
+                src="Images/26-Hypnotherapy-1200x834.jpg.webp"
                 alt="picture"
               />
             </div>
@@ -81,7 +81,7 @@ const Hypnotherapy = () => {
               >
                 <img
                   className="img-fluid shadow-plus-border"
-                  src="Images/PTSD-1.jpg"
+                  src="Images/Hypnotherapy2.JPG"
                   alt="picture"
                 />
               </div>
@@ -97,7 +97,7 @@ const Hypnotherapy = () => {
                 Common medical uses include:
               </p>
               <p className="f-18-n">
-                Insomnia. Asthma. Hot flashes during menopause, Gastrointestinal
+                Insomnia, Asthma, Hot flashes during menopause, Gastrointestinal
                 disorders, including irritable bowel syndrome (IBS), Pain
                 control, including after surgery, childbirth, cancer,
                 fibromyalgia, burns, headaches (migraine and tension.
@@ -109,7 +109,7 @@ const Hypnotherapy = () => {
             >
               <img
                 className="img-fluid shadow-plus-border"
-                src="Images/PTSD-1.jpg"
+                src="Images/physician_hypnotizes.jpg"
                 alt="picture"
               />
             </div>

@@ -23,7 +23,7 @@ const GeriatricPopulation = () => {
             Psychiatric services for geriatric Population
           </h3>
         </div>
-        <div className="p-0 m-0 g-0 Hypnotherapy-container-banner"></div>
+        <div className="p-0 m-0 g-0 geriatric-container-banner"></div>
         <div className="depression-container-header row p-0 m-0 g-0 f-18-n text-white bg-secondary text-center ">
           <p
             data-aos="fade-right"
@@ -59,7 +59,7 @@ const GeriatricPopulation = () => {
             >
               <img
                 className="img-fluid shadow-plus-border"
-                src="Images/PTSD-1.jpg"
+                src="Images/Geriatric2.jpg"
                 alt="picture"
               />
             </div>
@@ -123,7 +123,7 @@ const GeriatricPopulation = () => {
       <hr className="container line my-5" />
       <div className="p-0 m-0">
         <div className="d-flex">
-          <div className="Hypnotherapy-image-container h-100 w-100">
+          <div className="geriatric-image-container h-100 w-100">
             <div className="col-12 py-5">
               <h2 className="f-35-b text-white text-center">
                 Schedule An Appointment{" "}

@@ -9,6 +9,7 @@ import { ServingGlobal } from './ServingGlobal'
 import { Footer } from './Footer'
 import Insurance from './Insurance'
 import Payment from './Payment'
+import OurTeam from './OurTeam'
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
             <OurMission/>
             <OurVision/>
             <OurServices/> 
+            {/* <OurTeam/> */}
             <WhyChooseUs/>
             <ServingGlobal/>
             <Insurance/>
