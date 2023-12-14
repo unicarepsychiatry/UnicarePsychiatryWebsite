@@ -10,6 +10,7 @@ import { Footer } from './Footer'
 import Insurance from './Insurance'
 import Payment from './Payment'
 import OurTeam from './OurTeam'
+import WhyChoosingUs from './WhyChoosingUs'
 
 function Home() {
   return (
@@ -20,7 +21,8 @@ function Home() {
             <OurVision/>
             <OurServices/> 
             {/* <OurTeam/> */}
-            <WhyChooseUs/>
+            <WhyChoosingUs/>
+            {/* <WhyChooseUs/> */}
             <ServingGlobal/>
             <Insurance/>
             <Payment/>

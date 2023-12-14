@@ -4,6 +4,7 @@
   --secondary-color: #86c440;
   --hover-color: #ce478f;
 }
+
 html{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
 }
@@ -1130,19 +1131,50 @@ info_section .info_links .info_links_menu a:hover,
   justify-content: center;
   align-items: center;
 }
-.text-container{
-  width: 60%;
-}
-.img-container{
-  width: 40%;
+.why-choose-us-bg{
   background-image: url(../Images/whyChooseUs.jpg)!important;
-  background-attachment: fixed!important;
+  /* background-attachment: fixed!important; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
-  padding: 50px;
-  min-height: 477px;
+}
+
+.text-container{
+  background: #f9fafa;
+}
+.f-18-n .checked-span{
+  padding: 20px 20px;
+  margin-right: 12px;
+  width: 60px!important;
+  height: 60px!important;
+  border-radius: 100%;
+  color: var(--hover-color);
+  border: #c0bdbd 1px solid;
+}
+.bi-check{
+  font-size: 40px;
+}
+.f-18-n .chooseus{
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+.f-18-n .chooseus:hover{
+  color: var(--hover-color);
+}
+/* .teamsection .membercard:hover .member-img img{ */
+  .f-18-n .chooseus:hover .f-18-n .checked-span{
+  padding: 20px 20px;
+  margin-right: 12px;
+  width: 60px!important;
+  height: 60px!important;
+  border-radius: 100%;
+  color: var(--hover-color);
+  border: #c0bdbd 3px solid;
+}
+
+.img-container{
+  width: 40%;
+  height: 100%!important;
   display: flex;
   justify-content: center;
   align-items: center;

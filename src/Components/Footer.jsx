@@ -42,7 +42,7 @@ export const Footer = () => {
           </div>
         </section>
         <section className="">
-          <div className="container text-center text-md-start mt-5">
+          <div className="container-fluid text-center text-md-start mt-5">
             <div className="row mt-3">
               <div className="col-md-4  col-xl-3 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">
