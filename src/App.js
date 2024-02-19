@@ -1,4 +1,6 @@
 import React from "react";
+// import '../public/CustomCSS/style.css'
+import './App.css'
 import Home from "./Components/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Helmet } from "react-helmet";
