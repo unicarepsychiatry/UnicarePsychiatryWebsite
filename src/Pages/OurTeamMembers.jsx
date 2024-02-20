@@ -210,9 +210,12 @@ const OurTeamMembers = () => {
               alt="profile image"
             />
           </div>
+
           <div className="col-md-8 col-12" data-aos="fade-left">
             <h3 className="text-primary">Diana Spring</h3>
-            <p className="f-22-b text-secondary">APRN, FNP-C, Alcohol & Opioid Addiction</p>
+            <p className="f-22-b text-secondary">
+              APRN, FNP-C, Alcohol & Opioid Addiction
+            </p>
             <div className="f-18-n custom-text-alignment">
               <p>
                 I'm Dianna Spring, the owner of Healing Spring. I'm a nurse
@@ -241,8 +244,64 @@ const OurTeamMembers = () => {
             </div>
           </div>
         </div>
-        <hr className="container my-5 line" />
 
+        <hr className="container my-5 line" />
+        <div className="d-flex justify-content-center align-items-center">
+          <div className="col-md-4 d-lg-flex d-none" data-aos="fade-right">
+            <img
+              className="img-fluid about-us-team-img"
+              src="/Images/OlgaSkinner.png"
+              alt="profile image"
+            />
+          </div>
+          <div className="col-md-8 col-12" data-aos="fade-left">
+            <h3 className="text-primary">Olga Skinner</h3>
+            <p className="f-22-b text-secondary">APRN</p>
+            <p>
+              Olga Skinner, APRN, is a distinguished Family Nurse Practitioner
+              deeply committed to healthcare excellence, with an extensive
+              background in medical provision and aesthetic medicine marked by
+              unwavering dedication.
+            </p>
+            <div className="f-18-n custom-text-alignment">
+              <p>
+                Patients benefit from her integrated healthcare approach,
+                blending medical expertise with compassion and multicultural
+                sensitivity. Fluent in both English and Spanish, Olga has served
+                diverse populations, including families, veterans, geriatric
+                individuals, and underserved communities. She provides a range
+                of services, including Family Primary Care, Acute and Post-Acute
+                care, Palliative, and Hospice Services.
+              </p>
+              <p>
+                Passionate about preventive care and overall wellness, Olga
+                currently serves in Mount Sterling, delivering medical services
+                to an underserved multicultural population. Beyond her medical
+                practice, she enjoys aesthetic medicine and is the founder of OS
+                Clinic Aesthetics, certified by the esteemed American Academy of
+                Facial Esthetics (AAFE).
+              </p>
+              <p>
+                Collaborating with Uni-care, Olga's values align with the
+                organization's emphasis on empowering new nurse practitioners
+                and working collaboratively to address the medical, mental
+                health, and addiction issues of underserved populations. This
+                collaboration prioritizes the application of scientific
+                evidence-based practices to ensure more effective outcomes.
+              </p>
+              <p>
+                Olga's educational background includes a Bachelor of Science in
+                Nursing from the University of Louisville and a Master of
+                Science in Nursing with a specialization in Family Nurse
+                Practice (FNP) from Spalding University in Louisville, Kentucky.
+                Prior to nursing, she served in the USA Army and earned a BA in
+                Business Administration from the Interamerican University of PR.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr className="container my-5 line" />
         <div className="d-flex justify-content-center align-items-center">
           <div className="col-md-4 d-lg-flex d-none" data-aos="fade-right">
             <img
@@ -275,6 +334,7 @@ const OurTeamMembers = () => {
             </div>
           </div>
         </div>
+
         <hr className="container my-5 line" />
 
         <div className="d-flex justify-content-center align-items-center">
@@ -314,36 +374,6 @@ const OurTeamMembers = () => {
                 where I will support you. Through secure video, I can treat
                 anyone located in Wisconsin and in IOWA. New patients are
                 welcome to self-schedule their first appointment.
-              </p>
-            </div>
-          </div>
-        </div>
-        <hr className="container my-5 line" />
-
-        <div className="d-flex justify-content-center align-items-center">
-          <div className="col-md-4 d-lg-flex d-none" data-aos="fade-right">
-            <img
-              className="img-fluid about-us-team-img"
-              src="/Images/LindaThomas.PNG"
-              alt="profile image"
-            />
-          </div>
-          <div className="col-md-8 col-12" data-aos="fade-left">
-            <h3 className="text-primary">Linda Thomas</h3>
-            <p className="f-22-b text-secondary">MSN, PMHNP</p>
-            {/* <p className="f-18-b">
-              Psychiatric-Mental Health Nurse Practitioner
-            </p> */}
-            <div className="f-18-n custom-text-alignment">
-              <p>
-                Linda Thomas is a Psychiatric-Mental Health Nurse Practitioner with extensive experience in mental health for the geriatric
-                population and for end-of-life care.
-              </p>
-              <p>
-                She focuses on the prevention, evaluation, diagnosis and
-                treatment of mental and emotional disorders in the elderly and
-                the improvement of psychiatric care for healthy and ill elderly
-                patients.
               </p>
             </div>
           </div>
