@@ -200,50 +200,6 @@ const OurTeamMembers = () => {
             />
           </div>
         </div>
-        <hr className="container my-5 line" />
-
-        <div className="d-flex justify-content-center align-items-center">
-          <div className="col-md-4 d-lg-flex d-none" data-aos="fade-right">
-            <img
-              className="img-fluid about-us-team-img"
-              src="/Images/Diana.jpeg"
-              alt="profile image"
-            />
-          </div>
-
-          <div className="col-md-8 col-12" data-aos="fade-left">
-            <h3 className="text-primary">Diana Spring</h3>
-            <p className="f-22-b text-secondary">
-              APRN, FNP-C, Alcohol & Opioid Addiction
-            </p>
-            <div className="f-18-n custom-text-alignment">
-              <p>
-                I'm Dianna Spring, the owner of Healing Spring. I'm a nurse
-                practitioner specializing in family medicine, psychiatry, opioid
-                addiction, and hypnotherapy. I provide both in-person and
-                telehealth consultations and am currently accepting new patients
-                in Kentucky.
-              </p>
-              <p>
-                My services include thorough psychiatric assessments, medication
-                management, and supportive therapy for individuals dealing with
-                conditions such as depression, anxiety, ADHD, bipolar disorder,
-                personality disorders, stress intolerance, and addiction
-                recovery. I approach treatment holistically, utilizing
-                medication when necessary but primarily focusing on
-                hypnotherapy.
-              </p>
-              <p>
-                My aim is to help my patients heal, enhance their quality of
-                life, and strengthen their relationships. I invite you to embark
-                on a healing journey where I'll offer my unwavering support.
-                Through secure video sessions, I can assist anyone located in
-                Kentucky. New patients are encouraged to schedule their initial
-                appointment at their convenience via Uni-care psychiatry.
-              </p>
-            </div>
-          </div>
-        </div>
 
         <hr className="container my-5 line" />
         <div className="d-flex justify-content-center align-items-center">
@@ -296,6 +252,51 @@ const OurTeamMembers = () => {
                 Practice (FNP) from Spalding University in Louisville, Kentucky.
                 Prior to nursing, she served in the USA Army and earned a BA in
                 Business Administration from the Interamerican University of PR.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr className="container my-5 line" />
+
+        <div className="d-flex justify-content-center align-items-center">
+          <div className="col-md-4 d-lg-flex d-none" data-aos="fade-right">
+            <img
+              className="img-fluid about-us-team-img"
+              src="/Images/Diana.jpeg"
+              alt="profile image"
+            />
+          </div>
+
+          <div className="col-md-8 col-12" data-aos="fade-left">
+            <h3 className="text-primary">Diana Spring</h3>
+            <p className="f-22-b text-secondary">
+              APRN, FNP-C, Alcohol & Opioid Addiction
+            </p>
+            <div className="f-18-n custom-text-alignment">
+              <p>
+                I'm Dianna Spring, the owner of Healing Spring. I'm a nurse
+                practitioner specializing in family medicine, psychiatry, opioid
+                addiction, and hypnotherapy. I provide both in-person and
+                telehealth consultations and am currently accepting new patients
+                in Kentucky.
+              </p>
+              <p>
+                My services include thorough psychiatric assessments, medication
+                management, and supportive therapy for individuals dealing with
+                conditions such as depression, anxiety, ADHD, bipolar disorder,
+                personality disorders, stress intolerance, and addiction
+                recovery. I approach treatment holistically, utilizing
+                medication when necessary but primarily focusing on
+                hypnotherapy.
+              </p>
+              <p>
+                My aim is to help my patients heal, enhance their quality of
+                life, and strengthen their relationships. I invite you to embark
+                on a healing journey where I'll offer my unwavering support.
+                Through secure video sessions, I can assist anyone located in
+                Kentucky. New patients are encouraged to schedule their initial
+                appointment at their convenience via Uni-care psychiatry.
               </p>
             </div>
           </div>
