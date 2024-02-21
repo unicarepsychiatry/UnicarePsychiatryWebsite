@@ -25,13 +25,13 @@ const AnxietyService = () => {
 
   return (
     <>
-    <Helmet>
+      <Helmet>
         <title>Anxiety Disorder - Unicare Psychiatry</title>
+        <meta name="description" content="Unicare, Unicare Psychiatry" />
         <meta
-          name="description"
-          content="Unicare, Unicare Psychiatry"
+          name="keywords"
+          content="What is Anxiety Disorder?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
         />
-        <meta name="keywords" content="What is Anxiety Disorder?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"/>
       </Helmet>
       <div>
         <div className="anxiety-container">
@@ -50,13 +50,14 @@ const AnxietyService = () => {
               data-aos-duration="3000"
               className="p-3 custom-padding custom-text-alignment"
             >
-              Everyone experiences temporary anxiety sometimes, but intense and
-              persistent worry and fear about everyday situations may be a sign
-              of a clinical anxiety disorder. The providers at Unicare
-              Psychiatry have extensive experience of treating anxiety disorders
-              and obsessive-compulsive disorder (OCD). Call the office or
-              request an appointment online today for personalized,
-              compassionate anxiety treatment. Telehealth is also available.
+              Everyone experiences temporary anxiety from time to time, but
+              persistent and overwhelming worry and fear about everyday
+              situations may indicate a clinical anxiety disorder. At UniCare
+              Psychiatry, our providers possess extensive experience in treating
+              anxiety disorders and obsessive-compulsive disorder (OCD). Whether
+              you call our office or request an appointment online, you can
+              expect personalized and compassionate anxiety treatment.
+              Additionally, we offer telehealth services for your convenience.
             </p>
           </div>
 
@@ -67,19 +68,19 @@ const AnxietyService = () => {
           >
             <p className="div-heading">About Anxiety </p>
             <p className="f-18-n">
-              Anxiety is an emotion characterized by feelings of tension,
-              worried thoughts, and physical changes like increased blood
-              pressure. People with anxiety disorders usually have recurring
-              intrusive thoughts or concerns. They may avoid certain situations
-              out of worry. They may also have physical symptoms such as
-              sweating, trembling, dizziness, or a rapid heartbeat.
+              Anxiety encompasses feelings of tension, worried thoughts, and
+              physical changes such as increased blood pressure. Individuals
+              with anxiety disorders often experience recurring intrusive
+              thoughts or concerns, leading them to avoid certain situations due
+              to apprehension. Physical symptoms may include sweating,
+              trembling, dizziness, or a rapid heartbeat.
             </p>
             <p className="f-18-n">
-              Anxiety is not the same as fear, but they are often used
-              interchangeably. Anxiety is considered a future-oriented,
-              long-acting response broadly focused on a diffuse threat, whereas
-              fear is an appropriate, present-oriented, and short-lived response
-              to a clearly identifiable and specific threat.
+              While anxiety and fear are often used interchangeably, they are
+              distinct emotions. Anxiety is a future-oriented, persistent
+              response that broadly focuses on a diffuse threat, whereas fear is
+              a present-oriented, short-lived response to a specific and
+              identifiable threat.
             </p>
           </div>
           <hr className="container line" />
@@ -94,13 +95,12 @@ const AnxietyService = () => {
                   Types Of Anxiety Disorders
                 </p>
                 <p className="f-18-n">
-                  There are many types of anxiety disorders. A few of the most
-                  common anxiety disorders include generalized anxiety disorder,
-                  panic disorder, and specific phobias. Social anxiety is a
-                  phobia involving fear and avoidance of socializing with
-                  others. Other conditions that causes anxiety include
-                  obsessive-compulsive disorder (OCD) and post-traumatic stress
-                  disorder (PTSD).
+                  There are numerous types of anxiety disorders, including
+                  generalized anxiety disorder, panic disorder, and specific
+                  phobias. Social anxiety, for instance, involves fear and
+                  avoidance of social interactions. Other conditions that can
+                  cause anxiety include obsessive-compulsive disorder (OCD) and
+                  post-traumatic stress disorder (PTSD).
                 </p>
               </div>
               <div
@@ -120,34 +120,35 @@ const AnxietyService = () => {
                 >
                   <p className="f-22-b text-primary">Symptoms of Anxiety</p>
                   <p className="f-18-n">
-                    People with anxiety disorders can experience a wide range of
-                    signs and symptoms, such as:
+                    Individuals with anxiety disorders may experience a broad
+                    range of signs and symptoms, such as:
                   </p>
                   <ul>
                     <li className="f-18-n">
                       Feeling nervous, restless, or tense
                     </li>
-                    <li className="f-18-n">Feeling tired</li>
-                    <li className="f-18-n">Trouble sleeping</li>
-                    <li className="f-18-n">Unexplained chest pain</li>
-                    <li className="f-18-n">Rapid breathing</li>
-                    <li className="f-18-n">Sweating</li>
-                    <li className="f-18-n">Trembling</li>
-                    <li className="f-18-n">Increased heart rate</li>
+                    <li className="f-18-n">Experiencing fatigue</li>
+                    <li className="f-18-n">Having trouble sleeping</li>
                     <li className="f-18-n">
-                      Difficulty thinking about anything other than the current
-                      worry
+                      Experiencing unexplained chest pain
+                    </li>
+                    <li className="f-18-n">Breathing rapidly</li>
+                    <li className="f-18-n">Sweating excessively</li>
+                    <li className="f-18-n">Experiencing trembling</li>
+                    <li className="f-18-n">Having an increased heart rate</li>
+                    <li className="f-18-n">
+                      Struggling to focus on anything other than current worries
                     </li>
                     <li className="f-18-n">
-                      Having the urge to avoid things that trigger anxiety
+                      Feeling the urge to avoid situations that trigger anxiety
                     </li>
                     <li className="f-18-n">
-                      Gastrointestinal problems such as nausea, diarrhea, or
-                      constipation
+                      Experiencing gastrointestinal problems such as nausea,
+                      diarrhea, or constipation
                     </li>
                     <li className="f-18-n">
-                      Anxiety can leave you feeling physically and emotionally
-                      exhausted, which can lead to bouts of depression
+                      Anxiety can lead to physical and emotional exhaustion,
+                      potentially resulting in periods of depression
                     </li>
                   </ul>
                 </div>
@@ -176,22 +177,24 @@ const AnxietyService = () => {
                   className="col-md-6 col-12 f-18-n order-2 order-md-1 my-3 custom-text-alignment p-md-5 p-3"
                 >
                   <p className="f-22-b text-primary">
-                    Treatment Of Anxiety Disorder
+                    Treatment of Anxiety Disorders
                   </p>
-                  At Unicare Psychiatry, we specialize in evaluating and
-                  managing symptoms of anxiety. Your first visit involves a
-                  thorough psychiatric evaluation with multiple tools and
-                  technologies that allow to understand your specific needs,
-                  such as cognitive testing. Our providers take time to get to
-                  know you and make you a partner in your anxiety treatment
-                  plan. The goal of treatment is to provide both education and
-                  relief. We can introduce you to resources that help you learn
-                  about your particular diagnosis, treatment options, and
-                  targeted interventions you can do on your own. Anxiety
-                  treatment often includes medication management combined with
-                  psychotherapy and lifestyle. To learn how you can manage
-                  anxiety and improve your life, contact Unicare Psychiatry
-                  today or request an appointment online.
+                  At UniCare Psychiatry, we specialize in evaluating and
+                  managing symptoms of anxiety. During your initial visit, we
+                  conduct a comprehensive psychiatric evaluation using various
+                  tools and technologies, including cognitive testing, to gain
+                  insight into your specific needs. Our providers prioritize
+                  building a strong rapport with you, ensuring that you are
+                  actively involved in crafting your anxiety treatment plan. Our
+                  aim is to offer both education and relief as part of your
+                  treatment journey. We provide access to resources that help
+                  you understand your diagnosis, explore treatment options, and
+                  learn targeted interventions you can apply independently.
+                  Treatment for anxiety often involves a combination of
+                  medication management, psychotherapy, and lifestyle
+                  adjustments. If you're seeking ways to effectively manage
+                  anxiety and enhance your well-being, reach out to UniCare
+                  Psychiatry today or schedule an appointment online.
                 </div>
                 <div
                   data-aos="fade-left"
