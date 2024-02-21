@@ -27,10 +27,10 @@ const BipolarDisorderService = () => {
             data-aos-duration="3000"
             className="p-3 custom-padding custom-text-alignment"
           >
-            Bipolar disorder (formerly called manic-depressive illness or manic
-            depression) is a mental illness that causes unusual shifts in a
-            person’s mood, energy, activity levels, and concentration. These
-            shifts can make it difficult to carry out day-to-day tasks.
+            Bipolar disorder, formerly known as manic-depressive illness or
+            manic depression, is a mental illness characterized by unusual
+            shifts in mood, energy levels, activity, and concentration, making
+            it challenging to carry out daily tasks.
           </p>
         </div>
 
@@ -41,16 +41,18 @@ const BipolarDisorderService = () => {
               className="col-md-6 col-12 f-18-n order-2 order-md-1 my-3 custom-text-alignment p-md-5 p-3"
             >
               <p className="f-22-b text-primary">
-              Bipolar Disorder Diagnoses And Treatment at Unicare Psychiatry?
+                Diagnosis and Treatment of Bipolar Disorder at UniCare
+                Psychiatry
               </p>
               <p className="f-18-n">
-              At Unicare psychiatry, we spend time discussing your symptoms,
-            concerns, and medical history to pinpoint the specific type of
-            bipolar disorder you have. Our providers may also recommend
-            cognitive testing to assess your mental functioning. We work with
-            you as a partner to create a personalized treatment plan based on
-            your needs, focusing your mental, physical and spiritual needs. For
-            details schedule an appointment online today.
+                At UniCare Psychiatry, we take the time to explore your
+                symptoms, concerns, and medical history to accurately diagnose
+                the specific type of bipolar disorder you may be facing. Our
+                providers may also suggest cognitive testing to assess your
+                mental functioning. Collaborating with you as a partner, we
+                develop a personalized treatment plan designed to meet your
+                unique needs, encompassing your mental, physical, and spiritual
+                health. To learn more, schedule an appointment online today.
               </p>
             </div>
             <div
