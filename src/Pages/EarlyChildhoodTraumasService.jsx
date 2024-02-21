@@ -25,11 +25,11 @@ const EarlyChildhoodTraumasService = () => {
             data-aos="fade-right"
             className="p-3 custom-padding custom-text-alignment"
           >
-            These traumas can be the result of intentional violence—such as
-            child physical or sexual abuse, or domestic violence—or the result
-            of natural disaster, accidents, or war. Young children also may
-            experience traumatic stress in response to painful medical
-            procedures or the sudden loss of a parent/caregiver.
+            These traumas can stem from deliberate acts of violence, such as
+            child physical or sexual abuse, domestic violence, or events like
+            natural disasters, accidents, or war. Additionally, young children
+            may undergo traumatic stress as a result of painful medical
+            procedures or the unexpected loss of a parent or caregiver.
           </p>
         </div>
 
@@ -40,17 +40,18 @@ const EarlyChildhoodTraumasService = () => {
               className="col-md-6 col-12 f-18-n order-2 order-md-1 my-3 custom-text-alignment p-md-5 p-3"
             >
               <p className="f-22-b text-primary">
-                About Early childhood trauma
+                About Early Childhood Trauma
               </p>
               <p className="f-18-n">
                 {" "}
-                About Early childhood trauma These traumas can be the result of
-                intentional violence such as child physical or sexual abuse, or
-                domestic violence or the result of natural disaster, accidents,
-                or war. many people assume that young age protects children from
-                the impact of traumatic experiences. Young children also may
-                experience traumatic stress in response to painful medical
-                procedures or the sudden loss of a parent/caregiver.
+                Traumas in early childhood may stem from deliberate acts of
+                violence like physical or sexual abuse, domestic violence,
+                or from occurrences such as natural disasters, accidents, or
+                war. There's a common assumption that young age shields children
+                from the effects of traumatic events. However, it's crucial to
+                recognize that young children are also susceptible to traumatic
+                stress triggered by painful medical procedures or the abrupt
+                loss of a parent or caregiver.
               </p>
             </div>
             <div
@@ -73,14 +74,16 @@ const EarlyChildhoodTraumasService = () => {
             className="col-md-6  p-3 my-5 col-12  order-2 order-md-2"
           >
             <p className="f-22-b text-primary">
-              Treatment of Early childhood trauma
+              Treatment of Early Childhood Trauma
             </p>
             <p className="f-18-n">
-              Contact unicare psychiatry for Early childhood trauma. The expert
-              providers will provide you the best treatment. We create a best
-              treatment plan for Early childhood trauma patients. Don’t hesitate
-              to seek help for Early childhood trauma. Contact Unicare
-              Psychiatry today for appointment.
+              For the treatment of early childhood trauma, reach out to UniCare
+              Psychiatry. Our expert providers offer top-notch care tailored
+              specifically to address early childhood trauma. We specialize in
+              creating personalized treatment plans that cater to the unique
+              needs of each patient. If you or someone you know is experiencing
+              early childhood trauma, don't hesitate to seek help. Schedule an
+              appointment with UniCare Psychiatry today.
             </p>
           </div>
           <div
