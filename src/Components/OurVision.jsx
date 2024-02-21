@@ -8,20 +8,21 @@ export const OurVision = () => {
           <div className="order-lg-1 order-2 col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-center text-center">
             <div className="" data-aos="fade-down-left">
               <p className="f-18-b text-white">
-                The vision of Uni-care psychiatry is centered in regions with
-                limited access to psychiatric care including addiction
-                treatment. Uni-care psychiatry extends its services to
-                Wisconsin, and soon to add New York, and Iowa through
-                telehealth, addressing the severe need for mental health
-                services in underserved populations with other mental health
-                clinicians who hold same vision.
+                The vision of Uni-care Psychiatry is rooted in addressing the
+                scarcity of psychiatric care, particularly in regions with
+                limited access, including addiction treatment. Uni-care
+                Psychiatry expands its services to Wisconsin and will soon
+                extend to New York and Iowa through telehealth, tackling the
+                urgent need for mental health services in underserved
+                populations. We collaborate with mental health clinicians who
+                share our vision, amplifying our impact and reach.
               </p>
-              <button
+              {/* <button
                 className="my-3 px-md-5 p-2 btn button-primary text-white"
                 type="submit"
               >
                 Explore more
-              </button>
+              </button> */}
             </div>
           </div>
           <div className="section-header col-lg-6 col-md-6 col-12  d-flex align-items-center order-lg-2 order-md-2 order-1 justify-content-center">

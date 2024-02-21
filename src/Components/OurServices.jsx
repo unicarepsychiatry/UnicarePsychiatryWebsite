@@ -13,7 +13,7 @@ export const OurServices = () => {
         <div className="container">
           <div className=" row my-md-5 my-2" data-aos="flip-left">
             <h3 className="d-flex justify-content-center div-heading text-text-uppercase px-2 overflow-hidden">
-            Take a look on our services
+            Explore Our Range of Services
             </h3>
           </div>
           <div className="container">

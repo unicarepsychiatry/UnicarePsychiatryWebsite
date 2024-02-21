@@ -15,19 +15,20 @@ export const OurMission = () => {
           <div className="p-lg-3" data-aos="fade-down-left">
             <h2 className="div-heading">Our Mission</h2>
             <p className="f-18-b mx-md-2">
-              The mission of Uni-care Psychiatry is to empower recently
-              graduated nurses, specifically focusing on recruiting new PMHNP
-              graduates. The aim is to guide and support them through mentoring,
-              enabling them to excel in providing holistic care that combines
-              faith-based approaches utilizing evidence-based therapies and
-              medication management.
+              Uni-care Psychiatry is dedicated to empowering newly graduated
+              nurses, with a particular emphasis on attracting fresh PMHNP
+              graduates. Our mission is to guide and support them through
+              mentorship, fostering their ability to provide exceptional
+              holistic care. We achieve this by integrating faith-based
+              principles with evidence-based therapies and medication
+              management, ensuring excellence in patient care.
             </p>
-            <button
+            {/* <button
               className="my-3 px-md-5 p-2 btn button-primary text-white"
               type="submit"
             >
               Explore more
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

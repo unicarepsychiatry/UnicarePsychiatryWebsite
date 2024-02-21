@@ -8,7 +8,7 @@ export const Footer = () => {
       <footer className="text-center text-lg-start bg-light text-muted">
         <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
           <div className="me-5 d-none d-lg-block">
-            <span className="f-18-n primary-color">Get Connected us on</span>
+            <span className="f-18-n primary-color">Connect with Us on</span>
           </div>
           <div className="social-icons">
             <a
@@ -50,9 +50,13 @@ export const Footer = () => {
                     <img className="img-fluid logo" src="../Images/logo1.png" />
                   </NavLink>
                 </h6>
-                <p data-aos="fade-down" className="custom-text-alignment f-18-n">
-                  Our mission is to provide patient care and empower newly graduated nurse practitioners,
-                  arming them with the tools to utilize UniCare, where love is
+                <p
+                  data-aos="fade-down"
+                  className="custom-text-alignment f-18-n"
+                >
+                  Our mission is to deliver exceptional patient care while
+                  empowering newly graduated nurse practitioners, equipping them
+                  with the resources to harness UniCare, where love serves as
                   the universal remedy.
                 </p>
               </div>
@@ -90,7 +94,6 @@ export const Footer = () => {
                   alt=""
                 />
               </div>
-             
             </div>
           </div>
         </section>
