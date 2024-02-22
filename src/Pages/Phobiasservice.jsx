@@ -17,7 +17,7 @@ const Phobiasservice = () => {
       <div className="biopolar-container">
         <div className="biopolar-container-header row p-0 m-0 ">
           <h3 className="col text-center p-3 p-0 m-0 g-0 text-white bg-primary">
-            PHOBIAS
+            Phobias
           </h3>
         </div>
         <div className="p-0 m-0 g-0 PHOBIAS-container-banner"></div>
@@ -26,9 +26,9 @@ const Phobiasservice = () => {
             data-aos="fade-right"
             className="p-3 custom-padding custom-text-alignment"
           >
-            A phobia is a persistent, excessive, unrealistic fear of an object,
-            person, animal, activity or situation. It is a type of anxiety
-            disorder.
+            Defined as persistent, excessive, and irrational fears of specific
+            objects, people, animals, activities, or situations, phobias
+            represent a type of anxiety disorder.
           </p>
         </div>
 
@@ -38,13 +38,12 @@ const Phobiasservice = () => {
               data-aos="fade-left"
               className="col-md-6 col-12 f-18-n order-2 order-md-1 my-3 custom-text-alignment p-md-5 p-3"
             >
-              <p className="f-22-b text-primary">What is Phobia</p>A phobia is a
-              type of anxiety disorder that causes an individual to experience
-              extreme, irrational fear about a situation, living creature,
-              place, or object. When a person has a phobia, they will often
-              shape their lives to avoid what they consider to be dangerous. The
-              imagined threat is greater than any actual threat posed by the
-              cause of terror.
+              <p className="f-22-b text-primary">What is Phobia</p>Phobia,
+              categorized as an anxiety disorder, induces intense and irrational
+              fear in individuals towards specific situations, living beings,
+              places, or objects. Those afflicted often alter their lifestyles
+              to evade perceived dangers, despite the actual threat being
+              minimal compared to their perceived fear.
             </div>
             <div
               data-aos="fade-right"
@@ -65,32 +64,26 @@ const Phobiasservice = () => {
             data-aos="fade-left"
             className="col-md-6  my-5 col-12  order-2 order-md-2"
           >
-            <p className="f-22-b text-primary">Symptoms of Phobias</p>
-
+            <p className="f-22-b text-primary">Common Symptoms of Phobias</p>
             <ul>
-              <p className="f-18-b">
-                A person with a phobia will experience the following symptoms.
-                They are common across the majority of phobias:
-              </p>
               <li className="f-18-n">
-                Sensation of uncontrollable anxiety when exposed to the source
-                of fear.
+                Experience of intense anxiety when confronted with the source of
+                fear.
               </li>
               <li className="f-18-n">Nightmares</li>
               <li className="f-18-n">
-                Feeling that the source of that fear must be avoided at all
-                costs.
+                Persistent avoidance of the feared object or situation.
               </li>
               <li className="f-18-n">
-                Not being able to function properly when exposed to the trigger.
+                Impaired ability to function normally when faced with the
+                trigger.
               </li>
               <li className="f-18-n">
-                Sensation of uncontrollable anxiety when exposed to the source
-                of fear.
+                Uncontrollable anxiety upon exposure to the source of fear.
               </li>
               <li className="f-18-n">
-                Acknowledgment that the fear is irrational, unreasonable, and
-                exaggerated, combined with an inability to control the feelings.
+                Recognition that the fear is irrational, yet an inability to
+                manage the feelings effectively.
               </li>
             </ul>
           </div>
@@ -113,10 +106,11 @@ const Phobiasservice = () => {
               data-aos="fade-left"
               className="col-md-6 col-12 f-18-n order-2 order-md-1 my-3 custom-text-alignment p-md-5 p-3"
             >
-              <p className="f-22-b text-primary">Treatment of Phobias</p>
-              Phobias are highly treatable, Unicare Psychiatry providers are
-              experts to deal with phobias, Don’t hesitate to seek help for
-              Phobias. Contact Unicare Psychiatry today for appointment.
+              <p className="f-22-b text-primary">Treating Phobias</p>
+              Phobias are highly treatable conditions, and the providers at
+              UniCare Psychiatry are experts in addressing them. Don't hesitate
+              to seek help for your phobia. Contact UniCare Psychiatry today to
+              schedule an appointment.
             </div>
             <div
               data-aos="fade-right"
