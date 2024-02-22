@@ -39,16 +39,15 @@ const PTSDService = () => {
               className="col-md-6 col-12 f-18-n order-2 order-md-1 my-3 custom-text-alignment p-md-5 p-3"
             >
               <p className="f-22-b text-primary">
-                About Post Traumatic Stress Disorder
+                What is Post Traumatic Stress Disorder
               </p>
-              Post-traumatic stress disorder (PTSD) is a mental health disorder
-              that some people develop night mares, insomnia, anxiety,
-              depression, panic attacks, paranoia and other psychosis after they
-              experience different types of traumatic event such as domestic
-              violence, like combat, a natural disaster, a car accident, or
-              sexual assault. But sometimes the event is not necessarily a
-              dangerous one. For example, the sudden, unexpected death of a
-              loved one can also cause PTSD
+              Post-traumatic stress disorder (PTSD) is a mental health issue
+              that may arise following exposure to traumatic events. These
+              experiences can vary widely, from domestic violence to combat,
+              natural disasters, car accidents, or sexual assault. It's
+              important to note that PTSD can also stem from seemingly
+              non-dangerous events, such as the sudden and unexpected death of a
+              loved one.
             </div>
             <div
               data-aos="fade-right"
@@ -69,31 +68,28 @@ const PTSDService = () => {
             data-aos="fade-left"
             className="col-md-6  my-5 col-12  order-2 order-md-2"
           >
-            <p className="f-22-b text-primary">
-              What are the symptoms of post-traumatic stress disorder (PTSD)?
-            </p>
+            <p className="f-22-b text-primary">Symptoms of PTSD include:</p>
 
             <ul>
               <li className="f-18-n">
-                Flashbacks, which cause you to feel like you are going through
-                the event again
+                Flashbacks, where individuals feel as though they are reliving
+                the traumatic event.
               </li>
               <li className="f-18-n">Nightmares</li>
               <li className="f-18-n">Frightening thoughts </li>
-              <li className="f-18-n">Feeling tense or "on edge".</li>
-              <li className="f-18-n">Having difficulty sleeping</li>
-              <li className="f-18-n">Having angry outbursts</li>
+              <li className="f-18-n">Feeling constantly tense or "on edge"</li>
+              <li className="f-18-n">Difficulty sleeping</li>
+              <li className="f-18-n">Angry outbursts</li>
               <li className="f-18-n">
-                Trouble remembering important things about the traumatic event
+                Trouble remembering key aspects of the traumatic event
               </li>
               <li className="f-18-n">
-                Negative thoughts about yourself or the world
+                Negative thoughts about oneself or the world
               </li>
-              <li className="f-18-n">Feeling blame and guilt</li>
+              <li className="f-18-n">Feelings of blame and guilt</li>
               <li className="f-18-n">
-                No longer being interested in things you enjoyed
+                Loss of interest in previously enjoyed activities
               </li>
-              <li className="f-18-n">Having angry outbursts</li>
             </ul>
           </div>
           <div
@@ -116,12 +112,13 @@ const PTSDService = () => {
               className="col-md-6 col-12 f-18-n order-2 order-md-1 my-3 custom-text-alignment p-md-5 p-3"
             >
               <p className="f-22-b text-primary">
-                Treatment of Post Traumatic Stress Disorder
+                Treatment for Post-Traumatic Stress Disorder
               </p>
-              Unicare Psychiatry providers will do your mental health screening.
-              We perform a complete psychiatric evaluation. Then, we create a
-              treatment plan. Don’t hesitate to seek help for Post-Traumatic
-              Stress Disorder. Contact Unicare Psychiatry today for appointment.
+              At Unicare Psychiatry, our providers conduct thorough mental
+              health screenings and perform comprehensive psychiatric
+              evaluations to tailor a personalized treatment plan for you. If
+              you're struggling with PTSD, don't hesitate to seek help. Contact
+              Unicare Psychiatry today to schedule an appointment.
             </div>
             <div
               data-aos="fade-right"
