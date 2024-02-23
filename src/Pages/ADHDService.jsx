@@ -5,17 +5,16 @@ import { Helmet } from "react-helmet";
 
 const ADHDService = () => {
   return (
-    
     <div>
       <Helmet>
         <title>ADHD - Unicare Psychiatry</title>
+        <meta name="description" content="Unicare, Unicare Psychiatry" />
         <meta
-          name="description"
-          content="Unicare, Unicare Psychiatry"
+          name="keywords"
+          content="ADHD, What is ADHD?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
         />
-        <meta name="keywords" content="ADHD, What is ADHD?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"/>
       </Helmet>
-      
+
       <div className="adhd-container">
         <div className="adhd-container-header row p-0 m-0 ">
           <h3 className="col text-center p-3 p-0 m-0 g-0 text-white bg-primary">
@@ -29,23 +28,17 @@ const ADHDService = () => {
             data-aos-duration="3000"
             className="p-3 custom-padding m-auto"
           >
-            ADHD (Attention deficit hyperactivity disorder )
+            ADHD (Attention Deficit Hyperactivity Disorder)
           </p>
         </div>
 
         <div data-aos="fade-left" className="container my-lg-5 my-3">
           <p className="div-heading">What is ADHD?</p>
           <p className="f-18-n">
-            Attention-deficit hyperactivity disorder (ADHD) is a common mental
-            health condition that affects an estimated 8.4% of children and 2.5%
-            of adults. The team at Unicare psychiatry specializes in diagnosing
-            and treating ADHD in children, adolescents, and adults. We also
-            treat behavioral disorders like oppositional defiant disorder (ODD),
-            which is commonly comorbid with ADHD. If you think you or your child
-            may have ADHD, you don’t have to continue struggling to get through
-            daily responsibilities alone. Call the Unicare psychiatry office
-            today or request an appointment online. Telehealth visits are
-            available.
+            ADHD, or Attention-Deficit Hyperactivity Disorder, is a prevalent
+            mental health condition affecting approximately 8.4% of children and
+            2.5% of adults. It involves symptoms of inattention, hyperactivity,
+            and impulsivity.
           </p>
         </div>
         <hr className="container line my-5" />
@@ -56,12 +49,18 @@ const ADHDService = () => {
               className="col-md-6 col-12 f-18-n order-2 order-md-1 my-3 custom-text-alignment p-md-5 p-3"
             >
               <p className="f-22-b text-primary">
-                How Is ADHD diagnosed And Treated?
+                How is ADHD Diagnosed and Treated?
               </p>
-              If you think you or your child may have ADHD, you don’t have to
-              continue struggling to get through daily responsibilities alone.
-              Call the Unicare psychiatry office today or request an appointment
-              online. Telehealth visits are available.
+              The Unicare Psychiatry team specializes in diagnosing and treating
+              ADHD across various age groups, including children, adolescents,
+              and adults. We understand the complexities of ADHD and its impact
+              on daily functioning. Our comprehensive approach also addresses
+              related behavioral disorders such as Oppositional Defiant Disorder
+              (ODD), which often co-occurs with ADHD. If you suspect that you or
+              your child may be struggling with ADHD, don't hesitate to reach
+              out for support. Contact us today to schedule an appointment, and
+              remember that telehealth visits are available for your
+              convenience.
             </div>
             <div
               data-aos="fade-right"
