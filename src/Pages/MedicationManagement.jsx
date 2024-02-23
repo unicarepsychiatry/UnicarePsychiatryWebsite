@@ -27,13 +27,13 @@ const MedicationManagement = () => {
             data-aos-duration="3000"
             className="p-3 custom-padding custom-text-alignment"
           >
-            Medication management involves a diagnostic evaluation followed by
-            the provider selecting an appropriate medication to target and treat
-            the patient's individual symptoms. At Unicare psychiatry, our
-            philosophy is to treat the patient as a whole medically and
-            therapeutically. We work with our patients as partners to set
-            realistic goals and find the most appropriate evidence based options
-            for medication treatments.
+            Medication management encompasses a diagnostic evaluation, followed
+            by the selection of an appropriate medication by the provider to
+            target and treat the patient's individual symptoms. At Unicare
+            Psychiatry, our philosophy is to approach patient care holistically,
+            addressing both medical and therapeutic needs. We collaborate with
+            our patients as partners to establish realistic goals and identify
+            the most suitable evidence-based medication treatment options.
           </p>
         </div>
 
@@ -44,10 +44,10 @@ const MedicationManagement = () => {
               className="col-md-6 col-12 f-18-n order-2 order-md-1 my-3 custom-text-alignment p-md-5 p-3"
             >
               <p className="f-22-b text-primary">Medication Management</p>
-              If you think you or your child may need medication management, you
-              don’t have to continue struggling alone. Contact the office today
-              or request an appointment online. Telehealth visits are also
-              available.
+              If you think you or your child might benefit from medication
+              management, you don’t have to navigate it alone. Reach out to our
+              office today or schedule an appointment online. Additionally, we
+              offer telehealth visits for your convenience.
             </div>
             <div
               data-aos="fade-right"
