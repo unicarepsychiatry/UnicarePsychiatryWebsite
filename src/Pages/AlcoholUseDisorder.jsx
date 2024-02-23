@@ -27,9 +27,12 @@ const AlcoholUseDisorder = () => {
             data-aos-duration="3000"
             className="p-3 custom-padding custom-text-alignment"
           >
-            Alcohol-use disorder (AUD) is a problematic pattern of alcohol use
-            leading to significant impairment or distress. Unhealthy alcohol use
-            includes the spectrum of at-risk drinking and alcohol-use disorders.
+            Alcohol Use Disorder (AUD) is a chronic relapsing brain disorder
+            characterized by an impaired ability to control alcohol intake,
+            leading to significant distress or functional impairment. It
+            encompasses a spectrum of behaviors, from hazardous drinking to
+            alcohol dependence, and is often accompanied by physiological and
+            psychological dependence on alcohol.
           </p>
         </div>
 
@@ -40,11 +43,15 @@ const AlcoholUseDisorder = () => {
               className="col-md-6 col-12 f-18-n order-2 order-md-1 my-3 custom-text-alignment p-md-5 p-3"
             >
               <p className="f-22-b text-primary">
-                About Post Traumatic Stress Disorder
+                About Alcohol use disorder (AUD)?
               </p>
-              Alcohol use disorder (AUD) is a medical condition characterized by
-              an impaired ability to stop or control alcohol use despite adverse
-              social, occupational, or health consequences.
+              Alcohol Use Disorder (AUD) is a complex medical condition
+              characterized by the compulsive consumption of alcohol despite
+              adverse consequences. It involves a dysregulated relationship with
+              alcohol, resulting in a range of behaviors from excessive drinking
+              to physical and psychological dependency. AUD is often associated
+              with significant impairment in various aspects of life, including
+              social, occupational, and health-related domains.
             </div>
             <div
               data-aos="fade-right"
@@ -69,12 +76,19 @@ const AlcoholUseDisorder = () => {
               Treatment of Alcohol Use Disorder
             </p>
 
-            <p className="fa-18-b">
-              If you have a concern that you have AUD, you can contact unicare
-              psychiatry. The expert providers will provide you the best
-              treatment. We create a best treatment plan for Alcohol Use
-              Disorder patients. Don’t hesitate to seek help for Alcohol Use
-              Disorder. Contact Unicare Psychiatry today for appointment.
+            <p className="f-18-n">
+              Seeking treatment for Alcohol Use Disorder (AUD) is crucial for
+              recovery and improved quality of life. If you suspect that you or
+              someone you know may be struggling with AUD, reaching out for help
+              is the first step towards healing. At Unicare Psychiatry, our team
+              of experienced professionals specializes in providing personalized
+              treatment plans tailored to meet the unique needs of each
+              individual battling AUD. From comprehensive assessments to
+              evidence-based interventions, we are committed to guiding you
+              through every step of your journey towards sobriety and
+              well-being. Don't let AUD control your life any longer – take the
+              first step towards a brighter, healthier future by contacting
+              Unicare Psychiatry today to schedule an appointment.
             </p>
           </div>
           <div
