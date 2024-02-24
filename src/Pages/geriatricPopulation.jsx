@@ -20,7 +20,7 @@ const GeriatricPopulation = () => {
       <div className="depression-container">
         <div className="depression-container-header row p-0 m-0 ">
           <h3 className="col text-center p-3 p-0 m-0 g-0 text-white bg-primary">
-            Psychiatric services for geriatric Population
+            Psychiatric Services for the Geriatric Population
           </h3>
         </div>
         <div className="p-0 m-0 g-0 geriatric-container-banner"></div>
@@ -30,7 +30,8 @@ const GeriatricPopulation = () => {
             data-aos-duration="3000"
             className="p-3 custom-padding custom-text-alignment text-center"
           >
-            Geriatric psychiatry is the medical specialty that involves working with older adults who have mental health needs. 
+            Geriatric psychiatry is a medical specialty focused on addressing
+            the mental health needs of older adults
           </p>
         </div>
 
@@ -40,17 +41,16 @@ const GeriatricPopulation = () => {
               data-aos="fade-left"
               className="col-md-6  m-5 col-12  order-2 order-md-2"
             >
-              <p className="f-22-b text-primary">
-                About Service
-              </p>
+              <p className="f-22-b text-primary">About Our Services</p>
               <p className="f-18-n">
-                Our board-certified psychiatrists and behavioral health
-                professionals offer specialized expertise in geriatric
-                psychiatric treatment. We understand the unique needs and
-                challenges facing older adults with mental health conditions.
-                Some of the disorders we commonly treat include late-life
-                depression, anxiety, bipolar disorder, memory disorders, and
-                more. Contact Unicare Psychiatry for appointment.
+                Our team of board-certified psychiatrists and behavioral health
+                professionals provides specialized expertise in geriatric
+                psychiatric treatment. We recognize and address the unique needs
+                and challenges encountered by older adults with mental health
+                conditions. Some of the disorders we frequently treat include
+                late-life depression, anxiety, bipolar disorder, memory
+                disorders, and more. Contact Unicare Psychiatry to schedule an
+                appointment.
               </p>
             </div>
             <div
