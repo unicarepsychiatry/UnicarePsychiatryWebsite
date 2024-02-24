@@ -28,17 +28,16 @@ const Neurofeedbacktheraph = () => {
             className="p-3 custom-padding custom-text-alignment"
           >
             Neurofeedback, also known as EEG (electroencephalogram) biofeedback,
-            is a therapeutic intervention that provides immediate feedback from
-            a computer-based program that assesses a client’s brainwave
-            activity. The program uses auditory or visual signals to help
-            patients recognize their thought patterns and try to modify them.
-            Through this process, clients can learn to regulate and improve
-            their brain function and hopefully alleviate symptoms of various
-            neurological disorders and mental health conditions
+            is a therapeutic intervention that offers immediate feedback through
+            a computer-based program assessing a client’s brainwave activity.
+            Using auditory or visual signals, the program helps patients
+            recognize their thought patterns and encourages them to modify them.
+            Through this process, clients can learn to regulate and enhance
+            their brain function, potentially alleviating symptoms of various
+            neurological disorders and mental health conditions.
           </p>
         </div>
 
-        
         <div className="">
           <div className="container my-5">
             <div className="d-flex flex-md-row flex-column justify-content-center align-items-center">
@@ -48,24 +47,27 @@ const Neurofeedbacktheraph = () => {
               >
                 <p className="f-22-b text-primary">When It's Used</p>
                 <p className="f-18-n">
-                  Neurofeedback can help treat many different conditions,
-                  including:
+                  Neurofeedback can be beneficial in treating a variety of
+                  conditions, including:
                 </p>
                 <ul>
-                  <li className="f-18-n">ADHD (Seizure conditions)</li>
                   <li className="f-18-n">
-                    Brain injury (Insomnia and sleep problems)
+                    ADHD (including seizure conditions)
                   </li>
-                  <li className="f-18-n">Anxiety (Depression)</li>
-                  <li className="f-18-n">PTSD (Age-related cognitive loss)</li>
                   <li className="f-18-n">
-                    Behavior disorders (Developmental delays)
+                    Brain injury (including insomnia and sleep problems)
+                  </li>
+                  <li className="f-18-n">Anxiety (as well as depression)</li>
+                  <li className="f-18-n">
+                    PTSD (and age-related cognitive decline)
+                  </li>
+                  <li className="f-18-n">
+                    Behavioral disorders (alongside developmental delays)
                   </li>
                 </ul>
                 <p className="f-18-b my-4">
-                Contact Unicare Psychiatry today for appointment.
+                Contact Unicare Psychiatry today to schedule an appointment
                 </p>
-
               </div>
               <div
                 data-aos="fade-right"
