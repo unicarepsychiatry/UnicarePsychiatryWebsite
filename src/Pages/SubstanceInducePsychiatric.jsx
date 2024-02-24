@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet";
 const SubstanceInducePsychiatric = () => {
   return (
     <div>
-            <Helmet>
+      <Helmet>
         <title>Substance Induce Psychiatric Problem - Unicare Psychiatry</title>
         <meta name="description" content="Unicare, Unicare Psychiatry" />
         <meta
@@ -17,7 +17,7 @@ const SubstanceInducePsychiatric = () => {
       <div className="biopolar-container overflow-hidden">
         <div className="biopolar-container-header row p-0 m-0 ">
           <h3 className="col text-center p-3 p-0 m-0 g-0 text-white bg-primary">
-            Substance Induce Psychiatric Problem
+            Substance-Induced Psychiatric Problems
           </h3>
         </div>
         <div className="p-0 m-0 g-0 Substance-container-banner"></div>
@@ -27,9 +27,9 @@ const SubstanceInducePsychiatric = () => {
             data-aos-duration="3000"
             className="p-3 custom-padding custom-text-alignment"
           >
-            Drug-induced psychosis, also known as substance-induced psychotic
-            disorder, is simply any psychotic episode that is related to the
-            abuse of an substance .
+            Drug-induced psychosis, also referred to as substance-induced
+            psychotic disorder, encompasses any episode of psychosis stemming
+            from substance abuse.
           </p>
         </div>
 
@@ -40,14 +40,13 @@ const SubstanceInducePsychiatric = () => {
               className="col-md-6 col-12 f-18-n order-2 order-md-1 my-3 custom-text-alignment p-md-5 p-3"
             >
               <p className="f-22-b text-primary">
-                About Substance Induce Psychiatric Problem{" "}
+                About Substance-Induced Psychiatric Problems
               </p>
               Drug-induced psychosis, also known as substance-induced psychotic
-              disorder, is simply any psychotic episode that is related to the
-              abuse of an substance . This can occur from taking too much of a
-              certain drug, having an adverse reaction after mixing substances,
-              during withdrawal from a drug, or if the individual has underlying
-              mental health issues.
+              disorder, refers to any psychotic episode triggered by substance
+              abuse. This can occur due to excessive consumption of a certain
+              drug, adverse reactions from mixing substances, withdrawal from a
+              drug, or underlying mental health issues.
             </div>
             <div
               data-aos="fade-right"
@@ -66,17 +65,16 @@ const SubstanceInducePsychiatric = () => {
         <div className="d-flex container flex-md-row flex-column justify-content-center align-items-center">
           <div
             data-aos="fade-left"
-            className="col-md-6 col-12 f-18-n order-2 order-md-2 my-3 custom-text-alignment p-md-5 p-3"
+            className="col-md-6 col-12 f-18-n order-2 order-md-2 my-3 p-md-5 p-3"
           >
             <p className="f-22-b text-primary">
-              Treatment of Substance Induce Psychiatric Problem
+              Treatment of Substance-Induced Psychiatric Problems
             </p>
-
-              Psychosis is merely a symptom, not a condition in and of itself.
-              It is typically very temporary, resolving in a couple of hours or
-              days at most. However, it’s a very serious symptom that often
-              requires emergency medical intervention. One in five people with a
-              history of psychosis will attempt to kill themselves.
+            Psychosis is merely a symptom, not a standalone condition. It is
+            typically temporary, often resolving within a few hours or days at
+            most. However, it is a severe symptom that frequently necessitates
+            emergency medical intervention. One in five individuals with a
+            history of psychosis will attempt suicide.
           </div>
           <div
             data-aos="fade-right"
