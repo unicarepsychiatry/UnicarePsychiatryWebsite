@@ -27,12 +27,10 @@ const OpioidUseDisorder = () => {
             data-aos-duration="2000"
             className="p-3 custom-padding custom-text-alignment"
           >
-            Opioid use disorder is a chronic and treatable mental health
-            condition that involves a problematic pattern of opioid misuse.
-            Effective treatment is possible and typically involves medication,
-            cognitive and behavioral therapy. Contact Unicare psychiatry to seek
-            help as soon as possible if you think you’re developing a dependence
-            on opioids.
+            Opioid Use Disorder is a chronic and treatable mental health
+            condition characterized by a problematic pattern of opioid misuse.
+            Effective treatment typically involves medication, cognitive, and
+            behavioral therapy
           </p>
         </div>
 
@@ -42,11 +40,24 @@ const OpioidUseDisorder = () => {
               data-aos="fade-left"
               className="col-md-6 col-12 f-18-n order-2 order-md-1 my-3 custom-text-alignment p-md-5 p-3"
             >
-              <p className="f-22-b text-primary">About Opioid Use Disorder</p>
-              Opioids produce feelings of euphoria which increase the odds that
-              people will continue using them despite negative consequences.
-              Opioid use disorder (OUD) is a chronic disorder, with serious
-              potential consequences including disability, relapses and death.
+              <p className="f-22-b text-primary">
+                Understanding Opioid Use Disorder
+              </p>
+              Opioids, a class of drugs including prescription painkillers and
+              heroin, have the capacity to induce feelings of euphoria, thereby
+              increasing the likelihood of continued use even when faced with
+              negative consequences. Opioid Use Disorder (OUD) is recognized as
+              a chronic medical condition characterized by compulsive opioid
+              use, despite its detrimental effects on health, social, and
+              occupational functioning. Individuals with OUD often experience a
+              range of serious consequences, including physical and
+              psychological dependency, increased tolerance, withdrawal symptoms
+              upon cessation, and heightened risk of overdose, disability,
+              relapse, and mortality. Effective management of OUD typically
+              involves a comprehensive treatment approach that may include
+              medication-assisted treatment (MAT), behavioral therapies,
+              counseling, and support services aimed at promoting recovery and
+              reducing the risk of relapse.
             </div>
             <div
               data-aos="fade-right"
@@ -68,15 +79,17 @@ const OpioidUseDisorder = () => {
             className="col-md-6  my-5 col-12  order-2 order-md-2"
           >
             <p className="f-22-b text-primary">
-              Treatment of Opioid Use Disorder
+            Treatment for Opioid Use Disorder
             </p>
 
-            <p className="fa-18-b">
-              If you have a concern that you have Opioid Use Disorder, you can
-              contact unicare psychiatry. The expert providers will provide you
-              the best treatment. We create a best treatment plan for Opioid Use
-              Disorder patients. Don’t hesitate to seek help for Opioid Use
-              Disorder. Contact Unicare Psychiatry today for appointment.
+            <p className="f-18-n">
+              If you suspect that you may be experiencing Opioid Use Disorder,
+              reaching out to Unicare Psychiatry is a proactive step. Our expert
+              providers offer tailored treatment plans designed to address your
+              specific needs. We prioritize creating individualized approaches
+              to ensure the most effective outcomes for patients with Opioid Use
+              Disorder. Don't delay in seeking assistance. Schedule an
+              appointment with Unicare Psychiatry today.
             </p>
           </div>
           <div
