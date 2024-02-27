@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Footer } from "../Components/Footer";
 import { useForm, ValidationError } from "@formspree/react";
+import bootstrap from "bootstrap";
 export const ContactUs = () => {
   const [state, handleSubmit] = useForm("meqbvybe");
 
@@ -22,7 +23,7 @@ export const ContactUs = () => {
       <div className="biopolar-container">
         <div className="biopolar-container-header row p-0 m-0 ">
           <h3 className="col text-center p-3 p-0 m-0 g-0 text-white bg-primary">
-            Meet Our Team
+            Contact Us
           </h3>
         </div>
         <div className="p-0 m-0 g-0 contact-container-banner"></div>
@@ -40,12 +41,9 @@ export const ContactUs = () => {
             <div className="d-flex flex-md-row flex-column">
               <div className="col-md-6 col-12" data-aos="flip-right">
                 <p className="f-18-n">
-                  Have a question or comment? Please feel free to reach out and
-                  our team will get back to you shortly.
+                Do you have a question or comment? Please feel free to reach out, and our team will get back to you shortly.
                 </p>
-                <div>
-                  
-                </div>
+                <div></div>
                 <div>
                   <p className="f-18-n social-icon">
                     <i class="bi bi-envelope"></i> Email
@@ -57,9 +55,9 @@ export const ContactUs = () => {
                 </div>
                 <div>
                   <p className="f-18-n social-icon">
-                    <i class="bi bi-chat-dots"></i> Message Only
+                    <i class="bi bi-chat-dots"></i> Text Only
                     <br />
-                    <span className="f-18-t ml-5">606 689-0657</span>
+                    <span className="f-18-t ml-5">606-689-0657</span>
                   </p>
                 </div>
                 <div>
@@ -86,10 +84,9 @@ export const ContactUs = () => {
                     alt="Card image cap"
                   />
                   <div className="card-body text-center">
-                    <h5 className="card-title text-secondary">Thankyou!</h5>
+                    <h5 className="card-title text-secondary">Thank you!</h5>
                     <p className="card-text f-18-n">
-                      your Email sent successfully and our team will contact you
-                      soon.
+                    Your message has been sent successfully, and our team will contact you soon.
                     </p>
                     <a
                       href="/"
@@ -105,7 +102,9 @@ export const ContactUs = () => {
                     <div className="col-md-10 col-10 mx-auto">
                       <form onSubmit={handleSubmit}>
                         <div className="my-1">
-                          <label htmlFor="firstName">Your Good Name</label>
+                          <label htmlFor="firstName">
+                            <b>First and Last Name *</b>
+                          </label>
                           <input
                             className="form-control"
                             required
@@ -114,8 +113,11 @@ export const ContactUs = () => {
                             name="firstName"
                           />
                         </div>
+                        <br />
                         <div className="my-1">
-                          <label htmlFor="email">Email Address</label>
+                          <label htmlFor="email">
+                            <b>Email *</b>
+                          </label>
                           <input
                             className="form-control"
                             id="email"
@@ -124,15 +126,20 @@ export const ContactUs = () => {
                             name="email"
                           />
                         </div>
+                        <br />
                         <div className="my-1">
-                          <label htmlFor="email">Your Message</label>
+                          <label htmlFor="email">
+                            <b>Message *</b>
+                          </label>
                           <textarea
                             className="form-control"
                             required
                             id="message"
                             name="message"
+                            placeholder="Type your message here..."
                           />
                         </div>
+
                         <button
                           className="my-3 px-md-5 p-2 btn button-primary text-white"
                           type="submit"
