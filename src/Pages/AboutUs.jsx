@@ -12,25 +12,15 @@ export const AboutUs = () => {
             name="keywords"
             content="Unicare, Dr. Yasmin Majumder,Yasmin Majumder, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
           />
-          <meta
-            name="keywords"
-            content="Unicare"
-          />
-          <meta
-            name="keywords"
-            content="Dr Yasmin Majumder"
-          />
-          <meta
-            name="keywords"
-            content="Unicare Psychiatry"
-          />
+          <meta name="keywords" content="Unicare" />
+          <meta name="keywords" content="Dr Yasmin Majumder" />
+          <meta name="keywords" content="Unicare Psychiatry" />
         </Helmet>
         <div className="container py-5">
           <div className="row">
-            
             <div className="row overflow-hidden col-12 p-0 m-0">
               <h4 className="mt-md-5 mt-4 row f-22-b text-secondary">
-                About Uni-care Psychiatry
+                About UniCare Psychiatry
               </h4>
               <div
                 data-aos="fade-left"
@@ -38,23 +28,27 @@ export const AboutUs = () => {
               >
                 <div className="p-3" data-aos="fade-left">
                   <p className="f-18-n">
-                    Unicare Psychiatry offer in-person and Telehealth care. We
-                    are currently accepting new patients. We provide
-                    comprehensive psychiatric evaluations, medication
-                    management, and supportive therapy for patients experiencing
-                    PTSD, Depression, Phobia, Alcohol Use Disorder, Opioid
-                    Disorder, OCD, Anxiety, Bipolar, ADHD, and more. Dr.
-                    Chittaranjan Shukla psychiatrist supports mission and vision
-                    of unicare.
+                    Unicare Psychiatry offers both in-person and Telehealth care
+                    services. We are presently welcoming new patients. Our
+                    services encompass comprehensive psychiatric evaluations,
+                    medication management, and supportive therapy tailored for
+                    individuals experiencing PTSD, depression, phobias, alcohol
+                    use disorder, opioid disorder, OCD, anxiety, bipolar
+                    disorder, ADHD, and more. Dr. Chittaranjan Shukla, our
+                    dedicated psychiatrist, is aligned with the mission and
+                    vision of Unicare.
                   </p>
                   <p className="f-18-n">
-                    We support fate base holistic approach,
-                    regardless their cultural background, gender, social and
-                    ethnicity to treatment, utilizing medication management as
-                    needed and a focus on lifestyle changes. Our goal for our
-                    patients is to heal, improve quality of life, and improve
-                    relationships. Unicare Psychiatry invite you to a journey of
-                    healing where we will support you. We provide certified interpreters for the Hispanic population.
+                    At Unicare Psychiatry, we endorse a holistic approach to
+                    treatment, accommodating individuals regardless of their
+                    cultural background, gender, social standing, or ethnicity.
+                    This approach involves utilizing medication management as
+                    necessary, alongside a focus on lifestyle changes. Our
+                    primary goal is to facilitate healing, enhance quality of
+                    life, and nurture better relationships for our patients. We
+                    extend an invitation to embark on a healing journey with us,
+                    where our unwavering support awaits. Additionally, we offer
+                    certified interpreters for the Hispanic population
                   </p>
                   <span className="text-primary f-18-b">
                     “One care and one remedy which is love”
