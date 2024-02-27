@@ -24,7 +24,7 @@ export const AboutUs = () => {
               </h4>
               <div
                 data-aos="fade-left"
-                className="col-md-6 col-12 order-lg-1 order-2 my-md-5 my-0"
+                className="col-md-6 col-12 f-18-n order-lg-1 order-2 my-md-5 my-0"
               >
                 <div className="p-3" data-aos="fade-left">
                   <p className="f-18-n">
@@ -51,7 +51,7 @@ export const AboutUs = () => {
                     certified interpreters for the Hispanic population
                   </p>
                   <span className="text-primary f-18-b">
-                    “One care and one remedy which is love”
+                    "One care and one remedy, which is love."
                   </span>
                 </div>
               </div>
