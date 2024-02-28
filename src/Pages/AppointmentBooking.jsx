@@ -61,11 +61,11 @@ const AppointmentBooking = () => {
             </div>
             <div>
               <p className="f-18-n social-icon">
-                <i class="bi bi-envelope"></i> Email
+                <i class="bi bi-envelope-fill"></i> Email
                 <br />
                 <a
                   style={{
-                    color: "blue",
+                    // color: "blue",
                     textDecoration: "underline",
                     cursor: "pointer",
                   }}
@@ -80,34 +80,34 @@ const AppointmentBooking = () => {
 
             <div>
               <p className="f-18-n social-icon">
-                <i class="bi bi-chat-dots"></i> Text Only
+                <i class="bi bi-chat-dots-fill"></i> Text Only
                 <br />
                 {/* This span directs user to messanger */}
-                <span
+                <a
                   style={{
-                    color: "blue",
+                    // color: "blue",
                     textDecoration: "underline",
                     cursor: "pointer",
                   }}
-                  onClick={() => (window.location.href = "sms:+16066890657")}
+                  href="sms:+16066890657"
                   className="f-18-t ml-5"
                 >
                   606-689-0657
-                </span>
+                </a>
                 {/* <span className="f-18-t ml-5">606-689-0657</span> */}
               </p>
             </div>
 
             <div>
               <p className="f-18-n social-icon">
-                <i class="bi bi-geo-alt"></i> Address
+                <i class="bi bi-geo-alt-fill"></i> Address
                 <br />
                 {/* <span className="f-18-t ml-5">
                   407 N. Broadway Lexington, KY 40508-1301
                 </span> */}
                 <a
                   style={{
-                    color: "blue",
+                    // color: "blue",
                     textDecoration: "underline",
                     cursor: "pointer",
                   }}
@@ -138,7 +138,8 @@ const AppointmentBooking = () => {
               <div className="card-body text-center">
                 <h5 className="card-title text-secondary">Thank You!</h5>
                 <p className="card-text f-18-n">
-                Your appointment request has been forwarded to our team, someone will be in touch with you shortly.
+                  Your appointment request has been forwarded to our team,
+                  someone will be in touch with you shortly.
                 </p>
                 <a
                   href="/"
@@ -155,7 +156,7 @@ const AppointmentBooking = () => {
                   <form onSubmit={handleSubmit}>
                     <div className="form-group">
                       <label htmlFor="firstName" className="f-18-n py-2">
-                       <b>Full Name *</b> 
+                        <b>Full Name *</b>
                       </label>
                       <input
                         className="form-control"
@@ -165,16 +166,20 @@ const AppointmentBooking = () => {
                         required
                         name="firstName"
                       />
-                      <br/>
-                      <label className="f-18-n py-2"><b>Gender *</b></label>
+                      <br />
+                      <label className="f-18-n py-2">
+                        <b>Gender *</b>
+                      </label>
                       <input
                         className="form-control"
                         required
                         type="Gender"
                         name="user_Gender"
                       />
-                      <br/>
-                      <label className="f-18-n py-2"><b>Email *</b></label>
+                      <br />
+                      <label className="f-18-n py-2">
+                        <b>Email *</b>
+                      </label>
                       <input
                         className="form-control"
                         // placeholder="Email Address"
@@ -182,9 +187,9 @@ const AppointmentBooking = () => {
                         type="email"
                         name="email"
                       />
-                      <br/>
+                      <br />
                       <label htmlFor="phone" className="f-18-n py-2">
-                       <b>Phone Number *</b>
+                        <b>Phone Number *</b>
                       </label>
                       <input
                         className="form-control"
@@ -193,19 +198,19 @@ const AppointmentBooking = () => {
                         placeholder="(123) 456-7890"
                         name="phone"
                       />
-                      <br/>
+                      <br />
 
-                          <label htmlFor="appointment" className="f-18-n py-2">
-                            <b>Reason for Appointment *</b>
-                          </label>
-                          <textarea
-                            className="form-control"
-                            // placeholder="Reason for Appointment"
-                            required
-                            id="text"
-                            name="appointment"
-                          />
-{/* 
+                      <label htmlFor="appointment" className="f-18-n py-2">
+                        <b>Reason for Appointment *</b>
+                      </label>
+                      <textarea
+                        className="form-control"
+                        // placeholder="Reason for Appointment"
+                        required
+                        id="text"
+                        name="appointment"
+                      />
+                      {/* 
                       <label htmlFor="appointment" className="f-18-n py-2">
                         Reason for Appointment
                       </label>
@@ -216,7 +221,7 @@ const AppointmentBooking = () => {
                         type="text"
                         name="appointment"
                       /> */}
-                       <br/>
+                      <br />
                       <div className="my-2">
                         <button
                           className="my-3 px-md-5 p-2 btn button-primary text-white"

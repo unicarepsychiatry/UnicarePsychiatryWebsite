@@ -33,7 +33,7 @@ function BannerSection() {
                       data-aos-easing="linear"
                       data-aos-duration="1500"
                     >
-                      Schedule a complimentary 15-minute consultation <br/>for more information. 
+                      Schedule a complimentary 15-minute consultation <br/>for additional information. 
                     </p>
                     <div className="">
                       <NavLink

@@ -66,21 +66,50 @@ export const Footer = () => {
               >
                 <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
 
-                <p>
-                  <i className="bi bi-envelope"></i>
-                  Unicarepsychiatry@gmail.com
+                <p className="f-18-n social-icon">
+                  <i className="bi bi-envelope-fill"></i>
+                  <a
+                    style={{
+                      // color: "blue",
+                      textDecoration: "underline",
+                      cursor: "pointer",
+                    }}
+                    href="mailto:unicarepsychiatry@gmail.com"
+                    className="f-18-t ml-5"
+                  >
+                    unicarepsychiatry@gmail.com
+                  </a>
                 </p>
-                <p>
-                  <i className="bi bi-send"></i>
-                  859 972-0836
+                <p className="f-18-n social-icon">
+                  <i className="bi bi-chat-dots-fill"></i>
+                  <a
+                    style={{
+                      // color: "blue",
+                      textDecoration: "underline",
+                      cursor: "pointer",
+                    }}
+                    href="sms:+16066890657"
+                    className="f-18-t ml-5"
+                  >
+                    606-689-0657
+                  </a>
                 </p>
-                <p>
-                  <i className="bi bi-telephone-fill"></i>
-                  606 689-0657
-                </p>
-                <p>
+
+                <p className="f-18-n social-icon">
                   <i className="bi bi-geo-alt-fill"></i>
-                  407 N. Broadway Lexington, KY 40508-1301
+                  <a
+                    style={{
+                      // color: "blue",
+                      textDecoration: "underline",
+                      cursor: "pointer",
+                    }}
+                    href="https://www.google.com/maps/search/?api=1&query=407%20N.%20Broadway%20Lexington,%20KY%2040508-1301"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="f-18-t ml-5"
+                  >
+                    407 N. Broadway Lexington, KY 40508
+                  </a>
                 </p>
               </div>
               <div
