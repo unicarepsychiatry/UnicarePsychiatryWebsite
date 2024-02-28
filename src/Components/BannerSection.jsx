@@ -40,7 +40,7 @@ function BannerSection() {
                         className="button button-primary text-white"
                         to="book-an-appointment"
                       >
-                        Book Appointment
+                        Schedule an Appointment
                       </NavLink>
                     </div>
                   </div>

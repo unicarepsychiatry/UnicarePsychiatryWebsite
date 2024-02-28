@@ -21,7 +21,7 @@ const AppointmentBooking = () => {
       <div className="biopolar-container">
         <div className="biopolar-container-header row p-0 m-0 ">
           <h3 className="col text-center p-3 p-0 m-0 g-0 text-white bg-primary">
-            Book An Appointment
+            Schedule an Appointment
           </h3>
         </div>
         <div className="p-0 m-0 g-0 bookingAppointment-container-banner"></div>
@@ -29,18 +29,20 @@ const AppointmentBooking = () => {
 
       <div className="container my-md-5 my-3">
         <h2 className="div-heading mt-5" data-aos="fade-up-left">
-          Book An Appointment
+          Schedule an Appointment
         </h2>
         <div className="d-flex flex-md-row flex-column">
           <div className="col-md-6 col-12" data-aos="flip-right">
             <p className="f-18-n">
-              Book an appointment via the web for free and have a consultation
-              with an admin or provider(s) before booking an actual appointment
-              either in person or via telehealth.
+              Schedule a complimentary consultation by booking an appointment
+              online. Prior to confirming your in-person or telehealth
+              appointment, take advantage of the opportunity to consult with our
+              experienced administrators or providers for personalized guidance.
             </p>
             <p className="f-18-n">
-              Patients must schedule an appointment at least 24 hours in advance
-              to visit the provider. WALK-IN patients are not seen.
+              To ensure optimal service, patients are kindly requested to
+              schedule appointments at least 24 hours in advance to visit the
+              provider. Please note that we do not accommodate walk-in patients.
             </p>
             <div>
               {/* <p className="f-18-n social-icon">
@@ -61,23 +63,61 @@ const AppointmentBooking = () => {
               <p className="f-18-n social-icon">
                 <i class="bi bi-envelope"></i> Email
                 <br />
-                <span className="f-18-t ml-5">unicarepsychiatry@gmail.com</span>
+                <a
+                  style={{
+                    color: "blue",
+                    textDecoration: "underline",
+                    cursor: "pointer",
+                  }}
+                  href="mailto:unicarepsychiatry@gmail.com"
+                  className="f-18-t ml-5"
+                >
+                  unicarepsychiatry@gmail.com
+                </a>
+                {/* <span className="f-18-t ml-5">unicarepsychiatry@gmail.com</span> */}
               </p>
             </div>
+
             <div>
               <p className="f-18-n social-icon">
-                <i class="bi bi-chat-dots"></i> Message Only
+                <i class="bi bi-chat-dots"></i> Text Only
                 <br />
-                <span className="f-18-t ml-5">606 689-0657</span>
+                {/* This span directs user to messanger */}
+                <span
+                  style={{
+                    color: "blue",
+                    textDecoration: "underline",
+                    cursor: "pointer",
+                  }}
+                  onClick={() => (window.location.href = "sms:+16066890657")}
+                  className="f-18-t ml-5"
+                >
+                  606-689-0657
+                </span>
+                {/* <span className="f-18-t ml-5">606-689-0657</span> */}
               </p>
             </div>
+
             <div>
               <p className="f-18-n social-icon">
                 <i class="bi bi-geo-alt"></i> Address
                 <br />
-                <span className="f-18-t ml-5">
+                {/* <span className="f-18-t ml-5">
                   407 N. Broadway Lexington, KY 40508-1301
-                </span>
+                </span> */}
+                <a
+                  style={{
+                    color: "blue",
+                    textDecoration: "underline",
+                    cursor: "pointer",
+                  }}
+                  href="https://www.google.com/maps/search/?api=1&query=407%20N.%20Broadway%20Lexington,%20KY%2040508-1301"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="f-18-t ml-5"
+                >
+                  407 N. Broadway Lexington, KY 40508
+                </a>
               </p>
             </div>
           </div>
@@ -96,16 +136,15 @@ const AppointmentBooking = () => {
                 alt="Card image cap"
               />
               <div className="card-body text-center">
-                <h5 className="card-title text-secondary">Thankyou!</h5>
+                <h5 className="card-title text-secondary">Thank You!</h5>
                 <p className="card-text f-18-n">
-                  your Appointment Reason sent to Doctor and our team will
-                  contact you soon.
+                Your appointment request has been forwarded to our team, someone will be in touch with you shortly.
                 </p>
                 <a
                   href="/"
                   className="my-3 px-md-5 p-2 btn button-primary text-white"
                 >
-                  Go Back
+                  Home
                 </a>
               </div>
             </div>
@@ -116,58 +155,74 @@ const AppointmentBooking = () => {
                   <form onSubmit={handleSubmit}>
                     <div className="form-group">
                       <label htmlFor="firstName" className="f-18-n py-2">
-                        Name
+                       <b>Full Name *</b> 
                       </label>
                       <input
                         className="form-control"
-                        placeholder="Please Enter Your good name"
+                        // placeholder="Full Name"
                         id="firstName"
                         type="text"
                         required
                         name="firstName"
                       />
-                      <label className="f-18-n py-2">Gender</label>
+                      <br/>
+                      <label className="f-18-n py-2"><b>Gender *</b></label>
                       <input
                         className="form-control"
-                        placeholder="Male/Female"
                         required
                         type="Gender"
                         name="user_Gender"
                       />
-                      <label className="f-18-n py-2">Email</label>
+                      <br/>
+                      <label className="f-18-n py-2"><b>Email *</b></label>
                       <input
                         className="form-control"
-                        placeholder="Please Enter your Email Address"
+                        // placeholder="Email Address"
                         required
                         type="email"
                         name="email"
                       />
+                      <br/>
                       <label htmlFor="phone" className="f-18-n py-2">
-                        Mobile Number
+                       <b>Phone Number *</b>
                       </label>
                       <input
                         className="form-control"
-                        type="phone"
+                        type="tel"
                         id="phone"
-                        placeholder="Please Enter Your Mobile No (optional)"
+                        placeholder="(123) 456-7890"
                         name="phone"
                       />
+                      <br/>
+
+                          <label htmlFor="appointment" className="f-18-n py-2">
+                            <b>Reason for Appointment *</b>
+                          </label>
+                          <textarea
+                            className="form-control"
+                            // placeholder="Reason for Appointment"
+                            required
+                            id="text"
+                            name="appointment"
+                          />
+{/* 
                       <label htmlFor="appointment" className="f-18-n py-2">
                         Reason for Appointment
                       </label>
                       <input
                         className="form-control"
-                        placeholder="Please Enter Reason for Appointment"
+                        placeholder="Reason for Appointment"
                         required
                         type="text"
                         name="appointment"
-                      />
+                      /> */}
+                       <br/>
                       <div className="my-2">
                         <button
                           className="my-3 px-md-5 p-2 btn button-primary text-white"
                           type="submit"
                         >
-                         <i class="bi bi-send"></i> {" "}Book Your Appointment Now
+                          <i class="bi bi-send"></i> Submit
                         </button>
                       </div>
                     </div>
