@@ -36,7 +36,7 @@ export const ContactUs = () => {
         <div className="row m-0 p-0 my-3">
           <div className="container">
             <h2 className="div-heading mt-5" data-aos="flip-left">
-              Contact us
+              Contact Us
             </h2>
             <div className="d-flex flex-md-row flex-column">
               <div className="col-md-6 col-12" data-aos="flip-right">
@@ -45,31 +45,68 @@ export const ContactUs = () => {
                 </p>
                 <div></div>
                 <div>
-                  <p className="f-18-n social-icon">
-                    <i class="bi bi-envelope"></i> Email
-                    <br />
-                    <span className="f-18-t ml-5">
-                      unicarepsychiatry@gmail.com
-                    </span>
-                  </p>
-                </div>
-                <div>
-                  <p className="f-18-n social-icon">
-                    <i class="bi bi-chat-dots"></i> Text Only
-                    <br />
-                    <span className="f-18-t ml-5">606-689-0657</span>
-                  </p>
-                </div>
-                <div>
-                  <p className="f-18-n social-icon">
-                    <i class="bi bi-geo-alt"></i> Address
-                    <br />
-                    <span className="f-18-t ml-5">
-                      407 N. Broadway Lexington, KY 40508-1301
-                    </span>
-                  </p>
-                </div>
+              <p className="f-18-n social-icon">
+                <i class="bi bi-envelope-fill"></i> Email
+                <br />
+                <a
+                  style={{
+                    // color: "blue",
+                    textDecoration: "underline",
+                    cursor: "pointer",
+                  }}
+                  href="mailto:unicarepsychiatry@gmail.com"
+                  className="f-18-t ml-5"
+                >
+                  unicarepsychiatry@gmail.com
+                </a>
+                {/* <span className="f-18-t ml-5">unicarepsychiatry@gmail.com</span> */}
+              </p>
+            </div>
+
+            <div>
+              <p className="f-18-n social-icon">
+                <i class="bi bi-chat-dots-fill"></i> Text Only
+                <br />
+                {/* This span directs user to messanger */}
+                <a
+                  style={{
+                    // color: "blue",
+                    textDecoration: "underline",
+                    cursor: "pointer",
+                  }}
+                  href="sms:+16066890657"
+                  className="f-18-t ml-5"
+                >
+                  606-689-0657
+                </a>
+                {/* <span className="f-18-t ml-5">606-689-0657</span> */}
+              </p>
+            </div>
+
+            <div>
+              <p className="f-18-n social-icon">
+                <i class="bi bi-geo-alt-fill"></i> Address
+                <br />
+                {/* <span className="f-18-t ml-5">
+                  407 N. Broadway Lexington, KY 40508-1301
+                </span> */}
+                <a
+                  style={{
+                    // color: "blue",
+                    textDecoration: "underline",
+                    cursor: "pointer",
+                  }}
+                  href="https://www.google.com/maps/search/?api=1&query=407%20N.%20Broadway%20Lexington,%20KY%2040508-1301"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="f-18-t ml-5"
+                >
+                  407 N. Broadway Lexington, KY 40508
+                </a>
+              </p>
+            </div>
               </div>
+
               {state.succeeded ? (
                 <div className="card shadow m-auto" style={{ width: "18rem" }}>
                   <img

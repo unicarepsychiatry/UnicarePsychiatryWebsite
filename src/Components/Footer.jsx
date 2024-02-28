@@ -10,7 +10,7 @@ export const Footer = () => {
           <div className="me-5 d-none d-lg-block">
             <span className="f-18-n primary-color">Connect with Us on</span>
           </div>
-          <div className="social-icons">
+          {/* <div className="social-icons">
             <a
               data-aos="fade-up"
               href="https://www.facebook.com"
@@ -39,7 +39,7 @@ export const Footer = () => {
             >
               <i className="bi bi-linkedin"></i>
             </a>
-          </div>
+          </div> */}
         </section>
         <section className="">
           <div className="container-fluid text-center text-md-start mt-5">

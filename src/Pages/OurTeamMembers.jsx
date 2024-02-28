@@ -15,7 +15,7 @@ const OurTeamMembers = () => {
             data-aos="zoom-in"
             data-aos-delay="400"
           >
-            Nice to Meet You
+            Meet Our Team
           </h2>
         </div>
         <div className="d-flex justify-content-center align-items-center">
@@ -381,7 +381,7 @@ const OurTeamMembers = () => {
         </div>
         <div className="container mt-md-5 mt-3 line"></div>
         <div className="row text-center p-md-5 p-3">
-          <div className="f-22-b text-primary">Get rid of why Uni-care?</div>
+          <div className="f-22-b text-primary">Discover the Uni-Care Difference</div>
           <div className="f-22-n text-secondary">
             "United we stand, divided we fall"
           </div>

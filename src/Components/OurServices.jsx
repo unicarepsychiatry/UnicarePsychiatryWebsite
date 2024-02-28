@@ -128,7 +128,7 @@ export const OurServices = () => {
                 to="/Substance-Induce-Psychiatric-problems"
               >
                 <OurServicesCard
-                  title={"Substance Induce Psychiatric problems"}
+                  title={"Substance-Induced Psychiatric Problems"}
                   pic={"/Images/Drug4.jpg"}
                 />
               </NavLink>
@@ -148,7 +148,7 @@ export const OurServices = () => {
                 to="/Psychiatric-services-for-geriatric-Population"
               >
                 <OurServicesCard
-                  title={"Psychiatric services for geriatric Population"}
+                  title={"Psychiatric Services for the Geriatric Population"}
                   pic={"/Images/geriatric.jpg"}
                 />
               </NavLink>
