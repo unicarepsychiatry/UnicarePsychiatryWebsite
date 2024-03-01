@@ -96,6 +96,24 @@ export const Footer = () => {
                 </p>
 
                 <p className="f-18-n social-icon">
+                  <i className="bi bi-telephone-fill"></i>
+                  <a
+                    style={{
+                      // color: "blue",
+                      textDecoration: "underline",
+                      cursor: "pointer",
+                    }}
+                    href="tel:+16066890657"
+                    onClick={() => {
+                      alert("Calling 606-689-0657...");
+                    }}
+                    className="f-18-t ml-5"
+                  >
+                    606-689-0657
+                  </a>
+                </p>
+
+                <p className="f-18-n social-icon">
                   <i className="bi bi-geo-alt-fill"></i>
                   <a
                     style={{
