@@ -94,7 +94,7 @@ export const Footer = () => {
                     606-689-0657
                   </a>
                 </p>
-
+{/* 
                 <p className="f-18-n social-icon">
                   <i className="bi bi-telephone-fill"></i>
                   <a
@@ -111,7 +111,7 @@ export const Footer = () => {
                   >
                     606-689-0657
                   </a>
-                </p>
+                </p> */}
 
                 <p className="f-18-n social-icon">
                   <i className="bi bi-geo-alt-fill"></i>
