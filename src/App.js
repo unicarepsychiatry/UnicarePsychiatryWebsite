@@ -54,7 +54,7 @@ function App() {
         />
         <Route
           exact
-          path="/our-team"
+          path="/Our-Associates"
           element={<OurTeamMembers/>}
         />
         {/* <Route

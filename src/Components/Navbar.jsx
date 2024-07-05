@@ -220,9 +220,9 @@ function Navbar() {
                 className={({ isActive }) =>
                   isActive ? "menu-active nav-link" : "nav-link"
                 }
-                to="/our-team"
+                to="/Our-Associates"
               >
-                <i className="bi bi-people-fill"></i> Our Team
+                <i className="bi bi-people-fill"></i> Our Associates
               </NavLink>
             </li>
             <li className="nav-item">

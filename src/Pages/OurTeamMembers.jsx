@@ -15,7 +15,7 @@ const OurTeamMembers = () => {
             data-aos="zoom-in"
             data-aos-delay="400"
           >
-            Meet Our Team
+           Meet Our Associates
           </h2>
         </div>
         <div className="d-flex justify-content-center align-items-center">
