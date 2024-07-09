@@ -69,12 +69,12 @@ const AppointmentBooking = () => {
                     textDecoration: "underline",
                     cursor: "pointer",
                   }}
-                  href="mailto:unicarepsychiatry@gmail.com"
+                  href="mailto:unicarepsychiatry2020@gmail.com"
                   className="f-18-t ml-5"
                 >
-                  unicarepsychiatry@gmail.com
+                  unicarepsychiatry2020@gmail.com
                 </a>
-                {/* <span className="f-18-t ml-5">unicarepsychiatry@gmail.com</span> */}
+                {/* <span className="f-18-t ml-5">unicarepsychiatry2020@gmail.com</span> */}
               </p>
             </div>
 

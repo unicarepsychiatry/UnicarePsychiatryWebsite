@@ -74,10 +74,10 @@ export const Footer = () => {
                       textDecoration: "underline",
                       cursor: "pointer",
                     }}
-                    href="mailto:unicarepsychiatry@gmail.com"
+                    href="mailto:unicarepsychiatry2020@gmail.com"
                     className="f-18-t ml-5"
                   >
-                    unicarepsychiatry@gmail.com
+                    unicarepsychiatry2020@gmail.com
                   </a>
                 </p>
                 <p className="f-18-n social-icon">
@@ -150,7 +150,7 @@ export const Footer = () => {
         >
           © {date} Copyright:
           <a className="text-reset px-3 fw-bold" href="/">
-            unicarepsychiatry.com
+          unicarepsychiatry2020@gmail.com
           </a>
         </div>
       </footer>
