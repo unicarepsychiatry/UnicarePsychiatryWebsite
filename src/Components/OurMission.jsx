@@ -15,7 +15,7 @@ export const OurMission = () => {
           <div className="p-lg-3" data-aos="fade-down-left">
             <h2 className="div-heading">Our Mission</h2>
             <p className="f-18-b mx-md-2">
-              Uni-care Psychiatry is dedicated to empowering newly graduated
+              Unicare Psychiatry is dedicated to empowering newly graduated
               nurses, with a particular emphasis on attracting fresh PMHNP
               graduates. Our mission is to guide and support them through
               mentorship, fostering their ability to provide exceptional
