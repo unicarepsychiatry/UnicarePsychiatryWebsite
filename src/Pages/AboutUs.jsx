@@ -10,7 +10,7 @@ export const AboutUs = () => {
           <meta name="description" content="Unicare, Unicare Psychiatry" />
           <meta
             name="keywords"
-            content="Unicare, Dr. Yasmin Majumder,Yasmin Majumder, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
+            content="Yasmin Majumder, Unicare, Dr. Yasmin Majumder, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
           />
           <meta name="keywords" content="Unicare" />
           <meta name="keywords" content="Dr Yasmin Majumder" />
