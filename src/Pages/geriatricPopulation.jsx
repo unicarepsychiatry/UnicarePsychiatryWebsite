@@ -10,10 +10,10 @@ const GeriatricPopulation = () => {
         <title>
           Psychiatric services for geriatric Population - Unicare Psychiatry
         </title>
-        <meta name="description" content="Unicare, Unicare Psychiatry" />
+        <meta name="description" content=" Psychiatric Services for the Geriatric Population" />
         <meta
           name="keywords"
-          content="What is Depression?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
+          content="Geriatric psychiatry, Unicare, Unicare Psychiatry, US health company, us best health company"
         />
       </Helmet>
 

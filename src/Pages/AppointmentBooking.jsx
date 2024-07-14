@@ -11,11 +11,12 @@ const AppointmentBooking = () => {
         <title>Book an Appointment with unicarepsychiatry</title>
         <meta
           name="keywords"
-          content="unicarepsychiatry, unicare, psychiatry, pharmacare billing solution"
+          content="unicarepsychiatry, unicare, psychiatry, pharmacare billing solution, Psychiatry, Schedule an Appointment, complimentary consultation"
         />
         <meta
           name="description"
-          content="unicarepsychiatry is US based Health care company"
+          content="Schedule a complimentary consultation by booking an appointment
+          online."
         />
       </Helmet>
       <div className="biopolar-container">

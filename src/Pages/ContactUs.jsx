@@ -9,14 +9,14 @@ export const ContactUs = () => {
   return (
     <>
       <Helmet>
-        <title>contact us - pharmaCare billing Solutions</title>
-        <meta
-          name="keywords"
-          content="pharmacare billing solutions, Contact us, pharmacare billing solution"
-        />
+        <title>Contact Us - PharmaCare Billing Solutions</title>
         <meta
           name="description"
-          content="pharmacare billing solutions, Claim denial management service, pharmacare billing solution"
+          content="Contact Us"
+        />
+        <meta
+          name="keywords"
+          content="Yasmin Majumder, 407 N. Broadway Lexington KY 40508, Kentucky, 606-689-0657, PharmaCare Billing Solutions, Contact Us, PharmaCare Billing Solution"
         />
       </Helmet>
 

@@ -11,7 +11,7 @@ const MedicationManagement = () => {
         <meta name="description" content="Unicare, Unicare Psychiatry" />
         <meta
           name="keywords"
-          content="Medication Management, What is Medication Management?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
+          content="Medication Management, What is Medication Management?, Unicare, Unicare Psychiatry, Psychiatry"
         />
       </Helmet>
       <div className="biopolar-container overflow-hidden">

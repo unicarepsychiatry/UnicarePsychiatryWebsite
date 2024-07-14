@@ -11,7 +11,7 @@ const Hypnotherapy = () => {
         <meta name="description" content="Unicare, Unicare Psychiatry" />
         <meta
           name="keywords"
-          content="What is Depression?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
+          content="Hypnotherapy, Unicare, Unicare Psychiatry"
         />
       </Helmet>
 

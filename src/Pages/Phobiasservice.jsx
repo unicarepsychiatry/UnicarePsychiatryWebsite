@@ -8,10 +8,10 @@ const Phobiasservice = () => {
     <div>
       <Helmet>
         <title>PHOBIAS - Unicare Psychiatry</title>
-        <meta name="description" content="Unicare, Unicare Psychiatry" />
+        <meta name="description" content="Phobias" />
         <meta
           name="keywords"
-          content="What is PHOBIAS?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
+          content="Phobias, What is PHOBIAS?, Unicare, Unicare Psychiatry, Psychiatry"
         />
       </Helmet>
       <div className="biopolar-container">

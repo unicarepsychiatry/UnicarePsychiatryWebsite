@@ -27,10 +27,10 @@ const AnxietyService = () => {
     <>
       <Helmet>
         <title>Anxiety Disorder - Unicare Psychiatry</title>
-        <meta name="description" content="Unicare, Unicare Psychiatry" />
+        <meta name="description" content="Anxiety Disorder" />
         <meta
           name="keywords"
-          content="What is Anxiety Disorder?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
+          content="Anxiety Disorder, What is Anxiety Disorder?, Unicare, Unicare Psychiatry, Psychiatry"
         />
       </Helmet>
       <div>

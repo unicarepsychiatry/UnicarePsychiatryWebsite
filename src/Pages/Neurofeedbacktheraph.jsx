@@ -7,10 +7,10 @@ const Neurofeedbacktheraph = () => {
     <div>
       <Helmet>
         <title>Neurofeedback Therapy - Unicare Psychiatry</title>
-        <meta name="description" content="Unicare, Unicare Psychiatry" />
+        <meta name="description" content="U Neurofeedback Therapy" />
         <meta
           name="keywords"
-          content="What is Neurofeedback Therapy?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
+          content="Neurofeedback Therapy, What is Neurofeedback Therapy?, Unicare, Unicare Psychiatry, Psychiatry"
         />
       </Helmet>
 

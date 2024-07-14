@@ -8,10 +8,10 @@ const OpioidUseDisorder = () => {
     <div>
       <Helmet>
         <title>Opioid Use Disorder - Unicare Psychiatry</title>
-        <meta name="description" content="Unicare, Unicare Psychiatry" />
+        <meta name="description" content="Opioid Use Disorder" />
         <meta
           name="keywords"
-          content="Opioid Use Disorder, What is Opioid Use Disorder?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
+          content="Opioid Use Disorder, What is Opioid Use Disorder?, Unicare, Unicare Psychiatry, Psychiatry"
         />
       </Helmet>
       <div className="biopolar-container overflow-hidden">

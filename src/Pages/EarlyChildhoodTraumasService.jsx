@@ -7,10 +7,10 @@ const EarlyChildhoodTraumasService = () => {
     <div>
       <Helmet>
         <title>Early Childhood Traumas - Unicare Psychiatry</title>
-        <meta name="description" content="Unicare, Unicare Psychiatry" />
+        <meta name="description" content="Early Childhood Traumas" />
         <meta
           name="keywords"
-          content="Early Childhood Traumas, What is Early Childhood Traumas?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
+          content="Early Childhood Traumas, What is Early Childhood Traumas?, Unicare, Unicare Psychiatry, Psychiatry"
         />
       </Helmet>
       <div className="biopolar-container overflow-hidden">

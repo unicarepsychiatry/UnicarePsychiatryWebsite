@@ -4,24 +4,24 @@ import { Footer } from "../Components/Footer";
 export const AboutUs = () => {
   return (
     <>
-      <div className="px-md-5 px-3 mx-md-4 mx-2" data-aos="fade-up">
         <Helmet>
-          <title>About-us - Unicare Psychiatry</title>
-          <meta name="description" content="Unicare, Unicare Psychiatry" />
+          <title>About Us - Unicare Psychiatry</title>
+          <meta
+            name="description"
+            content="Learn about Unicare Psychiatry and Dr. Yasmin Majumder, offering top-rated psychiatric care and mental health services."
+          />
           <meta
             name="keywords"
-            content="Yasmin Majumder, Unicare, Dr. Yasmin Majumder, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
+            content="Yasmin Majumder, Unicare, Dr. Yasmin Majumder, Psychiatry, Unicare Psychiatry, Psychiatry"
           />
-          <meta name="keywords" content="Unicare" />
-          <meta name="keywords" content="Dr Yasmin Majumder" />
-          <meta name="keywords" content="Unicare Psychiatry" />
         </Helmet>
+        <div className="px-md-5 px-3 mx-md-4 mx-2" data-aos="fade-up">
         <div className="container py-5">
           <div className="row">
             <div className="row overflow-hidden col-12 p-0 m-0">
               <h4 className="mt-md-5 mt-4 row f-22-b text-secondary">
                 About UniCare Psychiatry
-              </h4>
+              </h4>             
               <div
                 data-aos="fade-left"
                 className="col-md-6 col-12 f-18-n order-lg-1 order-2 my-md-5 my-0"

@@ -8,10 +8,10 @@ const SubstanceInducePsychiatric = () => {
     <div>
       <Helmet>
         <title>Substance Induce Psychiatric Problem - Unicare Psychiatry</title>
-        <meta name="description" content="Unicare, Unicare Psychiatry" />
+        <meta name="description" content="Substance-Induced Psychiatric Problems" />
         <meta
           name="keywords"
-          content="Substance Induce Psychiatric Problem, What is Substance Induce Psychiatric Problem?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
+          content="Substance Induce Psychiatric Problem, What is Substance Induce Psychiatric Problem?, Unicare, Unicare Psychiatry, Psychiatry"
         />
       </Helmet>
       <div className="biopolar-container overflow-hidden">

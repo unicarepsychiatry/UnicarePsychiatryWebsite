@@ -8,10 +8,10 @@ const PTSDService = () => {
     <div>
       <Helmet>
         <title>Post Traumatic Stress Disorder - Unicare Psychiatry</title>
-        <meta name="description" content="Unicare, Unicare Psychiatry" />
+        <meta name="description" content="Post Traumatic Stress Disorder" />
         <meta
           name="keywords"
-          content="PTSD, What is Post-Traumatic Stress Disorder?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
+          content="Post Traumatic Stress Disorder, PTSD, What is Post-Traumatic Stress Disorder?, Unicare, Unicare Psychiatry"
         />
       </Helmet>
       <div className="biopolar-container">

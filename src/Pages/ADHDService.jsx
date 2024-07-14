@@ -8,10 +8,10 @@ const ADHDService = () => {
     <div>
       <Helmet>
         <title>ADHD - Unicare Psychiatry</title>
-        <meta name="description" content="Unicare, Unicare Psychiatry" />
+        <meta name="description" content="ADHD (Attention Deficit Hyperactivity Disorder)" />
         <meta
           name="keywords"
-          content="ADHD, What is ADHD?, Unicare, Unicare Psychiatry, US health company, us best health company, us top listed mdical company"
+          content=" ADHD (Attention Deficit Hyperactivity Disorder), ADHD, What is ADHD?, Unicare, Unicare Psychiatry, Psychiatry"
         />
       </Helmet>
 
