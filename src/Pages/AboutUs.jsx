@@ -38,6 +38,7 @@ export const AboutUs = () => {
                     dedicated psychiatrist, is aligned with the mission and
                     vision of Unicare.
                   </p>
+                  
                   <p className="f-18-n">
                     At Unicare Psychiatry, we endorse a holistic approach to
                     treatment, accommodating individuals regardless of their
