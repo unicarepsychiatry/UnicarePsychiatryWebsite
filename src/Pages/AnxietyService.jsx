@@ -60,7 +60,6 @@ const AnxietyService = () => {
               Additionally, we offer telehealth services for your convenience.
             </p>
           </div>
-
           <div
             data-aos="fade-left"
             data-aos-duration="2000"
