@@ -5,3 +5,4 @@ deployment:
     - npm install
     - npm run build
     - /bin/cp -R build/* $DEPLOY_PATH
+    
