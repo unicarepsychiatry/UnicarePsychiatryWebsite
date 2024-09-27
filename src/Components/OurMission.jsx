@@ -15,9 +15,9 @@ export const OurMission = () => {
           <div className="p-lg-3" data-aos="fade-down-left">
             <h2 className="div-heading">Our Mission</h2>
             <p className="f-18-b mx-md-2">
-              At Unicare Psychiatry, our mission is to provide exceptional
+              {/* At Unicare Psychiatry, our mission is to provide exceptional
               holistic care to our patients. By integrating faith-based
-              {/* principles with evidence-based therapies and medication
+              principles with evidence-based therapies and medication
               management, we ensure the highest standards of excellence in
               patient care. Our commitment is to support and guide our patients
               towards achieving optimal mental health and well-being. */}
