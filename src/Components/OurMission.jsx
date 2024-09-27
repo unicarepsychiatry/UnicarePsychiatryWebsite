@@ -19,8 +19,8 @@ export const OurMission = () => {
               {/* holistic care to our patients. By integrating faith-based
               principles with evidence-based therapies and medication */}
               management, we ensure the highest standards of excellence in
-              {/* patient care. Our commitment is to support and guide our patients
-              towards achieving optimal mental health and well-being. */}
+              patient care. Our commitment is to support and guide our patients
+              towards achieving optimal mental health and well-being.
             </p>
             {/* <button
               className="my-3 px-md-5 p-2 btn button-primary text-white"
