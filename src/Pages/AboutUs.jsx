@@ -56,7 +56,6 @@ export const AboutUs = () => {
                   </span>
                 </div>
               </div>
-
               <div
                 data-aos="fade-right"
                 className="col-md-6 col-12 order-1 order-md-1"
