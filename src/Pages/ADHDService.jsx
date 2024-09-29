@@ -35,10 +35,10 @@ const ADHDService = () => {
         <div data-aos="fade-left" className="container my-lg-5 my-3">
           <p className="div-heading">What is ADHD?</p>
           <p className="f-18-n">
-            ADHD, or Attention-Deficit Hyperactivity Disorder, is a prevalent
+            {/* ADHD, or Attention-Deficit Hyperactivity Disorder, is a prevalent
             mental health condition affecting approximately 8.4% of children and
             2.5% of adults. It involves symptoms of inattention, hyperactivity,
-            and impulsivity.
+            and impulsivity. */}
           </p>
         </div>
         <hr className="container line my-5" />
