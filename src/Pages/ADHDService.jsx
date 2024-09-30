@@ -31,7 +31,7 @@ const ADHDService = () => {
             ADHD (Attention Deficit Hyperactivity Disorder)
           </p>
         </div>
-
+        
         <div data-aos="fade-left" className="container my-lg-5 my-3">
           <p className="div-heading">What is ADHD?</p>
           <p className="f-18-n">
