@@ -16,8 +16,9 @@ const WhyChoosingUs = () => {
                 <i class="bi bi-check"></i>
               </div>
               <div className="d-flex flex-column justify-content-center align-items-start chooseus">
-                Committed to assisting students in achieving their goals and
-                offering mentorship to newly graduated Nurse Practitioners.
+                Our psychiatric nurse provides personalized mental health care,
+                ensuring every patient feels heard, supported, and cared for in
+                a compassionate and understanding environment.
               </div>
             </div>
             <div className="f-18-n d-flex my-lg-3 my-1 col-lg-6 col-12 align-items-start">
@@ -25,9 +26,10 @@ const WhyChoosingUs = () => {
                 <i class="bi bi-check"></i>
               </div>
               <div className="d-flex flex-column justify-content-center align-items-start">
-                Collaborates with like-minded clinicians, including physicians
-                across various states, and offers community resources for
-                personalized healthcare.
+                We offer comprehensive psychiatry services for individuals aged
+                5 and older, addressing a wide range of mental health concerns
+                through in-person and telehealth consultations, including
+                patients in rural areas.
               </div>
             </div>
             <div className="f-18-n d-flex my-lg-3 my-1 col-lg-6 col-12 align-items-start">
@@ -35,10 +37,10 @@ const WhyChoosingUs = () => {
                 <i class="bi bi-check"></i>
               </div>
               <div className="d-flex flex-column justify-content-center align-items-start">
-                Extends its services to clients aged 5 and older, providing
-                psychiatry services in rural areas across Kentucky, Iowa, New
-                York, and Wisconsin, through both in-person sessions and
-                telehealth consultations.
+                Our clinic integrates evidence-based practices with a holistic
+                approach to treatment, focusing on the mind, body, and spirit
+                for comprehensive care. We believe in empowering patients
+                through both medical and spiritual support.
               </div>
             </div>
             <div className="f-18-n d-flex my-lg-3 my-1 col-lg-6 col-12 align-items-start">
@@ -46,9 +48,9 @@ const WhyChoosingUs = () => {
                 <i class="bi bi-check"></i>
               </div>
               <div className="d-flex flex-column justify-content-center align-items-start">
-                Provides outpatient treatments for urgent medical care, opioid
-                addiction, alcohol addiction, and acute or chronic psychiatric
-                issues.
+                We provide timely outpatient treatments for urgent psychiatric
+                conditions, including substance use disorders, depression,
+                anxiety, and other acute or chronic mental health challenges.
               </div>
             </div>
             <div className="f-18-n d-flex my-lg-3 my-1 col-lg-6 col-12 align-items-start">
@@ -56,12 +58,10 @@ const WhyChoosingUs = () => {
                 <i class="bi bi-check"></i>
               </div>
               <div className="d-flex flex-column justify-content-center align-items-start">
-                Affiliated with various non-profit organizations in Kentucky and
-                Wisconsin, our practice seamlessly integrates
-                spirituality into our care philosophy, complementing
-                evidence-based treatments with the comforting embrace of prayer.
-                We believe in a holistic approach that nurtures both the body
-                and the spirit, fostering healing and well-being for our clients
+                Our telehealth services ensure that mental health care is
+                accessible to those who may face geographical or mobility
+                barriers, providing the same high-quality care from the comfort
+                of your home.
               </div>
             </div>
             <div className="f-18-n d-flex my-lg-3 my-1 col-lg-6 col-12 align-items-start">
@@ -69,10 +69,9 @@ const WhyChoosingUs = () => {
                 <i class="bi bi-check"></i>
               </div>
               <div className="d-flex flex-column justify-content-center align-items-start">
-                We believe in the unity of all existence, where we resonate as
-                one harmonious melody in the world's grand composition
-                (uni-verse meaning "one song"). We are bound together by a
-                single love, upheld by our creator, almighty, or higher power.
+                We work closely with other clinicians and healthcare providers
+                to ensure that you receive a well-rounded treatment plan
+                tailored to your unique needs.
               </div>
             </div>
           </div>
