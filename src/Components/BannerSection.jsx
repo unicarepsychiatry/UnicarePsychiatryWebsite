@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 function BannerSection() {
   return (
@@ -11,8 +10,7 @@ function BannerSection() {
               <div className="row m-auto">
                 <div className="col-md-12">
                   <div className="detail-box d-flex justify-content-center  flex-column">
-                      <div className="climb-higher-text ">
-
+                    <div className="climb-higher-text ">
                       <span className="climb-higher-text font-italic">
                         <span className="text-pink">Earn,</span> <span className="text-secondary">Learn</span> <br />{" "}
                       </span>{" "}
@@ -20,28 +18,30 @@ function BannerSection() {
                         & {" "}
                       </span>
                       <span>
-                      <span className="text-secondary">Climb Higher</span>
+                        <span className="text-secondary">Climb Higher</span>
                         <br /> 
                         <span className="text-primary">{" "}With{" "}</span>
                       </span>
                       <span className="text-pink">Unicare</span>
                       <br />
-                      </div>
+                    </div>
                     <p
                       className="f-22-n text-primary"
                       data-aos="fade-down"
                       data-aos-easing="linear"
                       data-aos-duration="1500"
                     >
-                      Schedule a complimentary 15-minute consultation <br/>for additional information. 
+                     New or Existing Patients
                     </p>
                     <div className="">
-                      <NavLink
+                      <a
                         className="button button-primary text-white"
-                        to="book-an-appointment"
+                        href="https://practice.kareo.com/unicarepsychiatry"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         Schedule an Appointment
-                      </NavLink>
+                      </a>
                     </div>
                   </div>
                 </div>
