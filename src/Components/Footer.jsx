@@ -94,7 +94,8 @@ export const Footer = () => {
                     606-689-0657
                   </a>
                 </p>
-{/* 
+
+                {/* 
                 <p className="f-18-n social-icon">
                   <i className="bi bi-telephone-fill"></i>
                   <a
@@ -129,6 +130,22 @@ export const Footer = () => {
                     407 N. Broadway Lexington, KY 40508
                   </a>
                 </p>
+
+                <p className="f-18-n social-icon">
+                  <i className="bi bi-calendar-fill"></i>
+                  <a
+                    style={{
+                      textDecoration: "underline",
+                      cursor: "pointer",
+                    }}
+                    href="https://practice.kareo.com/unicarepsychiatry"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="f-18-t ml-5"
+                  >
+                    Schedule an Appointment
+                  </a>
+                </p>
               </div>
               <div
                 data-aos="fade-down"
@@ -150,7 +167,7 @@ export const Footer = () => {
         >
           © {date} Copyright:
           <a className="text-reset px-3 fw-bold" href="/">
-          unicarepsychiatry2020@gmail.com
+            unicarepsychiatry2020@gmail.com
           </a>
         </div>
       </footer>
