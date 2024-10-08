@@ -8,7 +8,7 @@ export const Footer = () => {
       <footer className="text-center text-lg-start bg-light text-muted">
         <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
           <div className="me-5 d-none d-lg-block">
-            <span className="f-18-n primary-color">Connect with Us on</span>
+            <span className="f-18-n primary-color">Connect with Us </span>
           </div>
           {/* <div className="social-icons">
             <a
@@ -45,20 +45,24 @@ export const Footer = () => {
           <div className="container-fluid text-center text-md-start mt-5">
             <div className="row mt-3">
               <div className="col-md-4  col-xl-3 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">
+                <h6 className="text-uppercase fw-bold mb-4 pt-5">
                   <NavLink className="navbar-brand" to="/">
                     <img className="img-fluid logo" src="../Images/logo1.png" />
                   </NavLink>
                 </h6>
-                <p
+                {/* <p
                   data-aos="fade-down"
                   className="custom-text-alignment f-18-n"
                 >
-                  Our mission is to deliver exceptional patient care while
-                  empowering newly graduated nurse practitioners, equipping them
-                  with the resources to harness UniCare, where love serves as
-                  the universal remedy.
-                </p>
+                  At Unicare Psychiatry, our mission is to provide compassionate
+                  and comprehensive mental health care rooted in evidence-based
+                  practices. By combining clinical expertise with a personalized
+                  approach, we strive to empower patients on their journey to
+                  mental wellness. As a psychiatric nurse, I am committed to
+                  delivering care that promotes holistic well-being, ensuring
+                  that every patient feels supported and understood in a safe
+                  and nurturing environment.
+                </p> */}
               </div>
               <div
                 data-aos="fade-down"
