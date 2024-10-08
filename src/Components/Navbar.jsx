@@ -205,7 +205,7 @@ function Navbar() {
                 </NavLink>
               </div>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <NavLink
                 className={({ isActive }) =>
                   isActive ? "menu-active nav-link" : "nav-link"
@@ -214,7 +214,18 @@ function Navbar() {
               >
                 <i className="bi bi-telephone-fill px-1"></i> contact us
               </NavLink>
+            </li> */}
+            <li className="nav-item">
+              <a
+                className="nav-link"
+                href="https://practice.kareo.com/unicarepsychiatry"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="bi bi-calendar-fill px-1"></i> Appointment
+              </a>
             </li>
+
             <li className="nav-item">
               <NavLink
                 className={({ isActive }) =>
