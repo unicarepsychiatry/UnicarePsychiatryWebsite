@@ -40,7 +40,7 @@ function BannerSection() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Schedule an Appointment
+                        Schedule an Appointment Here
                       </a>
                     </div>
                   </div>
