@@ -7,7 +7,7 @@ const Payment = () => {
         <div className="">
           <h2 className="text-uppercase p-4 text-white f-30-b text-center">
             <marquee scrollamount=""
-                 scrolldelay=""> Payment methods</marquee>
+                 scrolldelay=""> Payment Methods</marquee>
           </h2>
         </div>
         <div className="container p-0 m-0">
