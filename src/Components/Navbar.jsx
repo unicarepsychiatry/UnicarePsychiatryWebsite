@@ -233,7 +233,7 @@ function Navbar() {
                 }
                 to="/Our-Associates"
               >
-                <i className="bi bi-people-fill"></i> Our Associates
+                <i className="bi bi-people-fill"></i> Associates
               </NavLink>
             </li>
             <li className="nav-item">
