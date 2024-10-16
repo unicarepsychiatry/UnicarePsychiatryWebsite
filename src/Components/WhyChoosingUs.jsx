@@ -16,7 +16,7 @@ const WhyChoosingUs = () => {
                 <i class="bi bi-check"></i>
               </div>
               <div className="d-flex flex-column justify-content-center align-items-start chooseus">
-                Our psychiatric nurse provides personalized mental health care,
+                Our clinicians provide personalized mental health care,
                 ensuring every patient feels heard, supported, and cared for in
                 a compassionate and understanding environment.
               </div>
