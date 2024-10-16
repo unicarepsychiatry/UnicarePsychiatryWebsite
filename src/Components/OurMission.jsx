@@ -19,7 +19,7 @@ export const OurMission = () => {
               comprehensive mental health care rooted in evidence-based
               practices. By combining clinical expertise with a personalized
               approach, we strive to empower patients on their journey to mental
-              wellness. As a psychiatric nurse, I am committed to delivering
+              wellness. As a psychiatric provider, I am committed to delivering
               care that promotes holistic well-being, ensuring that every
               patient feels supported and understood in a safe and nurturing
               environment.

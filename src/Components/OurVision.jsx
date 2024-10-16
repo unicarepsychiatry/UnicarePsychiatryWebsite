@@ -10,7 +10,7 @@ export const OurVision = () => {
               <p className="f-18-b text-white">
                 Our vision at Unicare Psychiatry is to bridge the gap in mental
                 health services by providing accessible, patient-centered care
-                through the lens of psychiatric nursing. We aim to expand our
+                through the lens of a psychiatric provider. We aim to expand our
                 reach by leveraging telehealth services and collaborating with
                 mental health professionals to address the growing demand for
                 high-quality psychiatric care. Together, we work to remove
