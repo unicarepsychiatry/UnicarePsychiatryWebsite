@@ -247,65 +247,31 @@ function Navbar() {
               </NavLink>
             </li>
 
-            {/* <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                <i class="bi bi-gear-fill"></i> Philanthropy Opportunity
-              </a>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <NavLink
-                  className={({ isActive }) =>
-                    isActive ? "nav-link" : "nav-link"
-                  }
-                  to="/"
-                >
-                  Surgery on Sunday
-                </NavLink>
+            <li className="nav-item dropdown">
+  <a
+    className="nav-link dropdown-toggle"
+    href="#"
+    id="navbarDropdown"
+    role="button"
+    data-toggle="dropdown"
+    aria-haspopup="true"
+    aria-expanded="false"
+  >
+    <i class="bi bi-star-fill"></i> Reviews
+  </a>
+  <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+    <a
+      className="nav-link"
+      href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0LMsuLDCOt0wzYLRSNaiwsDAxMjFNTTO3TDY3NU5OszKoSLIwSk0xNTAySjMzNTYwTvYSKs3LTE4sSlUoKK5MzshMLCmqBAAQAxZs&q=unicare+psychiatry&oq=unicare+ps&gs_lcrp=EgZjaHJvbWUqEAgBEC4YrwEYxwEYgAQYjgUyBggAEEUYOTIQCAEQLhivARjHARiABBiOBTIHCAIQABiABDIICAMQABgWGB4yDQgEEAAYhgMYgAQYigUyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg1NDkxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#lrd=0x884245ef79c753cf:0xb82ed5022f65303c,1,,,," 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      Google
+    </a>
+    {/* Other dropdown links go here */}
+  </div>
+</li>
 
-                <NavLink
-                  className={({ isActive }) =>
-                    isActive ? "nav-link" : "nav-link"
-                  }
-                  to="/"
-                >
-                  Maxwell Street Presbyterian Church, Lexington
-                </NavLink>
-
-                <NavLink
-                  className={({ isActive }) =>
-                    isActive ? "nav-link" : "nav-link"
-                  }
-                  to="/"
-                >
-                  Our brother's fruit ministry
-                </NavLink>
-
-                <NavLink
-                  className={({ isActive }) =>
-                    isActive ? "nav-link" : "nav-link"
-                  }
-                  to="/"
-                >
-                  The Healing Renaissance
-                </NavLink>
-
-                <NavLink
-                  className={({ isActive }) =>
-                    isActive ? "nav-link" : "nav-link"
-                  }
-                  to="/"
-                >
-                  Rawhide rehab for adolescence in Wisconsin
-                </NavLink>
-              </div>
-            </li> */}
           </ul>
         </div>
       </div>

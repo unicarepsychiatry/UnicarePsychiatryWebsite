@@ -13,14 +13,14 @@ export const WhyChooseUs = () => {
               data-aos="fade-left"
               data-aos-duration="1000"
             >
-              <b className="primary-color">Why Uni-care Psychiatry?</b>
+              <b className="primary-color">Why Unicare Psychiatry?</b>
             </h2>
             <p
               className="f-18-n custom-text-alignment container"
               data-aos="fade-down"
               data-aos-duration="200"
             >
-              <b className="primary-color">Uni-care Psychiatry</b> serves
+              <b className="primary-color">Unicare Psychiatry</b> serves
               students to reach their goal and provides mentorship to new
               graduates Nurse Practitioner
            
@@ -28,7 +28,7 @@ export const WhyChooseUs = () => {
               different states, and provides resources in the community for
               personalized health care.
             
-              Uni-care Psychiatry reaches out to clients from age 5 and older
+              Unicare Psychiatry reaches out to clients from age 5 and older
               for psychiatry services in rural areas in KY, IOWA, NY and WI,
               both in person and via telehealth.
             
@@ -37,7 +37,7 @@ export const WhyChooseUs = () => {
               problems.
             
               Affiliated with different non-profit organizations in Kentucky and
-              Wisconsin. Uni-care Psychiatry includes spirituality and believes
+              Wisconsin. Unicare Psychiatry includes spirituality and believes
               in prayer, along with other evidence-based treatments
             
               We believe we are all in one; we are all singing in this world one
@@ -68,7 +68,7 @@ export const WhyChooseUs = () => {
           />
           <WhyChooseusCard
             title="Humble Provider"
-            subtitle="Uni-care Psychiatry doesn't compromise on the treatment approach and quality with a high bar of patience while treating"
+            subtitle="Unicare Psychiatry doesn't compromise on the treatment approach and quality with a high bar of patience while treating"
             pic="../Images/icon-03.png"
           />
         </div>

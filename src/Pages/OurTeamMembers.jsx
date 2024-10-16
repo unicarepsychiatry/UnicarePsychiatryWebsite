@@ -32,7 +32,7 @@ const OurTeamMembers = () => {
             <div className="f-18-n custom-text-alignment">
               <p>
                 Dr. Yasmin Majumder is a highly skilled nurse practitioner,
-                serving as the co-founder and CEO of Uni-care Psychiatry (UP)
+                serving as the co-founder and CEO of Unicare Psychiatry (UP)
                 PLLC since 2020. Through UP, she delivers comprehensive
                 healthcare services in primary care and mental health settings
                 to a diverse patient base, catering to individuals of all age
@@ -238,7 +238,7 @@ const OurTeamMembers = () => {
                 Facial Esthetics (AAFE).
               </p>
               <p>
-                Collaborating with Uni-care, Olga's values align with the
+                Collaborating with Unicare, Olga's values align with the
                 organization's emphasis on empowering new nurse practitioners
                 and working collaboratively to address the medical, mental
                 health, and addiction issues of underserved populations. This
@@ -296,7 +296,7 @@ const OurTeamMembers = () => {
                 on a healing journey where I'll offer my unwavering support.
                 Through secure video sessions, I can assist anyone located in
                 Kentucky. New patients are encouraged to schedule their initial
-                appointment at their convenience via Uni-care psychiatry.
+                appointment at their convenience via Unicare psychiatry.
               </p>
             </div>
           </div>
@@ -329,7 +329,7 @@ const OurTeamMembers = () => {
               <p>
                 Mindfulness Practices, along with my own experience in therapy,
                 have left me with a passion that I enjoy sharing with others. My
-                looking forward to working with Uni-care Psychiatry who holds
+                looking forward to working with Unicare Psychiatry who holds
                 similar visions as Resolution Therapy Practice.
               </p>
             </div>
@@ -357,7 +357,7 @@ const OurTeamMembers = () => {
             <div className="f-18-n custom-text-alignment">
               <p>
                 Hello ! My name is Nikki (Shalonda) Myles and excited to work
-                with Uni-care Psychiatry. I am a nurse practitioner (NP) also
+                with Unicare Psychiatry. I am a nurse practitioner (NP) also
                 focus in family medicine and psychiatry. I offer in-person and
                 Telehealth care.
               </p>
@@ -381,7 +381,7 @@ const OurTeamMembers = () => {
         </div>
         <div className="container mt-md-5 mt-3 line"></div>
         <div className="row text-center p-md-5 p-3">
-          <div className="f-22-b text-primary">Discover the Uni-Care Difference</div>
+          <div className="f-22-b text-primary">Discover the Unicare Difference</div>
           <div className="f-22-n text-secondary">
             "United we stand, divided we fall"
           </div>

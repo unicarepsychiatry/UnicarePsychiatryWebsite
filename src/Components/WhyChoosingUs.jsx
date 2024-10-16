@@ -5,7 +5,7 @@ const WhyChoosingUs = () => {
   return (
     <div className="overflow-hidden">
       <div className="text-primary row text-center p-3">
-        <h1 className="">Why Choose Uni-care Psychiatry?</h1>
+        <h1 className="">Why Choose Unicare Psychiatry?</h1>
       </div>
       <div className="d-flex w-100">
         <div className="text-primary d-md-flex d-none flex-column why-choose-us-bg justify-content-center align-items-center p-5 col-md-5 col-12"></div>
@@ -96,7 +96,7 @@ const WhyChoosingUs = () => {
           />
           <WhyChooseusCard
             title="Compassionate Care"
-            subtitle="Uni-care Psychiatry maintains unwavering commitment to treatment approach and quality, prioritizing patience in care."
+            subtitle="Unicare Psychiatry maintains unwavering commitment to treatment approach and quality, prioritizing patience in care."
             pic="../Images/icon-03.png"
           />
         </div>
