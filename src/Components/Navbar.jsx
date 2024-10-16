@@ -247,7 +247,7 @@ function Navbar() {
               </NavLink>
             </li>
 
-            <li className="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -305,7 +305,7 @@ function Navbar() {
                   Rawhide rehab for adolescence in Wisconsin
                 </NavLink>
               </div>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
