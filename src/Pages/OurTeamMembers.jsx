@@ -201,8 +201,8 @@ const OurTeamMembers = () => {
           </div>
         </div>
 
-        <hr className="container my-5 line" />
-        <div className="d-flex justify-content-center align-items-center">
+        {/* <hr className="container my-5 line" /> */}
+        {/* <div className="d-flex justify-content-center align-items-center">
           <div className="col-md-4 d-lg-flex d-none" data-aos="fade-right">
             <img
               className="img-fluid about-us-team-img"
@@ -255,11 +255,11 @@ const OurTeamMembers = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <hr className="container my-5 line" />
+        {/* <hr className="container my-5 line" /> */}
 
-        <div className="d-flex justify-content-center align-items-center">
+        {/* <div className="d-flex justify-content-center align-items-center">
           <div className="col-md-4 d-lg-flex d-none" data-aos="fade-right">
             <img
               className="img-fluid about-us-team-img"
@@ -300,7 +300,7 @@ const OurTeamMembers = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <hr className="container my-5 line" />
         <div className="d-flex justify-content-center align-items-center">
