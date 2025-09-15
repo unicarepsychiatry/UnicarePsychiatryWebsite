@@ -12,15 +12,14 @@ function BannerSection() {
                   <div className="detail-box d-flex justify-content-center  flex-column">
                     <div className="climb-higher-text ">
                       <span className="climb-higher-text font-italic">
-                        <span className="text-pink">Earn,</span> <span className="text-secondary">Learn</span> <br />{" "}
+                        <span className="text-pink">Earn,</span>{" "}
+                        <span className="text-secondary">Learn</span> <br />{" "}
                       </span>{" "}
-                      <span className="text-primary">
-                        & {" "}
-                      </span>
+                      <span className="text-primary">& </span>
                       <span>
                         <span className="text-secondary">Climb Higher</span>
-                        <br /> 
-                        <span className="text-primary">{" "}With{" "}</span>
+                        <br />
+                        <span className="text-primary"> With </span>
                       </span>
                       <span className="text-pink">Unicare</span>
                       <br />
@@ -31,7 +30,15 @@ function BannerSection() {
                       data-aos-easing="linear"
                       data-aos-duration="1500"
                     >
-                     New or Existing Patients
+                      New or Existing Patients
+                    </p>
+                    <p
+                      className="f-22-n text-primary"
+                      data-aos="fade-down"
+                      data-aos-easing="linear"
+                      data-aos-duration="1500"
+                    >
+                      Initial appointment by Telehealth only
                     </p>
                     <div className="">
                       <a
