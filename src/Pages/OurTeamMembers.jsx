@@ -305,7 +305,7 @@ const OurTeamMembers = () => {
           </div>
         </div> */}
 
-        <hr className="container my-5 line" />
+        {/* <hr className="container my-5 line" />
         <div className="d-flex justify-content-center align-items-center">
           <div className="col-md-4 d-lg-flex d-none" data-aos="fade-right">
             <img
@@ -337,11 +337,11 @@ const OurTeamMembers = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <hr className="container my-5 line" />
+        {/* <hr className="container my-5 line" /> */}
 
-        <div className="d-flex justify-content-center align-items-center">
+        {/* <div className="d-flex justify-content-center align-items-center">
           <div className="col-md-4 d-lg-flex d-none" data-aos="fade-right">
             <img
               className="img-fluid about-us-team-img"
@@ -381,7 +381,7 @@ const OurTeamMembers = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="container mt-md-5 mt-3 line"></div>
         <div className="row text-center p-md-5 p-3">
           <div className="f-22-b text-primary">
